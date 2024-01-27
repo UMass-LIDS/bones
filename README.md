@@ -1,7 +1,7 @@
-# Neural-Enhanced Streaming
+# BONES: Near-Optimal Neural-Enhanced Video Streaming
 
 This is the official code repository for the paper: 
-[BONES: BONES: Near-Optimal Neural-Enhanced Video Streaming](https://arxiv.org/abs/2310.09920) .
+[BONES: Near-Optimal Neural-Enhanced Video Streaming](https://arxiv.org/abs/2310.09920) .
 Authors: Lingdong Wang, Simran Singh, Jacob Chakareski, Mohammad Hajiesmaili, Ramesh K. Sitaraman.
 
 
