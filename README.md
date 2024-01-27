@@ -1,4 +1,4 @@
-# BONES: Near-Optimal Neural-Enhanced Video Streaming
+# BONES
 
 This is the official code repository for the paper: 
 [BONES: Near-Optimal Neural-Enhanced Video Streaming](https://arxiv.org/abs/2310.09920) .
