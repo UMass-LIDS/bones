@@ -1,0 +1,2190 @@
+[t0-d0-e0] (warmup_stage)
+[t0-d0-e0] (control) download 0 enhance 0
+[t0-d0-e0] (network) period 0 time 30000 bandwidth 5000 latency 75
+[t0-d0-e0] (download) size 769840.00 total_time 228.97 latency 75.00 download_time 153.97 throughput 5000.00
+[t229-d0-e0] (consume) name download time 228.97
+[t229-d0-e0] (consume) name enhance time 228.97
+[t229-d0-e0] (push) name download decision 0 segment_time 4000.00
+[t229-d1-e1] (main_stage)
+[t229-d1-e1] (session) enhance_start
+[t229-d1-e1] (consume) name download time 0.00
+[t229-d1-e1] (consume) name enhance time 0.00
+[t229-d1-e1] (session) download_start
+[t229-d1-e1] (consume) name download time 0.00
+[t229-d1-e1] (consume) name enhance time 0.00
+[t229-d1-e1] (estimate) throughput 5000.00 latency 256.07
+[t229-d1-e1] (autotune) gamma_p 10.0 V_multiplier 0.1
+[t229-d1-e1] (control) download 2 enhance 4
+[t229-d1-e1] (download) size 11307792.00 total_time 2336.56 latency 75.00 download_time 2261.56 throughput 5000.00
+[t229-d1-e1] (session) download_finish
+[t2566-d1-e1] (consume) name download time 2336.56
+[t2566-d1-e1] (consume) name enhance time 2336.56
+[t2566-d1-e1] (push) name download decision 2 segment_time 4000.00
+[t2566-d2-e2] (session) enhance_start
+[t2566-d2-e2] (consume) name download time 0.00
+[t2566-d2-e2] (consume) name enhance time 0.00
+[t2566-d2-e2] (session) download_start
+[t2566-d2-e2] (consume) name download time 0.00
+[t2566-d2-e2] (consume) name enhance time 0.00
+[t2566-d2-e2] (estimate) throughput 5000.00 latency 150.00
+[t2566-d2-e2] (autotune) gamma_p 10.0 V_multiplier 0.1
+[t2566-d2-e2] (control) download 4 enhance 0
+[t2566-d2-e2] (monitor) download 3 enhance 4
+[t2566-d2-e2] (download) new size 13205168.00
+[t2566-d2-e2] (download) size 28821424.00 total_time 3891.03 latency 75.00 download_time 3816.03 throughput 4901.73
+[t2566-d2-e2] (session) download_finish
+[t6457-d2-e2] (consume) name download time 3891.03
+[t6457-d2-e2] (consume) name enhance time 3891.03
+[t6457-d2-e2] (push) name download decision 3 segment_time 4000.00
+[t6457-d3-e3] (session) enhance_start
+[t6457-d3-e3] (consume) name download time 0.00
+[t6457-d3-e3] (consume) name enhance time 0.00
+[t6457-d3-e3] (session) download_start
+[t6457-d3-e3] (consume) name download time 0.00
+[t6457-d3-e3] (consume) name enhance time 0.00
+[t6457-d3-e3] (estimate) throughput 4924.54 latency 116.02
+[t6457-d3-e3] (autotune) gamma_p 20.0 V_multiplier 0.1
+[t6457-d3-e3] (control) download 4 enhance 0
+[t6457-d3-e3] (monitor) download 2 enhance 4
+[t6457-d3-e3] (download) new size 4517192.00
+[t6457-d3-e3] (download) size 18012240.00 total_time 2403.44 latency 75.00 download_time 2328.44 throughput 4838.95
+[t6457-d3-e3] (session) download_finish
+[t8860-d3-e3] (consume) name download time 2403.44
+[t8860-d3-e3] (consume) name enhance time 2403.44
+[t8860-d3-e3] (push) name download decision 2 segment_time 4000.00
+[t8860-d4-e3] (push) name enhance decision 4 segment_time 2696.63
+[t8860-d4-e4] (session) enhance_start
+[t8860-d4-e4] (consume) name download time 0.00
+[t8860-d4-e4] (consume) name enhance time 0.00
+[t8860-d4-e4] (session) download_start
+[t8860-d4-e4] (consume) name download time 0.00
+[t8860-d4-e4] (consume) name enhance time 0.00
+[t8860-d4-e4] (estimate) throughput 4883.21 latency 100.00
+[t8860-d4-e4] (autotune) gamma_p 10.0 V_multiplier 0.1
+[t8860-d4-e4] (control) download 4 enhance 0
+[t8860-d4-e4] (download) size 17556600.00 total_time 3586.32 latency 75.00 download_time 3511.32 throughput 5000.00
+[t8860-d4-e4] (session) enhance_finish
+[t12446-d4-e4] (consume) name download time 3586.32
+[t12446-d4-e4] (consume) name enhance time 3586.32
+[t12446-d4-e4] (consume) name enhance idle time 889.6907865168541
+[t12446-d4-e4] (session) enhance_start
+[t12446-d4-e4] (consume) name download time 0.00
+[t12446-d4-e4] (consume) name enhance time 0.00
+[t12446-d4-e4] (session) download_finish
+[t12446-d4-e4] (consume) name download time 0.00
+[t12446-d4-e4] (consume) name enhance time 0.00
+[t12446-d4-e4] (push) name download decision 4 segment_time 4000.00
+[t12446-d5-e5] (session) enhance_start
+[t12446-d5-e5] (consume) name download time 0.00
+[t12446-d5-e5] (consume) name enhance time 0.00
+[t12446-d5-e5] (session) download_start
+[t12446-d5-e5] (consume) name download time 0.00
+[t12446-d5-e5] (consume) name enhance time 0.00
+[t12446-d5-e5] (estimate) throughput 4940.82 latency 91.11
+[t12446-d5-e5] (autotune) gamma_p 10.0 V_multiplier 0.2
+[t12446-d5-e5] (control) download 2 enhance 4
+[t12446-d5-e5] (download) size 2061856.00 total_time 487.37 latency 75.00 download_time 412.37 throughput 5000.00
+[t12446-d5-e5] (session) download_finish
+[t12934-d5-e5] (consume) name download time 487.37
+[t12934-d5-e5] (consume) name enhance time 487.37
+[t12934-d5-e5] (push) name download decision 2 segment_time 4000.00
+[t12934-d6-e5] (push) name enhance decision 4 segment_time 2696.63
+[t12934-d6-e6] (session) enhance_start
+[t12934-d6-e6] (consume) name download time 0.00
+[t12934-d6-e6] (consume) name enhance time 0.00
+[t12934-d6-e6] (session) download_start
+[t12934-d6-e6] (consume) name download time 0.00
+[t12934-d6-e6] (consume) name enhance time 0.00
+[t12934-d6-e6] (estimate) throughput 4943.96 latency 85.71
+[t12934-d6-e6] (autotune) gamma_p 10.0 V_multiplier 0.2
+[t12934-d6-e6] (control) download 4 enhance 0
+[t12934-d6-e6] (download) size 12803016.00 total_time 2635.60 latency 75.00 download_time 2560.60 throughput 5000.00
+[t12934-d6-e6] (session) download_finish
+[t15569-d6-e6] (consume) name download time 2635.60
+[t15569-d6-e6] (consume) name enhance time 2635.60
+[t15569-d6-e6] (push) name download decision 4 segment_time 4000.00
+[t15569-d7-e7] (session) download_start
+[t15569-d7-e7] (consume) name download time 0.00
+[t15569-d7-e7] (consume) name enhance time 0.00
+[t15569-d7-e7] (estimate) throughput 4959.27 latency 82.27
+[t15569-d7-e7] (autotune) gamma_p 10.0 V_multiplier 0.2
+[t15569-d7-e7] (control) download 4 enhance 0
+[t15569-d7-e7] (download) size 27292896.00 total_time 5533.58 latency 75.00 download_time 5458.58 throughput 5000.00
+[t15569-d7-e7] (session) enhance_finish
+[t21103-d7-e7] (consume) name download time 5533.58
+[t21103-d7-e7] (consume) name enhance time 5533.58
+[t21103-d7-e7] (consume) name enhance idle time 5472.553186516854
+[t21103-d7-e7] (session) enhance_start
+[t21103-d7-e7] (consume) name download time 0.00
+[t21103-d7-e7] (consume) name enhance time 0.00
+[t21103-d7-e7] (session) download_finish
+[t21103-d7-e7] (consume) name download time 0.00
+[t21103-d7-e7] (consume) name enhance time 0.00
+[t21103-d7-e7] (push) name download decision 4 segment_time 4000.00
+[t21103-d8-e8] (session) enhance_start
+[t21103-d8-e8] (consume) name download time 0.00
+[t21103-d8-e8] (consume) name enhance time 0.00
+[t21103-d8-e8] (session) download_start
+[t21103-d8-e8] (consume) name download time 0.00
+[t21103-d8-e8] (consume) name enhance time 0.00
+[t21103-d8-e8] (estimate) throughput 4977.75 latency 80.00
+[t21103-d8-e8] (autotune) gamma_p 10.0 V_multiplier 0.2
+[t21103-d8-e8] (control) download 4 enhance 0
+[t21103-d8-e8] (download) size 22517960.00 total_time 4578.59 latency 75.00 download_time 4503.59 throughput 5000.00
+[t21103-d8-e8] (session) download_finish
+[t25681-d8-e8] (consume) name download time 4578.59
+[t25681-d8-e8] (consume) name enhance time 4578.59
+[t25681-d8-e8] (push) name download decision 4 segment_time 4000.00
+[t25681-d9-e9] (session) enhance_start
+[t25681-d9-e9] (consume) name download time 0.00
+[t25681-d9-e9] (consume) name enhance time 0.00
+[t25681-d9-e9] (session) download_start
+[t25681-d9-e9] (consume) name download time 0.00
+[t25681-d9-e9] (consume) name enhance time 0.00
+[t25681-d9-e9] (estimate) throughput 4985.87 latency 78.47
+[t25681-d9-e9] (autotune) gamma_p 10.0 V_multiplier 0.1
+[t25681-d9-e9] (control) download 4 enhance 0
+[t25681-d9-e9] (download) size 21320656.00 total_time 4339.13 latency 75.00 download_time 4264.13 throughput 5000.00
+[t25681-d9-e9] (session) download_finish
+[t30021-d9-e9] (consume) name download time 4339.13
+[t30021-d9-e9] (consume) name enhance time 4339.13
+[t30021-d9-e9] (push) name download decision 4 segment_time 4000.00
+[t30021-d10-e10] (session) enhance_start
+[t30021-d10-e10] (consume) name download time 0.00
+[t30021-d10-e10] (consume) name enhance time 0.00
+[t30021-d10-e10] (session) download_start
+[t30021-d10-e10] (consume) name download time 0.00
+[t30021-d10-e10] (consume) name enhance time 0.00
+[t30021-d10-e10] (estimate) throughput 4990.61 latency 77.42
+[t30021-d10-e10] (autotune) gamma_p 10.0 V_multiplier 0.1
+[t30021-d10-e10] (control) download 4 enhance 0
+[t30021-d10-e10] (network) period 1 time 30000 bandwidth 3000 latency 150
+[t30021-d10-e10] (download) size 10132120.00 total_time 3416.10 latency 75.00 download_time 3341.10 throughput 3032.57
+[t30021-d10-e10] (session) download_finish
+[t33437-d10-e10] (consume) name download time 3416.10
+[t33437-d10-e10] (consume) name enhance time 3416.10
+[t33437-d10-e10] (push) name download decision 4 segment_time 4000.00
+[t33437-d11-e11] (session) enhance_start
+[t33437-d11-e11] (consume) name download time 0.00
+[t33437-d11-e11] (consume) name enhance time 0.00
+[t33437-d11-e11] (session) download_start
+[t33437-d11-e11] (consume) name download time 0.00
+[t33437-d11-e11] (consume) name enhance time 0.00
+[t33437-d11-e11] (estimate) throughput 3940.78 latency 76.69
+[t33437-d11-e11] (autotune) gamma_p 10.0 V_multiplier 0.2
+[t33437-d11-e11] (control) download 4 enhance 0
+[t33437-d11-e11] (download) size 9885128.00 total_time 3445.04 latency 150.00 download_time 3295.04 throughput 3000.00
+[t33437-d11-e11] (session) download_finish
+[t36882-d11-e11] (consume) name download time 3445.04
+[t36882-d11-e11] (consume) name enhance time 3445.04
+[t36882-d11-e11] (push) name download decision 4 segment_time 4000.00
+[t36882-d12-e12] (session) enhance_start
+[t36882-d12-e12] (consume) name download time 0.00
+[t36882-d12-e12] (consume) name enhance time 0.00
+[t36882-d12-e12] (session) download_start
+[t36882-d12-e12] (consume) name download time 0.00
+[t36882-d12-e12] (consume) name enhance time 0.00
+[t36882-d12-e12] (estimate) throughput 3439.27 latency 152.38
+[t36882-d12-e12] (autotune) gamma_p 20.0 V_multiplier 0.2
+[t36882-d12-e12] (control) download 4 enhance 0
+[t36882-d12-e12] (download) size 14687248.00 total_time 5045.75 latency 150.00 download_time 4895.75 throughput 3000.00
+[t36882-d12-e12] (session) download_finish
+[t41927-d12-e12] (consume) name download time 5045.75
+[t41927-d12-e12] (consume) name enhance time 5045.75
+[t41927-d12-e12] (push) name download decision 4 segment_time 4000.00
+[t41927-d13-e13] (session) enhance_start
+[t41927-d13-e13] (consume) name download time 0.00
+[t41927-d13-e13] (consume) name enhance time 0.00
+[t41927-d13-e13] (session) download_start
+[t41927-d13-e13] (consume) name download time 0.00
+[t41927-d13-e13] (consume) name enhance time 0.00
+[t41927-d13-e13] (estimate) throughput 3141.71 latency 151.68
+[t41927-d13-e13] (autotune) gamma_p 10.0 V_multiplier 0.30000000000000004
+[t41927-d13-e13] (control) download 1 enhance 4
+[t41927-d13-e13] (download) size 3982352.00 total_time 1477.45 latency 150.00 download_time 1327.45 throughput 3000.00
+[t41927-d13-e13] (session) download_finish
+[t43405-d13-e13] (consume) name download time 1477.45
+[t43405-d13-e13] (consume) name enhance time 1477.45
+[t43405-d13-e13] (push) name download decision 1 segment_time 4000.00
+[t43405-d14-e13] (push) name enhance decision 4 segment_time 2205.88
+[t43405-d14-e14] (session) enhance_start
+[t43405-d14-e14] (consume) name download time 0.00
+[t43405-d14-e14] (consume) name enhance time 0.00
+[t43405-d14-e14] (session) download_start
+[t43405-d14-e14] (consume) name download time 0.00
+[t43405-d14-e14] (consume) name enhance time 0.00
+[t43405-d14-e14] (estimate) throughput 3104.28 latency 151.18
+[t43405-d14-e14] (autotune) gamma_p 10.0 V_multiplier 0.30000000000000004
+[t43405-d14-e14] (control) download 3 enhance 0
+[t43405-d14-e14] (download) size 12099224.00 total_time 4183.07 latency 150.00 download_time 4033.07 throughput 3000.00
+[t43405-d14-e14] (session) enhance_finish
+[t47588-d14-e14] (consume) name download time 4183.07
+[t47588-d14-e14] (consume) name enhance time 4183.07
+[t47588-d14-e14] (consume) name enhance idle time 1977.1923137254898
+[t47588-d14-e14] (session) enhance_start
+[t47588-d14-e14] (consume) name download time 0.00
+[t47588-d14-e14] (consume) name enhance time 0.00
+[t47588-d14-e14] (session) download_finish
+[t47588-d14-e14] (consume) name download time 0.00
+[t47588-d14-e14] (consume) name enhance time 0.00
+[t47588-d14-e14] (push) name download decision 3 segment_time 4000.00
+[t47588-d15-e15] (session) enhance_start
+[t47588-d15-e15] (consume) name download time 0.00
+[t47588-d15-e15] (consume) name enhance time 0.00
+[t47588-d15-e15] (session) download_start
+[t47588-d15-e15] (consume) name download time 0.00
+[t47588-d15-e15] (consume) name enhance time 0.00
+[t47588-d15-e15] (estimate) throughput 3041.07 latency 150.83
+[t47588-d15-e15] (autotune) gamma_p 10.0 V_multiplier 0.30000000000000004
+[t47588-d15-e15] (control) download 2 enhance 4
+[t47588-d15-e15] (download) size 2311152.00 total_time 920.38 latency 150.00 download_time 770.38 throughput 3000.00
+[t47588-d15-e15] (session) download_finish
+[t48508-d15-e15] (consume) name download time 920.38
+[t48508-d15-e15] (consume) name enhance time 920.38
+[t48508-d15-e15] (push) name download decision 2 segment_time 4000.00
+[t48508-d16-e15] (push) name enhance decision 4 segment_time 2696.63
+[t48508-d16-e16] (session) enhance_start
+[t48508-d16-e16] (consume) name download time 0.00
+[t48508-d16-e16] (consume) name enhance time 0.00
+[t48508-d16-e16] (session) download_start
+[t48508-d16-e16] (consume) name download time 0.00
+[t48508-d16-e16] (consume) name enhance time 0.00
+[t48508-d16-e16] (estimate) throughput 3034.37 latency 150.59
+[t48508-d16-e16] (autotune) gamma_p 10.0 V_multiplier 0.30000000000000004
+[t48508-d16-e16] (control) download 4 enhance 0
+[t48508-d16-e16] (download) size 13807624.00 total_time 4752.54 latency 150.00 download_time 4602.54 throughput 3000.00
+[t48508-d16-e16] (session) enhance_finish
+[t53261-d16-e16] (consume) name download time 4752.54
+[t53261-d16-e16] (consume) name enhance time 4752.54
+[t53261-d16-e16] (consume) name enhance idle time 2055.9121198501875
+[t53261-d16-e16] (session) enhance_start
+[t53261-d16-e16] (consume) name download time 0.00
+[t53261-d16-e16] (consume) name enhance time 0.00
+[t53261-d16-e16] (session) download_finish
+[t53261-d16-e16] (consume) name download time 0.00
+[t53261-d16-e16] (consume) name enhance time 0.00
+[t53261-d16-e16] (push) name download decision 4 segment_time 4000.00
+[t53261-d17-e17] (session) enhance_start
+[t53261-d17-e17] (consume) name download time 0.00
+[t53261-d17-e17] (consume) name enhance time 0.00
+[t53261-d17-e17] (session) download_start
+[t53261-d17-e17] (consume) name download time 0.00
+[t53261-d17-e17] (consume) name enhance time 0.00
+[t53261-d17-e17] (estimate) throughput 3011.87 latency 150.42
+[t53261-d17-e17] (autotune) gamma_p 10.0 V_multiplier 0.30000000000000004
+[t53261-d17-e17] (control) download 4 enhance 0
+[t53261-d17-e17] (monitor) download 2 enhance 4
+[t53261-d17-e17] (download) new size 5520016.00
+[t53261-d17-e17] (download) size 22455336.00 total_time 3640.01 latency 150.00 download_time 3490.01 throughput 2871.06
+[t53261-d17-e17] (session) download_finish
+[t56901-d17-e17] (consume) name download time 3640.01
+[t56901-d17-e17] (consume) name enhance time 3640.01
+[t56901-d17-e17] (push) name download decision 2 segment_time 4000.00
+[t56901-d18-e17] (push) name enhance decision 4 segment_time 2696.63
+[t56901-d18-e18] (session) enhance_start
+[t56901-d18-e18] (consume) name download time 0.00
+[t56901-d18-e18] (consume) name enhance time 0.00
+[t56901-d18-e18] (session) download_start
+[t56901-d18-e18] (consume) name download time 0.00
+[t56901-d18-e18] (consume) name enhance time 0.00
+[t56901-d18-e18] (estimate) throughput 2933.93 latency 150.29
+[t56901-d18-e18] (autotune) gamma_p 10.0 V_multiplier 0.6
+[t56901-d18-e18] (control) download 1 enhance 4
+[t56901-d18-e18] (download) size 2822072.00 total_time 1090.69 latency 150.00 download_time 940.69 throughput 3000.00
+[t56901-d18-e18] (session) download_finish
+[t57992-d18-e18] (consume) name download time 1090.69
+[t57992-d18-e18] (consume) name enhance time 1090.69
+[t57992-d18-e18] (push) name download decision 1 segment_time 4000.00
+[t57992-d19-e18] (push) name enhance decision 4 segment_time 2205.88
+[t57992-d19-e19] (session) download_start
+[t57992-d19-e19] (consume) name download time 0.00
+[t57992-d19-e19] (consume) name enhance time 0.00
+[t57992-d19-e19] (estimate) throughput 2946.83 latency 150.21
+[t57992-d19-e19] (autotune) gamma_p 10.0 V_multiplier 0.6
+[t57992-d19-e19] (control) download 1 enhance 4
+[t57992-d19-e19] (download) size 3358312.00 total_time 1269.44 latency 150.00 download_time 1119.44 throughput 3000.00
+[t57992-d19-e19] (session) download_finish
+[t59261-d19-e19] (consume) name download time 1269.44
+[t59261-d19-e19] (consume) name enhance time 1269.44
+[t59261-d19-e19] (push) name download decision 1 segment_time 4000.00
+[t59261-d20-e19] (push) name enhance decision 4 segment_time 2205.88
+[t59261-d20-e20] (session) download_start
+[t59261-d20-e20] (consume) name download time 0.00
+[t59261-d20-e20] (consume) name enhance time 0.00
+[t59261-d20-e20] (estimate) throughput 2958.95 latency 150.15
+[t59261-d20-e20] (autotune) gamma_p 10.0 V_multiplier 0.6
+[t59261-d20-e20] (control) download 2 enhance 0
+[t59261-d20-e20] (network) period 2 time 30000 bandwidth 1500 latency 200
+[t59261-d20-e20] (download) size 10337112.00 total_time 6152.48 latency 150.00 download_time 6002.48 throughput 1722.14
+[t59261-d20-e20] (session) enhance_finish
+[t65414-d20-e20] (consume) name download time 6152.48
+[t65414-d20-e20] (consume) name enhance time 6152.48
+[t65414-d20-e20] (consume) name enhance idle time 1404.2167473011705
+[t65414-d20-e20] (session) enhance_start
+[t65414-d20-e20] (consume) name download time 0.00
+[t65414-d20-e20] (consume) name enhance time 0.00
+[t65414-d20-e20] (session) download_finish
+[t65414-d20-e20] (consume) name download time 0.00
+[t65414-d20-e20] (consume) name enhance time 0.00
+[t65414-d20-e20] (push) name download decision 2 segment_time 4000.00
+[t65414-d21-e21] (session) enhance_start
+[t65414-d21-e21] (consume) name download time 0.00
+[t65414-d21-e21] (consume) name enhance time 0.00
+[t65414-d21-e21] (session) download_start
+[t65414-d21-e21] (consume) name download time 0.00
+[t65414-d21-e21] (consume) name enhance time 0.00
+[t65414-d21-e21] (estimate) throughput 2031.16 latency 150.10
+[t65414-d21-e21] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t65414-d21-e21] (control) download 0 enhance 4
+[t65414-d21-e21] (download) size 1555360.00 total_time 1236.91 latency 200.00 download_time 1036.91 throughput 1500.00
+[t65414-d21-e21] (session) download_finish
+[t66650-d21-e21] (consume) name download time 1236.91
+[t66650-d21-e21] (consume) name enhance time 1236.91
+[t66650-d21-e21] (push) name download decision 0 segment_time 4000.00
+[t66650-d22-e21] (push) name enhance decision 4 segment_time 2203.45
+[t66650-d22-e22] (session) enhance_start
+[t66650-d22-e22] (consume) name download time 0.00
+[t66650-d22-e22] (consume) name enhance time 0.00
+[t66650-d22-e22] (session) download_start
+[t66650-d22-e22] (consume) name download time 0.00
+[t66650-d22-e22] (consume) name enhance time 0.00
+[t66650-d22-e22] (estimate) throughput 1918.01 latency 200.10
+[t66650-d22-e22] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t66650-d22-e22] (control) download 1 enhance 4
+[t66650-d22-e22] (download) size 1108128.00 total_time 938.75 latency 200.00 download_time 738.75 throughput 1500.00
+[t66650-d22-e22] (session) download_finish
+[t67589-d22-e22] (consume) name download time 938.75
+[t67589-d22-e22] (consume) name enhance time 938.75
+[t67589-d22-e22] (push) name download decision 1 segment_time 4000.00
+[t67589-d23-e22] (push) name enhance decision 4 segment_time 2205.88
+[t67589-d23-e23] (session) download_start
+[t67589-d23-e23] (consume) name download time 0.00
+[t67589-d23-e23] (consume) name enhance time 0.00
+[t67589-d23-e23] (estimate) throughput 1852.41 latency 200.07
+[t67589-d23-e23] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t67589-d23-e23] (control) download 1 enhance 4
+[t67589-d23-e23] (download) size 2375960.00 total_time 1783.97 latency 200.00 download_time 1583.97 throughput 1500.00
+[t67589-d23-e23] (session) enhance_finish
+[t69373-d23-e23] (consume) name download time 1783.97
+[t69373-d23-e23] (consume) name enhance time 1783.97
+[t69373-d23-e23] (session) enhance_start
+[t69373-d23-e23] (consume) name download time 0.00
+[t69373-d23-e23] (consume) name enhance time 0.00
+[t69373-d23-e23] (session) download_finish
+[t69373-d23-e23] (consume) name download time 0.00
+[t69373-d23-e23] (consume) name enhance time 0.00
+[t69373-d23-e23] (push) name download decision 1 segment_time 4000.00
+[t69373-d24-e23] (push) name enhance decision 4 segment_time 2205.88
+[t69373-d24-e24] (session) download_start
+[t69373-d24-e24] (consume) name download time 0.00
+[t69373-d24-e24] (consume) name enhance time 0.00
+[t69373-d24-e24] (estimate) throughput 1744.41 latency 200.05
+[t69373-d24-e24] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t69373-d24-e24] (control) download 1 enhance 4
+[t69373-d24-e24] (download) size 1142312.00 total_time 961.54 latency 200.00 download_time 761.54 throughput 1500.00
+[t69373-d24-e24] (session) download_finish
+[t70335-d24-e24] (consume) name download time 961.54
+[t70335-d24-e24] (consume) name enhance time 961.54
+[t70335-d24-e24] (push) name download decision 1 segment_time 4000.00
+[t70335-d25-e24] (push) name enhance decision 4 segment_time 2205.88
+[t70335-d25-e25] (session) download_start
+[t70335-d25-e25] (consume) name download time 0.00
+[t70335-d25-e25] (consume) name enhance time 0.00
+[t70335-d25-e25] (estimate) throughput 1704.97 latency 200.03
+[t70335-d25-e25] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t70335-d25-e25] (control) download 1 enhance 4
+[t70335-d25-e25] (download) size 1856544.00 total_time 1437.70 latency 200.00 download_time 1237.70 throughput 1500.00
+[t70335-d25-e25] (session) enhance_finish
+[t71772-d25-e25] (consume) name download time 1437.70
+[t71772-d25-e25] (consume) name enhance time 1437.70
+[t71772-d25-e25] (session) enhance_start
+[t71772-d25-e25] (consume) name download time 0.00
+[t71772-d25-e25] (consume) name enhance time 0.00
+[t71772-d25-e25] (session) download_finish
+[t71772-d25-e25] (consume) name download time 0.00
+[t71772-d25-e25] (consume) name enhance time 0.00
+[t71772-d25-e25] (push) name download decision 1 segment_time 4000.00
+[t71772-d26-e25] (push) name enhance decision 4 segment_time 2205.88
+[t71772-d26-e26] (session) download_start
+[t71772-d26-e26] (consume) name download time 0.00
+[t71772-d26-e26] (consume) name enhance time 0.00
+[t71772-d26-e26] (estimate) throughput 1653.99 latency 200.02
+[t71772-d26-e26] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t71772-d26-e26] (control) download 1 enhance 4
+[t71772-d26-e26] (download) size 3236856.00 total_time 2357.90 latency 200.00 download_time 2157.90 throughput 1500.00
+[t71772-d26-e26] (session) enhance_finish
+[t74130-d26-e26] (consume) name download time 2357.90
+[t74130-d26-e26] (consume) name enhance time 2357.90
+[t74130-d26-e26] (session) enhance_start
+[t74130-d26-e26] (consume) name download time 0.00
+[t74130-d26-e26] (consume) name enhance time 0.00
+[t74130-d26-e26] (session) download_finish
+[t74130-d26-e26] (consume) name download time 0.00
+[t74130-d26-e26] (consume) name enhance time 0.00
+[t74130-d26-e26] (push) name download decision 1 segment_time 4000.00
+[t74130-d27-e26] (push) name enhance decision 4 segment_time 2205.88
+[t74130-d27-e27] (session) download_start
+[t74130-d27-e27] (consume) name download time 0.00
+[t74130-d27-e27] (consume) name enhance time 0.00
+[t74130-d27-e27] (estimate) throughput 1593.53 latency 200.02
+[t74130-d27-e27] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t74130-d27-e27] (control) download 1 enhance 4
+[t74130-d27-e27] (download) size 3793088.00 total_time 2728.73 latency 200.00 download_time 2528.73 throughput 1500.00
+[t74130-d27-e27] (session) enhance_finish
+[t76859-d27-e27] (consume) name download time 2728.73
+[t76859-d27-e27] (consume) name enhance time 2728.73
+[t76859-d27-e27] (session) enhance_start
+[t76859-d27-e27] (consume) name download time 0.00
+[t76859-d27-e27] (consume) name enhance time 0.00
+[t76859-d27-e27] (session) download_finish
+[t76859-d27-e27] (consume) name download time 0.00
+[t76859-d27-e27] (consume) name enhance time 0.00
+[t76859-d27-e27] (push) name download decision 1 segment_time 4000.00
+[t76859-d28-e27] (push) name enhance decision 4 segment_time 2205.88
+[t76859-d28-e28] (session) download_start
+[t76859-d28-e28] (consume) name download time 0.00
+[t76859-d28-e28] (consume) name enhance time 0.00
+[t76859-d28-e28] (estimate) throughput 1552.15 latency 200.01
+[t76859-d28-e28] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t76859-d28-e28] (control) download 2 enhance 4
+[t76859-d28-e28] (download) size 4715760.00 total_time 3343.84 latency 200.00 download_time 3143.84 throughput 1500.00
+[t76859-d28-e28] (session) enhance_finish
+[t80203-d28-e28] (consume) name download time 3343.84
+[t80203-d28-e28] (consume) name enhance time 3343.84
+[t80203-d28-e28] (session) enhance_start
+[t80203-d28-e28] (consume) name download time 0.00
+[t80203-d28-e28] (consume) name enhance time 0.00
+[t80203-d28-e28] (session) download_finish
+[t80203-d28-e28] (consume) name download time 0.00
+[t80203-d28-e28] (consume) name enhance time 0.00
+[t80203-d28-e28] (push) name download decision 2 segment_time 4000.00
+[t80203-d29-e28] (push) name enhance decision 4 segment_time 2696.63
+[t80203-d29-e29] (session) download_start
+[t80203-d29-e29] (consume) name download time 0.00
+[t80203-d29-e29] (consume) name enhance time 0.00
+[t80203-d29-e29] (estimate) throughput 1525.22 latency 200.01
+[t80203-d29-e29] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t80203-d29-e29] (control) download 2 enhance 4
+[t80203-d29-e29] (download) size 5502496.00 total_time 3868.33 latency 200.00 download_time 3668.33 throughput 1500.00
+[t80203-d29-e29] (session) enhance_finish
+[t84071-d29-e29] (consume) name download time 3868.33
+[t84071-d29-e29] (consume) name enhance time 3868.33
+[t84071-d29-e29] (session) enhance_start
+[t84071-d29-e29] (consume) name download time 0.00
+[t84071-d29-e29] (consume) name enhance time 0.00
+[t84071-d29-e29] (session) download_finish
+[t84071-d29-e29] (consume) name download time 0.00
+[t84071-d29-e29] (consume) name enhance time 0.00
+[t84071-d29-e29] (push) name download decision 2 segment_time 4000.00
+[t84071-d30-e29] (push) name enhance decision 4 segment_time 2696.63
+[t84071-d30-e30] (session) download_start
+[t84071-d30-e30] (consume) name download time 0.00
+[t84071-d30-e30] (consume) name enhance time 0.00
+[t84071-d30-e30] (estimate) throughput 1510.81 latency 200.01
+[t84071-d30-e30] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t84071-d30-e30] (control) download 2 enhance 4
+[t84071-d30-e30] (download) size 8276488.00 total_time 5717.66 latency 200.00 download_time 5517.66 throughput 1500.00
+[t84071-d30-e30] (session) enhance_finish
+[t89789-d30-e30] (consume) name download time 5717.66
+[t89789-d30-e30] (consume) name enhance time 5717.66
+[t89789-d30-e30] (consume) name enhance idle time 2306.416713802611
+[t89789-d30-e30] (session) enhance_start
+[t89789-d30-e30] (consume) name download time 0.00
+[t89789-d30-e30] (consume) name enhance time 0.00
+[t89789-d30-e30] (session) download_finish
+[t89789-d30-e30] (consume) name download time 0.00
+[t89789-d30-e30] (consume) name enhance time 0.00
+[t89789-d30-e30] (push) name download decision 2 segment_time 4000.00
+[t89789-d31-e30] (push) name enhance decision 4 segment_time 2696.63
+[t89789-d31-e31] (session) download_start
+[t89789-d31-e31] (consume) name download time 0.00
+[t89789-d31-e31] (consume) name enhance time 0.00
+[t89789-d31-e31] (estimate) throughput 1503.02 latency 200.00
+[t89789-d31-e31] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t89789-d31-e31] (control) download 1 enhance 4
+[t89789-d31-e31] (network) period 3 time 30000 bandwidth 3000 latency 150
+[t89789-d31-e31] (download) size 4061912.00 total_time 1709.53 latency 200.00 download_time 1509.53 throughput 2690.85
+[t89789-d31-e31] (session) download_finish
+[t91498-d31-e31] (consume) name download time 1709.53
+[t91498-d31-e31] (consume) name enhance time 1709.53
+[t91498-d31-e31] (push) name download decision 1 segment_time 4000.00
+[t91498-d32-e31] (push) name enhance decision 4 segment_time 2205.88
+[t91498-d32-e32] (session) download_start
+[t91498-d32-e32] (consume) name download time 0.00
+[t91498-d32-e32] (consume) name enhance time 0.00
+[t91498-d32-e32] (estimate) throughput 1779.62 latency 200.00
+[t91498-d32-e32] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t91498-d32-e32] (control) download 2 enhance 4
+[t91498-d32-e32] (download) size 3738056.00 total_time 1396.02 latency 150.00 download_time 1246.02 throughput 3000.00
+[t91498-d32-e32] (session) download_finish
+[t92894-d32-e32] (consume) name download time 1396.02
+[t92894-d32-e32] (consume) name enhance time 1396.02
+[t92894-d32-e32] (push) name download decision 2 segment_time 4000.00
+[t92894-d33-e32] (push) name enhance decision 4 segment_time 2696.63
+[t92894-d33-e33] (session) download_start
+[t92894-d33-e33] (consume) name download time 0.00
+[t92894-d33-e33] (consume) name enhance time 0.00
+[t92894-d33-e33] (estimate) throughput 1904.57 latency 150.00
+[t92894-d33-e33] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t92894-d33-e33] (control) download 2 enhance 4
+[t92894-d33-e33] (download) size 3907040.00 total_time 1452.35 latency 150.00 download_time 1302.35 throughput 3000.00
+[t92894-d33-e33] (session) download_finish
+[t94347-d33-e33] (consume) name download time 1452.35
+[t94347-d33-e33] (consume) name enhance time 1452.35
+[t94347-d33-e33] (push) name download decision 2 segment_time 4000.00
+[t94347-d34-e33] (push) name enhance decision 4 segment_time 2696.63
+[t94347-d34-e34] (session) download_start
+[t94347-d34-e34] (consume) name download time 0.00
+[t94347-d34-e34] (consume) name enhance time 0.00
+[t94347-d34-e34] (estimate) throughput 2021.51 latency 150.00
+[t94347-d34-e34] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t94347-d34-e34] (control) download 3 enhance 0
+[t94347-d34-e34] (download) size 8998448.00 total_time 3149.48 latency 150.00 download_time 2999.48 throughput 3000.00
+[t94347-d34-e34] (session) download_finish
+[t97496-d34-e34] (consume) name download time 3149.48
+[t97496-d34-e34] (consume) name enhance time 3149.48
+[t97496-d34-e34] (push) name download decision 3 segment_time 4000.00
+[t97496-d35-e35] (session) download_start
+[t97496-d35-e35] (consume) name download time 0.00
+[t97496-d35-e35] (consume) name enhance time 0.00
+[t97496-d35-e35] (estimate) throughput 2245.52 latency 150.00
+[t97496-d35-e35] (autotune) gamma_p 10.0 V_multiplier 0.8
+[t97496-d35-e35] (control) download 4 enhance 0
+[t97496-d35-e35] (download) size 19962976.00 total_time 6804.33 latency 150.00 download_time 6654.33 throughput 3000.00
+[t97496-d35-e35] (session) download_finish
+[t104301-d35-e35] (consume) name download time 6804.33
+[t104301-d35-e35] (consume) name enhance time 6804.33
+[t104301-d35-e35] (consume) name enhance idle time 4215.931339942715
+[t104301-d35-e35] (push) name download decision 4 segment_time 4000.00
+[t104301-d36-e36] (session) enhance_start
+[t104301-d36-e36] (consume) name download time 0.00
+[t104301-d36-e36] (consume) name enhance time 0.00
+[t104301-d36-e36] (session) download_start
+[t104301-d36-e36] (consume) name download time 0.00
+[t104301-d36-e36] (consume) name enhance time 0.00
+[t104301-d36-e36] (estimate) throughput 2576.17 latency 150.00
+[t104301-d36-e36] (autotune) gamma_p 10.0 V_multiplier 0.6
+[t104301-d36-e36] (control) download 4 enhance 0
+[t104301-d36-e36] (download) size 22022808.00 total_time 7490.94 latency 150.00 download_time 7340.94 throughput 3000.00
+[t104301-d36-e36] (session) download_finish
+[t111792-d36-e36] (consume) name download time 7490.94
+[t111792-d36-e36] (consume) name enhance time 7490.94
+[t111792-d36-e36] (push) name download decision 4 segment_time 4000.00
+[t111792-d37-e37] (session) enhance_start
+[t111792-d37-e37] (consume) name download time 0.00
+[t111792-d37-e37] (consume) name enhance time 0.00
+[t111792-d37-e37] (session) download_start
+[t111792-d37-e37] (consume) name download time 0.00
+[t111792-d37-e37] (consume) name enhance time 0.00
+[t111792-d37-e37] (estimate) throughput 2775.65 latency 150.00
+[t111792-d37-e37] (autotune) gamma_p 10.0 V_multiplier 0.6
+[t111792-d37-e37] (control) download 4 enhance 0
+[t111792-d37-e37] (download) size 17944832.00 total_time 6131.61 latency 150.00 download_time 5981.61 throughput 3000.00
+[t111792-d37-e37] (session) download_finish
+[t117923-d37-e37] (consume) name download time 6131.61
+[t117923-d37-e37] (consume) name enhance time 6131.61
+[t117923-d37-e37] (push) name download decision 4 segment_time 4000.00
+[t117923-d38-e38] (session) enhance_start
+[t117923-d38-e38] (consume) name download time 0.00
+[t117923-d38-e38] (consume) name enhance time 0.00
+[t117923-d38-e38] (session) download_start
+[t117923-d38-e38] (consume) name download time 0.00
+[t117923-d38-e38] (consume) name enhance time 0.00
+[t117923-d38-e38] (estimate) throughput 2866.39 latency 150.00
+[t117923-d38-e38] (autotune) gamma_p 10.0 V_multiplier 0.5
+[t117923-d38-e38] (control) download 4 enhance 0
+[t117923-d38-e38] (network) period 0 time 30000 bandwidth 5000 latency 75
+[t117923-d38-e38] (download) size 16456888.00 total_time 4332.12 latency 150.00 download_time 4182.12 throughput 3935.05
+[t117923-d38-e38] (session) download_finish
+[t122255-d38-e38] (consume) name download time 4332.12
+[t122255-d38-e38] (consume) name enhance time 4332.12
+[t122255-d38-e38] (push) name download decision 4 segment_time 4000.00
+[t122255-d39-e39] (session) enhance_start
+[t122255-d39-e39] (consume) name download time 0.00
+[t122255-d39-e39] (consume) name enhance time 0.00
+[t122255-d39-e39] (session) download_start
+[t122255-d39-e39] (consume) name download time 0.00
+[t122255-d39-e39] (consume) name enhance time 0.00
+[t122255-d39-e39] (estimate) throughput 3191.24 latency 150.00
+[t122255-d39-e39] (autotune) gamma_p 10.0 V_multiplier 0.30000000000000004
+[t122255-d39-e39] (control) download 4 enhance 0
+[t122255-d39-e39] (download) size 23104192.00 total_time 4695.84 latency 75.00 download_time 4620.84 throughput 5000.00
+[t122255-d39-e39] (session) download_finish
+[t126951-d39-e39] (consume) name download time 4695.84
+[t126951-d39-e39] (consume) name enhance time 4695.84
+[t126951-d39-e39] (push) name download decision 4 segment_time 4000.00
+[t126951-d40-e40] (session) enhance_start
+[t126951-d40-e40] (consume) name download time 0.00
+[t126951-d40-e40] (consume) name enhance time 0.00
+[t126951-d40-e40] (session) download_start
+[t126951-d40-e40] (consume) name download time 0.00
+[t126951-d40-e40] (consume) name enhance time 0.00
+[t126951-d40-e40] (estimate) throughput 3788.01 latency 75.00
+[t126951-d40-e40] (autotune) gamma_p 20.0 V_multiplier 0.2
+[t126951-d40-e40] (control) download 4 enhance 0
+[t126951-d40-e40] (download) size 10564888.00 total_time 2187.98 latency 75.00 download_time 2112.98 throughput 5000.00
+[t126951-d40-e40] (session) download_finish
+[t129139-d40-e40] (consume) name download time 2187.98
+[t129139-d40-e40] (consume) name enhance time 2187.98
+[t129139-d40-e40] (push) name download decision 4 segment_time 4000.00
+[t129139-d41-e41] (session) enhance_start
+[t129139-d41-e41] (consume) name download time 0.00
+[t129139-d41-e41] (consume) name enhance time 0.00
+[t129139-d41-e41] (session) download_start
+[t129139-d41-e41] (consume) name download time 0.00
+[t129139-d41-e41] (consume) name enhance time 0.00
+[t129139-d41-e41] (estimate) throughput 3990.78 latency 75.00
+[t129139-d41-e41] (autotune) gamma_p 10.0 V_multiplier 0.2
+[t129139-d41-e41] (control) download 4 enhance 0
+[t129139-d41-e41] (download) size 22836880.00 total_time 4642.38 latency 75.00 download_time 4567.38 throughput 5000.00
+[t129139-d41-e41] (session) download_finish
+[t133781-d41-e41] (consume) name download time 4642.38
+[t133781-d41-e41] (consume) name enhance time 4642.38
+[t133781-d41-e41] (push) name download decision 4 segment_time 4000.00
+[t133781-d42-e42] (session) enhance_start
+[t133781-d42-e42] (consume) name download time 0.00
+[t133781-d42-e42] (consume) name enhance time 0.00
+[t133781-d42-e42] (session) download_start
+[t133781-d42-e42] (consume) name download time 0.00
+[t133781-d42-e42] (consume) name enhance time 0.00
+[t133781-d42-e42] (estimate) throughput 4320.61 latency 75.00
+[t133781-d42-e42] (autotune) gamma_p 20.0 V_multiplier 0.2
+[t133781-d42-e42] (control) download 4 enhance 0
+[t133781-d42-e42] (download) size 17589656.00 total_time 3592.93 latency 75.00 download_time 3517.93 throughput 5000.00
+[t133781-d42-e42] (session) download_finish
+[t137374-d42-e42] (consume) name download time 3592.93
+[t137374-d42-e42] (consume) name enhance time 3592.93
+[t137374-d42-e42] (push) name download decision 4 segment_time 4000.00
+[t137374-d43-e43] (session) enhance_start
+[t137374-d43-e43] (consume) name download time 0.00
+[t137374-d43-e43] (consume) name enhance time 0.00
+[t137374-d43-e43] (session) download_start
+[t137374-d43-e43] (consume) name download time 0.00
+[t137374-d43-e43] (consume) name enhance time 0.00
+[t137374-d43-e43] (estimate) throughput 4499.11 latency 75.00
+[t137374-d43-e43] (autotune) gamma_p 40.0 V_multiplier 0.1
+[t137374-d43-e43] (control) download 4 enhance 0
+[t137374-d43-e43] (download) size 16693840.00 total_time 3413.77 latency 75.00 download_time 3338.77 throughput 5000.00
+[t137374-d43-e43] (session) download_finish
+[t140788-d43-e43] (consume) name download time 3413.77
+[t140788-d43-e43] (consume) name enhance time 3413.77
+[t140788-d43-e43] (push) name download decision 4 segment_time 4000.00
+[t140788-d44-e44] (session) enhance_start
+[t140788-d44-e44] (consume) name download time 0.00
+[t140788-d44-e44] (consume) name enhance time 0.00
+[t140788-d44-e44] (session) download_start
+[t140788-d44-e44] (consume) name download time 0.00
+[t140788-d44-e44] (consume) name enhance time 0.00
+[t140788-d44-e44] (estimate) throughput 4624.93 latency 75.00
+[t140788-d44-e44] (autotune) gamma_p 10.0 V_multiplier 0.1
+[t140788-d44-e44] (control) download 4 enhance 0
+[t140788-d44-e44] (download) size 12276088.00 total_time 2530.22 latency 75.00 download_time 2455.22 throughput 5000.00
+[t140788-d44-e44] (session) download_finish
+[t143318-d44-e44] (consume) name download time 2530.22
+[t143318-d44-e44] (consume) name enhance time 2530.22
+[t143318-d44-e44] (push) name download decision 4 segment_time 4000.00
+[t143318-d45-e45] (session) enhance_start
+[t143318-d45-e45] (consume) name download time 0.00
+[t143318-d45-e45] (consume) name enhance time 0.00
+[t143318-d45-e45] (session) download_start
+[t143318-d45-e45] (consume) name download time 0.00
+[t143318-d45-e45] (consume) name enhance time 0.00
+[t143318-d45-e45] (estimate) throughput 4696.81 latency 75.00
+[t143318-d45-e45] (autotune) gamma_p 10.0 V_multiplier 0.1
+[t143318-d45-e45] (control) download 4 enhance 0
+[t143318-d45-e45] (download) size 27030968.00 total_time 5481.19 latency 75.00 download_time 5406.19 throughput 5000.00
+[t143318-d45-e45] (session) download_finish
+[t148800-d45-e45] (consume) name download time 5481.19
+[t148800-d45-e45] (consume) name enhance time 5481.19
+[t148800-d45-e45] (push) name download decision 4 segment_time 4000.00
+[t148800-d46-e46] (session) enhance_start
+[t148800-d46-e46] (consume) name download time 0.00
+[t148800-d46-e46] (consume) name enhance time 0.00
+[t148800-d46-e46] (session) download_start
+[t148800-d46-e46] (consume) name download time 0.00
+[t148800-d46-e46] (consume) name enhance time 0.00
+[t148800-d46-e46] (estimate) throughput 4810.20 latency 75.00
+[t148800-d46-e46] (autotune) gamma_p 10.0 V_multiplier 0.1
+[t148800-d46-e46] (control) download 4 enhance 0
+[t148800-d46-e46] (network) period 1 time 30000 bandwidth 3000 latency 150
+[t148800-d46-e46] (download) size 28328008.00 total_time 8567.38 latency 75.00 download_time 8492.38 throughput 3335.70
+[t148800-d46-e46] (session) download_finish
+[t157367-d46-e46] (consume) name download time 8567.38
+[t157367-d46-e46] (consume) name enhance time 8567.38
+[t157367-d46-e46] (push) name download decision 4 segment_time 4000.00
+[t157367-d47-e47] (session) enhance_start
+[t157367-d47-e47] (consume) name download time 0.00
+[t157367-d47-e47] (consume) name enhance time 0.00
+[t157367-d47-e47] (session) download_start
+[t157367-d47-e47] (consume) name download time 0.00
+[t157367-d47-e47] (consume) name enhance time 0.00
+[t157367-d47-e47] (estimate) throughput 3569.14 latency 75.00
+[t157367-d47-e47] (autotune) gamma_p 10.0 V_multiplier 0.30000000000000004
+[t157367-d47-e47] (control) download 4 enhance 0
+[t157367-d47-e47] (download) size 30275016.00 total_time 10241.67 latency 150.00 download_time 10091.67 throughput 3000.00
+[t157367-d47-e47] (session) download_finish
+[t167609-d47-e47] (consume) name download time 10241.67
+[t167609-d47-e47] (consume) name enhance time 10241.67
+[t167609-d47-e47] (push) name download decision 4 segment_time 4000.00
+[t167609-d48-e48] (session) enhance_start
+[t167609-d48-e48] (consume) name download time 0.00
+[t167609-d48-e48] (consume) name enhance time 0.00
+[t167609-d48-e48] (session) download_start
+[t167609-d48-e48] (consume) name download time 0.00
+[t167609-d48-e48] (consume) name enhance time 0.00
+[t167609-d48-e48] (estimate) throughput 3055.28 latency 150.00
+[t167609-d48-e48] (autotune) gamma_p 10.0 V_multiplier 0.30000000000000004
+[t167609-d48-e48] (control) download 4 enhance 0
+[t167609-d48-e48] (download) size 14129248.00 total_time 4859.75 latency 150.00 download_time 4709.75 throughput 3000.00
+[t167609-d48-e48] (session) download_finish
+[t172468-d48-e48] (consume) name download time 4859.75
+[t172468-d48-e48] (consume) name enhance time 4859.75
+[t172468-d48-e48] (push) name download decision 4 segment_time 4000.00
+[t172468-d49-e49] (session) enhance_start
+[t172468-d49-e49] (consume) name download time 0.00
+[t172468-d49-e49] (consume) name enhance time 0.00
+[t172468-d49-e49] (session) download_start
+[t172468-d49-e49] (consume) name download time 0.00
+[t172468-d49-e49] (consume) name enhance time 0.00
+[t172468-d49-e49] (estimate) throughput 3018.62 latency 150.00
+[t172468-d49-e49] (autotune) gamma_p 10.0 V_multiplier 0.30000000000000004
+[t172468-d49-e49] (control) download 4 enhance 0
+[t172468-d49-e49] (network) period 2 time 30000 bandwidth 1500 latency 200
+[t172468-d49-e49] (download) size 26107032.00 total_time 9873.05 latency 150.00 download_time 9723.05 throughput 2685.07
+[t172468-d49-e49] (session) download_finish
+[t182341-d49-e49] (consume) name download time 9873.05
+[t182341-d49-e49] (consume) name enhance time 9873.05
+[t182341-d49-e49] (push) name download decision 4 segment_time 4000.00
+[t182341-d50-e50] (session) enhance_start
+[t182341-d50-e50] (consume) name download time 0.00
+[t182341-d50-e50] (consume) name enhance time 0.00
+[t182341-d50-e50] (session) download_start
+[t182341-d50-e50] (consume) name download time 0.00
+[t182341-d50-e50] (consume) name enhance time 0.00
+[t182341-d50-e50] (estimate) throughput 2720.35 latency 150.00
+[t182341-d50-e50] (autotune) gamma_p 10.0 V_multiplier 0.6
+[t182341-d50-e50] (control) download 1 enhance 4
+[t182341-d50-e50] (download) size 3092024.00 total_time 2261.35 latency 200.00 download_time 2061.35 throughput 1500.00
+[t182341-d50-e50] (session) download_finish
+[t184603-d50-e50] (consume) name download time 2261.35
+[t184603-d50-e50] (consume) name enhance time 2261.35
+[t184603-d50-e50] (push) name download decision 1 segment_time 4000.00
+[t184603-d51-e50] (push) name enhance decision 4 segment_time 2205.88
+[t184603-d51-e51] (session) enhance_start
+[t184603-d51-e51] (consume) name download time 0.00
+[t184603-d51-e51] (consume) name enhance time 0.00
+[t184603-d51-e51] (session) download_start
+[t184603-d51-e51] (consume) name download time 0.00
+[t184603-d51-e51] (consume) name enhance time 0.00
+[t184603-d51-e51] (estimate) throughput 2257.95 latency 200.00
+[t184603-d51-e51] (autotune) gamma_p 10.0 V_multiplier 0.8
+[t184603-d51-e51] (control) download 1 enhance 4
+[t184603-d51-e51] (download) size 2377968.00 total_time 1785.31 latency 200.00 download_time 1585.31 throughput 1500.00
+[t184603-d51-e51] (session) download_finish
+[t186388-d51-e51] (consume) name download time 1785.31
+[t186388-d51-e51] (consume) name enhance time 1785.31
+[t186388-d51-e51] (push) name download decision 1 segment_time 4000.00
+[t186388-d52-e51] (push) name enhance decision 4 segment_time 2205.88
+[t186388-d52-e52] (session) download_start
+[t186388-d52-e52] (consume) name download time 0.00
+[t186388-d52-e52] (consume) name enhance time 0.00
+[t186388-d52-e52] (estimate) throughput 2025.49 latency 200.00
+[t186388-d52-e52] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t186388-d52-e52] (control) download 1 enhance 4
+[t186388-d52-e52] (download) size 2629000.00 total_time 1952.67 latency 200.00 download_time 1752.67 throughput 1500.00
+[t186388-d52-e52] (session) enhance_finish
+[t188341-d52-e52] (consume) name download time 1952.67
+[t188341-d52-e52] (consume) name enhance time 1952.67
+[t188341-d52-e52] (session) enhance_start
+[t188341-d52-e52] (consume) name download time 0.00
+[t188341-d52-e52] (consume) name enhance time 0.00
+[t188341-d52-e52] (session) download_finish
+[t188341-d52-e52] (consume) name download time 0.00
+[t188341-d52-e52] (consume) name enhance time 0.00
+[t188341-d52-e52] (push) name download decision 1 segment_time 4000.00
+[t188341-d53-e52] (push) name enhance decision 4 segment_time 2205.88
+[t188341-d53-e53] (session) download_start
+[t188341-d53-e53] (consume) name download time 0.00
+[t188341-d53-e53] (consume) name enhance time 0.00
+[t188341-d53-e53] (estimate) throughput 1850.51 latency 200.00
+[t188341-d53-e53] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t188341-d53-e53] (control) download 1 enhance 4
+[t188341-d53-e53] (download) size 5219984.00 total_time 3679.99 latency 200.00 download_time 3479.99 throughput 1500.00
+[t188341-d53-e53] (session) enhance_finish
+[t192021-d53-e53] (consume) name download time 3679.99
+[t192021-d53-e53] (consume) name enhance time 3679.99
+[t192021-d53-e53] (consume) name enhance idle time 800.3209411764701
+[t192021-d53-e53] (session) enhance_start
+[t192021-d53-e53] (consume) name download time 0.00
+[t192021-d53-e53] (consume) name enhance time 0.00
+[t192021-d53-e53] (session) download_finish
+[t192021-d53-e53] (consume) name download time 0.00
+[t192021-d53-e53] (consume) name enhance time 0.00
+[t192021-d53-e53] (push) name download decision 1 segment_time 4000.00
+[t192021-d54-e53] (push) name enhance decision 4 segment_time 2205.88
+[t192021-d54-e54] (session) enhance_start
+[t192021-d54-e54] (consume) name download time 0.00
+[t192021-d54-e54] (consume) name enhance time 0.00
+[t192021-d54-e54] (session) download_start
+[t192021-d54-e54] (consume) name download time 0.00
+[t192021-d54-e54] (consume) name enhance time 0.00
+[t192021-d54-e54] (estimate) throughput 1656.86 latency 200.00
+[t192021-d54-e54] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t192021-d54-e54] (control) download 1 enhance 4
+[t192021-d54-e54] (download) size 5112424.00 total_time 3608.28 latency 200.00 download_time 3408.28 throughput 1500.00
+[t192021-d54-e54] (session) enhance_finish
+[t195629-d54-e54] (consume) name download time 3608.28
+[t195629-d54-e54] (consume) name enhance time 3608.28
+[t195629-d54-e54] (consume) name enhance idle time 1402.40031372549
+[t195629-d54-e54] (session) enhance_start
+[t195629-d54-e54] (consume) name download time 0.00
+[t195629-d54-e54] (consume) name enhance time 0.00
+[t195629-d54-e54] (session) download_finish
+[t195629-d54-e54] (consume) name download time 0.00
+[t195629-d54-e54] (consume) name enhance time 0.00
+[t195629-d54-e54] (push) name download decision 1 segment_time 4000.00
+[t195629-d55-e54] (push) name enhance decision 4 segment_time 2205.88
+[t195629-d55-e55] (session) enhance_start
+[t195629-d55-e55] (consume) name download time 0.00
+[t195629-d55-e55] (consume) name enhance time 0.00
+[t195629-d55-e55] (session) download_start
+[t195629-d55-e55] (consume) name download time 0.00
+[t195629-d55-e55] (consume) name enhance time 0.00
+[t195629-d55-e55] (estimate) throughput 1571.37 latency 200.00
+[t195629-d55-e55] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t195629-d55-e55] (control) download 1 enhance 4
+[t195629-d55-e55] (download) size 2475968.00 total_time 1850.65 latency 200.00 download_time 1650.65 throughput 1500.00
+[t195629-d55-e55] (session) download_finish
+[t197480-d55-e55] (consume) name download time 1850.65
+[t197480-d55-e55] (consume) name enhance time 1850.65
+[t197480-d55-e55] (push) name download decision 1 segment_time 4000.00
+[t197480-d56-e55] (push) name enhance decision 4 segment_time 2205.88
+[t197480-d56-e56] (session) download_start
+[t197480-d56-e56] (consume) name download time 0.00
+[t197480-d56-e56] (consume) name enhance time 0.00
+[t197480-d56-e56] (estimate) throughput 1548.74 latency 200.00
+[t197480-d56-e56] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t197480-d56-e56] (control) download 1 enhance 4
+[t197480-d56-e56] (download) size 1297256.00 total_time 1064.84 latency 200.00 download_time 864.84 throughput 1500.00
+[t197480-d56-e56] (session) enhance_finish
+[t198544-d56-e56] (consume) name download time 1064.84
+[t198544-d56-e56] (consume) name enhance time 1064.84
+[t198544-d56-e56] (session) enhance_start
+[t198544-d56-e56] (consume) name download time 0.00
+[t198544-d56-e56] (consume) name enhance time 0.00
+[t198544-d56-e56] (session) download_finish
+[t198544-d56-e56] (consume) name download time 0.00
+[t198544-d56-e56] (consume) name enhance time 0.00
+[t198544-d56-e56] (push) name download decision 1 segment_time 4000.00
+[t198544-d57-e56] (push) name enhance decision 4 segment_time 2205.88
+[t198544-d57-e57] (session) download_start
+[t198544-d57-e57] (consume) name download time 0.00
+[t198544-d57-e57] (consume) name enhance time 0.00
+[t198544-d57-e57] (estimate) throughput 1539.91 latency 200.00
+[t198544-d57-e57] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t198544-d57-e57] (control) download 1 enhance 4
+[t198544-d57-e57] (download) size 3266432.00 total_time 2377.62 latency 200.00 download_time 2177.62 throughput 1500.00
+[t198544-d57-e57] (session) enhance_finish
+[t200922-d57-e57] (consume) name download time 2377.62
+[t200922-d57-e57] (consume) name enhance time 2377.62
+[t200922-d57-e57] (session) enhance_start
+[t200922-d57-e57] (consume) name download time 0.00
+[t200922-d57-e57] (consume) name enhance time 0.00
+[t200922-d57-e57] (session) download_finish
+[t200922-d57-e57] (consume) name download time 0.00
+[t200922-d57-e57] (consume) name enhance time 0.00
+[t200922-d57-e57] (push) name download decision 1 segment_time 4000.00
+[t200922-d58-e57] (push) name enhance decision 4 segment_time 2205.88
+[t200922-d58-e58] (session) download_start
+[t200922-d58-e58] (consume) name download time 0.00
+[t200922-d58-e58] (consume) name enhance time 0.00
+[t200922-d58-e58] (estimate) throughput 1524.13 latency 200.00
+[t200922-d58-e58] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t200922-d58-e58] (control) download 1 enhance 4
+[t200922-d58-e58] (download) size 2144952.00 total_time 1629.97 latency 200.00 download_time 1429.97 throughput 1500.00
+[t200922-d58-e58] (session) enhance_finish
+[t202552-d58-e58] (consume) name download time 1629.97
+[t202552-d58-e58] (consume) name enhance time 1629.97
+[t202552-d58-e58] (session) enhance_start
+[t202552-d58-e58] (consume) name download time 0.00
+[t202552-d58-e58] (consume) name enhance time 0.00
+[t202552-d58-e58] (session) download_finish
+[t202552-d58-e58] (consume) name download time 0.00
+[t202552-d58-e58] (consume) name enhance time 0.00
+[t202552-d58-e58] (push) name download decision 1 segment_time 4000.00
+[t202552-d59-e58] (push) name enhance decision 4 segment_time 2205.88
+[t202552-d59-e59] (session) download_start
+[t202552-d59-e59] (consume) name download time 0.00
+[t202552-d59-e59] (consume) name enhance time 0.00
+[t202552-d59-e59] (estimate) throughput 1517.34 latency 200.00
+[t202552-d59-e59] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t202552-d59-e59] (control) download 1 enhance 4
+[t202552-d59-e59] (download) size 2427104.00 total_time 1818.07 latency 200.00 download_time 1618.07 throughput 1500.00
+[t202552-d59-e59] (session) download_finish
+[t204370-d59-e59] (consume) name download time 1818.07
+[t204370-d59-e59] (consume) name enhance time 1818.07
+[t204370-d59-e59] (push) name download decision 1 segment_time 4000.00
+[t204370-d60-e59] (push) name enhance decision 4 segment_time 2205.88
+[t204370-d60-e60] (session) download_start
+[t204370-d60-e60] (consume) name download time 0.00
+[t204370-d60-e60] (consume) name enhance time 0.00
+[t204370-d60-e60] (estimate) throughput 1511.93 latency 200.00
+[t204370-d60-e60] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t204370-d60-e60] (control) download 2 enhance 4
+[t204370-d60-e60] (download) size 1735520.00 total_time 1357.01 latency 200.00 download_time 1157.01 throughput 1500.00
+[t204370-d60-e60] (session) enhance_finish
+[t205727-d60-e60] (consume) name download time 1357.01
+[t205727-d60-e60] (consume) name enhance time 1357.01
+[t205727-d60-e60] (session) enhance_start
+[t205727-d60-e60] (consume) name download time 0.00
+[t205727-d60-e60] (consume) name enhance time 0.00
+[t205727-d60-e60] (session) download_finish
+[t205727-d60-e60] (consume) name download time 0.00
+[t205727-d60-e60] (consume) name enhance time 0.00
+[t205727-d60-e60] (push) name download decision 2 segment_time 4000.00
+[t205727-d61-e60] (push) name enhance decision 4 segment_time 2696.63
+[t205727-d61-e61] (session) download_start
+[t205727-d61-e61] (consume) name download time 0.00
+[t205727-d61-e61] (consume) name enhance time 0.00
+[t205727-d61-e61] (estimate) throughput 1509.13 latency 200.00
+[t205727-d61-e61] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t205727-d61-e61] (control) download 3 enhance 0
+[t205727-d61-e61] (monitor) download 2 enhance 4
+[t205727-d61-e61] (download) new size 7008832.00
+[t205727-d61-e61] (network) period 3 time 30000 bandwidth 3000 latency 150
+[t205727-d61-e61] (download) size 14655688.00 total_time 4997.70 latency 200.00 download_time 4797.70 throughput 1507.77
+[t205727-d61-e61] (session) enhance_finish
+[t210725-d61-e61] (consume) name download time 4997.70
+[t210725-d61-e61] (consume) name enhance time 4997.70
+[t210725-d61-e61] (session) enhance_start
+[t210725-d61-e61] (consume) name download time 0.00
+[t210725-d61-e61] (consume) name enhance time 0.00
+[t210725-d61-e61] (session) download_finish
+[t210725-d61-e61] (consume) name download time 0.00
+[t210725-d61-e61] (consume) name enhance time 0.00
+[t210725-d61-e61] (push) name download decision 2 segment_time 4000.00
+[t210725-d62-e61] (push) name enhance decision 4 segment_time 2696.63
+[t210725-d62-e62] (session) download_start
+[t210725-d62-e62] (consume) name download time 0.00
+[t210725-d62-e62] (consume) name enhance time 0.00
+[t210725-d62-e62] (estimate) throughput 1508.22 latency 200.00
+[t210725-d62-e62] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t210725-d62-e62] (control) download 2 enhance 4
+[t210725-d62-e62] (download) size 7799688.00 total_time 2749.90 latency 150.00 download_time 2599.90 throughput 3000.00
+[t210725-d62-e62] (session) enhance_finish
+[t213475-d62-e62] (consume) name download time 2749.90
+[t213475-d62-e62] (consume) name enhance time 2749.90
+[t213475-d62-e62] (session) enhance_start
+[t213475-d62-e62] (consume) name download time 0.00
+[t213475-d62-e62] (consume) name enhance time 0.00
+[t213475-d62-e62] (session) download_finish
+[t213475-d62-e62] (consume) name download time 0.00
+[t213475-d62-e62] (consume) name enhance time 0.00
+[t213475-d62-e62] (push) name download decision 2 segment_time 4000.00
+[t213475-d63-e62] (push) name enhance decision 4 segment_time 2696.63
+[t213475-d63-e63] (session) download_start
+[t213475-d63-e63] (consume) name download time 0.00
+[t213475-d63-e63] (consume) name enhance time 0.00
+[t213475-d63-e63] (estimate) throughput 1926.09 latency 150.00
+[t213475-d63-e63] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t213475-d63-e63] (control) download 2 enhance 4
+[t213475-d63-e63] (download) size 5388640.00 total_time 1946.21 latency 150.00 download_time 1796.21 throughput 3000.00
+[t213475-d63-e63] (session) enhance_finish
+[t215421-d63-e63] (consume) name download time 1946.21
+[t215421-d63-e63] (consume) name enhance time 1946.21
+[t215421-d63-e63] (session) enhance_start
+[t215421-d63-e63] (consume) name download time 0.00
+[t215421-d63-e63] (consume) name enhance time 0.00
+[t215421-d63-e63] (session) download_finish
+[t215421-d63-e63] (consume) name download time 0.00
+[t215421-d63-e63] (consume) name enhance time 0.00
+[t215421-d63-e63] (push) name download decision 2 segment_time 4000.00
+[t215421-d64-e63] (push) name enhance decision 4 segment_time 2696.63
+[t215421-d64-e64] (session) download_start
+[t215421-d64-e64] (consume) name download time 0.00
+[t215421-d64-e64] (consume) name enhance time 0.00
+[t215421-d64-e64] (estimate) throughput 2080.87 latency 150.00
+[t215421-d64-e64] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t215421-d64-e64] (control) download 3 enhance 0
+[t215421-d64-e64] (download) size 10483320.00 total_time 3644.44 latency 150.00 download_time 3494.44 throughput 3000.00
+[t215421-d64-e64] (session) enhance_finish
+[t219065-d64-e64] (consume) name download time 3644.44
+[t219065-d64-e64] (consume) name enhance time 3644.44
+[t219065-d64-e64] (session) enhance_start
+[t219065-d64-e64] (consume) name download time 0.00
+[t219065-d64-e64] (consume) name enhance time 0.00
+[t219065-d64-e64] (session) download_finish
+[t219065-d64-e64] (consume) name download time 0.00
+[t219065-d64-e64] (consume) name enhance time 0.00
+[t219065-d64-e64] (push) name download decision 3 segment_time 4000.00
+[t219065-d65-e65] (session) download_start
+[t219065-d65-e65] (consume) name download time 0.00
+[t219065-d65-e65] (consume) name enhance time 0.00
+[t219065-d65-e65] (estimate) throughput 2320.97 latency 150.00
+[t219065-d65-e65] (autotune) gamma_p 10.0 V_multiplier 0.8
+[t219065-d65-e65] (control) download 4 enhance 0
+[t219065-d65-e65] (download) size 18968344.00 total_time 6472.78 latency 150.00 download_time 6322.78 throughput 3000.00
+[t219065-d65-e65] (session) enhance_finish
+[t225538-d65-e65] (consume) name download time 6472.78
+[t225538-d65-e65] (consume) name enhance time 6472.78
+[t225538-d65-e65] (consume) name enhance idle time 5887.373028420348
+[t225538-d65-e65] (session) enhance_start
+[t225538-d65-e65] (consume) name download time 0.00
+[t225538-d65-e65] (consume) name enhance time 0.00
+[t225538-d65-e65] (session) download_finish
+[t225538-d65-e65] (consume) name download time 0.00
+[t225538-d65-e65] (consume) name enhance time 0.00
+[t225538-d65-e65] (push) name download decision 4 segment_time 4000.00
+[t225538-d66-e66] (session) download_start
+[t225538-d66-e66] (consume) name download time 0.00
+[t225538-d66-e66] (consume) name enhance time 0.00
+[t225538-d66-e66] (estimate) throughput 2607.38 latency 150.00
+[t225538-d66-e66] (autotune) gamma_p 10.0 V_multiplier 0.6
+[t225538-d66-e66] (control) download 4 enhance 0
+[t225538-d66-e66] (download) size 19325744.00 total_time 6591.91 latency 150.00 download_time 6441.91 throughput 3000.00
+[t225538-d66-e66] (session) download_finish
+[t232130-d66-e66] (consume) name download time 6591.91
+[t232130-d66-e66] (consume) name enhance time 6591.91
+[t232130-d66-e66] (consume) name enhance idle time 6591.914666666667
+[t232130-d66-e66] (push) name download decision 4 segment_time 4000.00
+[t232130-d67-e67] (session) download_start
+[t232130-d67-e67] (consume) name download time 0.00
+[t232130-d67-e67] (consume) name enhance time 0.00
+[t232130-d67-e67] (estimate) throughput 2775.32 latency 150.00
+[t232130-d67-e67] (autotune) gamma_p 10.0 V_multiplier 0.6
+[t232130-d67-e67] (control) download 4 enhance 0
+[t232130-d67-e67] (download) size 15421712.00 total_time 5290.57 latency 150.00 download_time 5140.57 throughput 3000.00
+[t232130-d67-e67] (session) download_finish
+[t237421-d67-e67] (consume) name download time 5290.57
+[t237421-d67-e67] (consume) name enhance time 5290.57
+[t237421-d67-e67] (consume) name enhance idle time 5290.5706666666665
+[t237421-d67-e67] (push) name download decision 4 segment_time 4000.00
+[t237421-d68-e68] (session) download_start
+[t237421-d68-e68] (consume) name download time 0.00
+[t237421-d68-e68] (consume) name enhance time 0.00
+[t237421-d68-e68] (estimate) throughput 2856.08 latency 150.00
+[t237421-d68-e68] (autotune) gamma_p 10.0 V_multiplier 0.5
+[t237421-d68-e68] (control) download 4 enhance 0
+[t237421-d68-e68] (network) period 0 time 30000 bandwidth 5000 latency 75
+[t237421-d68-e68] (download) size 24527216.00 total_time 6227.17 latency 150.00 download_time 6077.17 throughput 4035.96
+[t237421-d68-e68] (session) download_finish
+[t243648-d68-e68] (consume) name download time 6227.17
+[t243648-d68-e68] (consume) name enhance time 6227.17
+[t243648-d68-e68] (consume) name enhance idle time 6227.174399999998
+[t243648-d68-e68] (push) name download decision 4 segment_time 4000.00
+[t243648-d69-e69] (session) download_start
+[t243648-d69-e69] (consume) name download time 0.00
+[t243648-d69-e69] (consume) name enhance time 0.00
+[t243648-d69-e69] (estimate) throughput 3339.07 latency 150.00
+[t243648-d69-e69] (autotune) gamma_p 10.0 V_multiplier 0.30000000000000004
+[t243648-d69-e69] (control) download 4 enhance 0
+[t243648-d69-e69] (download) size 28831024.00 total_time 5841.20 latency 75.00 download_time 5766.20 throughput 5000.00
+[t243648-d69-e69] (session) download_finish
+[t249489-d69-e69] (consume) name download time 5841.20
+[t249489-d69-e69] (consume) name enhance time 5841.20
+[t249489-d69-e69] (consume) name enhance idle time 5841.2048
+[t249489-d69-e69] (push) name download decision 4 segment_time 4000.00
+[t249489-d70-e70] (session) download_start
+[t249489-d70-e70] (consume) name download time 0.00
+[t249489-d70-e70] (consume) name enhance time 0.00
+[t249489-d70-e70] (estimate) throughput 3992.20 latency 75.00
+[t249489-d70-e70] (autotune) gamma_p 10.0 V_multiplier 0.2
+[t249489-d70-e70] (control) download 4 enhance 0
+[t249489-d70-e70] (download) size 21858504.00 total_time 4446.70 latency 75.00 download_time 4371.70 throughput 5000.00
+[t249489-d70-e70] (session) download_finish
+[t253936-d70-e70] (consume) name download time 4446.70
+[t253936-d70-e70] (consume) name enhance time 4446.70
+[t253936-d70-e70] (consume) name enhance idle time 4446.7008
+[t253936-d70-e70] (push) name download decision 4 segment_time 4000.00
+[t253936-d71-e71] (session) download_start
+[t253936-d71-e71] (consume) name download time 0.00
+[t253936-d71-e71] (consume) name enhance time 0.00
+[t253936-d71-e71] (estimate) throughput 4309.96 latency 75.00
+[t253936-d71-e71] (autotune) gamma_p 20.0 V_multiplier 0.2
+[t253936-d71-e71] (control) download 4 enhance 0
+[t253936-d71-e71] (download) size 21964664.00 total_time 4467.93 latency 75.00 download_time 4392.93 throughput 5000.00
+[t253936-d71-e71] (session) download_finish
+[t258404-d71-e71] (consume) name download time 4467.93
+[t258404-d71-e71] (consume) name enhance time 4467.93
+[t258404-d71-e71] (consume) name enhance idle time 4467.9328
+[t258404-d71-e71] (push) name download decision 4 segment_time 4000.00
+[t258404-d72-e72] (session) download_start
+[t258404-d72-e72] (consume) name download time 0.00
+[t258404-d72-e72] (consume) name enhance time 0.00
+[t258404-d72-e72] (estimate) throughput 4528.40 latency 75.00
+[t258404-d72-e72] (autotune) gamma_p 40.0 V_multiplier 0.1
+[t258404-d72-e72] (control) download 4 enhance 0
+[t258404-d72-e72] (download) size 12044792.00 total_time 2483.96 latency 75.00 download_time 2408.96 throughput 5000.00
+[t258404-d72-e72] (session) download_finish
+[t260888-d72-e72] (consume) name download time 2483.96
+[t260888-d72-e72] (consume) name enhance time 2483.96
+[t260888-d72-e72] (consume) name enhance idle time 2483.9584
+[t260888-d72-e72] (push) name download decision 4 segment_time 4000.00
+[t260888-d73-e73] (session) download_start
+[t260888-d73-e73] (consume) name download time 0.00
+[t260888-d73-e73] (consume) name enhance time 0.00
+[t260888-d73-e73] (estimate) throughput 4617.24 latency 75.00
+[t260888-d73-e73] (autotune) gamma_p 10.0 V_multiplier 0.1
+[t260888-d73-e73] (control) download 4 enhance 0
+[t260888-d73-e73] (download) size 8992384.00 total_time 1873.48 latency 75.00 download_time 1798.48 throughput 5000.00
+[t260888-d73-e73] (session) download_finish
+[t262761-d73-e73] (consume) name download time 1873.48
+[t262761-d73-e73] (consume) name enhance time 1873.48
+[t262761-d73-e73] (consume) name enhance idle time 1873.4768
+[t262761-d73-e73] (push) name download decision 4 segment_time 4000.00
+[t262761-d74-e74] (session) download_start
+[t262761-d74-e74] (consume) name download time 0.00
+[t262761-d74-e74] (consume) name enhance time 0.00
+[t262761-d74-e74] (estimate) throughput 4672.47 latency 75.00
+[t262761-d74-e74] (autotune) gamma_p 10.0 V_multiplier 0.1
+[t262761-d74-e74] (control) download 4 enhance 0
+[t262761-d74-e74] (download) size 22866992.00 total_time 4648.40 latency 75.00 download_time 4573.40 throughput 5000.00
+[t262761-d74-e74] (session) download_finish
+[t267410-d74-e74] (consume) name download time 4648.40
+[t267410-d74-e74] (consume) name enhance time 4648.40
+[t267410-d74-e74] (consume) name enhance idle time 4648.3984
+[t267410-d74-e74] (push) name download decision 4 segment_time 4000.00
+[t267410-d75-e75] (session) download_start
+[t267410-d75-e75] (consume) name download time 0.00
+[t267410-d75-e75] (consume) name enhance time 0.00
+[t267410-d75-e75] (estimate) throughput 4779.63 latency 75.00
+[t267410-d75-e75] (autotune) gamma_p 10.0 V_multiplier 0.1
+[t267410-d75-e75] (control) download 4 enhance 0
+[t267410-d75-e75] (download) size 14494992.00 total_time 2974.00 latency 75.00 download_time 2899.00 throughput 5000.00
+[t267410-d75-e75] (session) download_finish
+[t270384-d75-e75] (consume) name download time 2974.00
+[t270384-d75-e75] (consume) name enhance time 2974.00
+[t270384-d75-e75] (consume) name enhance idle time 2973.9984
+[t270384-d75-e75] (push) name download decision 4 segment_time 4000.00
+[t270384-d76-e76] (session) download_start
+[t270384-d76-e76] (consume) name download time 0.00
+[t270384-d76-e76] (consume) name enhance time 0.00
+[t270384-d76-e76] (estimate) throughput 4828.57 latency 75.00
+[t270384-d76-e76] (autotune) gamma_p 10.0 V_multiplier 0.1
+[t270384-d76-e76] (control) download 4 enhance 0
+[t270384-d76-e76] (network) period 1 time 30000 bandwidth 3000 latency 150
+[t270384-d76-e76] (download) size 26681440.00 total_time 8941.16 latency 75.00 download_time 8866.16 throughput 3009.36
+[t270384-d76-e76] (session) download_finish
+[t279325-d76-e76] (consume) name download time 8941.16
+[t279325-d76-e76] (consume) name enhance time 8941.16
+[t279325-d76-e76] (consume) name enhance idle time 8941.157866666666
+[t279325-d76-e76] (push) name download decision 4 segment_time 4000.00
+[t279325-d77-e77] (session) download_start
+[t279325-d77-e77] (consume) name download time 0.00
+[t279325-d77-e77] (consume) name enhance time 0.00
+[t279325-d77-e77] (estimate) throughput 3265.63 latency 75.00
+[t279325-d77-e77] (autotune) gamma_p 10.0 V_multiplier 0.30000000000000004
+[t279325-d77-e77] (control) download 4 enhance 0
+[t279325-d77-e77] (download) size 23968800.00 total_time 8139.60 latency 150.00 download_time 7989.60 throughput 3000.00
+[t279325-d77-e77] (session) download_finish
+[t287464-d77-e77] (consume) name download time 8139.60
+[t287464-d77-e77] (consume) name enhance time 8139.60
+[t287464-d77-e77] (consume) name enhance idle time 8139.6
+[t287464-d77-e77] (push) name download decision 4 segment_time 4000.00
+[t287464-d78-e78] (session) download_start
+[t287464-d78-e78] (consume) name download time 0.00
+[t287464-d78-e78] (consume) name enhance time 0.00
+[t287464-d78-e78] (estimate) throughput 3041.94 latency 150.00
+[t287464-d78-e78] (autotune) gamma_p 10.0 V_multiplier 0.30000000000000004
+[t287464-d78-e78] (control) download 4 enhance 0
+[t287464-d78-e78] (download) size 19985112.00 total_time 6811.70 latency 150.00 download_time 6661.70 throughput 3000.00
+[t287464-d78-e78] (session) download_finish
+[t294276-d78-e78] (consume) name download time 6811.70
+[t294276-d78-e78] (consume) name enhance time 6811.70
+[t294276-d78-e78] (consume) name enhance idle time 6811.704
+[t294276-d78-e78] (push) name download decision 4 segment_time 4000.00
+[t294276-d79-e79] (session) download_start
+[t294276-d79-e79] (consume) name download time 0.00
+[t294276-d79-e79] (consume) name enhance time 0.00
+[t294276-d79-e79] (estimate) throughput 3009.00 latency 150.00
+[t294276-d79-e79] (autotune) gamma_p 10.0 V_multiplier 0.30000000000000004
+[t294276-d79-e79] (control) download 4 enhance 0
+[t294276-d79-e79] (network) period 2 time 30000 bandwidth 1500 latency 200
+[t294276-d79-e79] (download) size 28255192.00 total_time 12912.77 latency 150.00 download_time 12762.77 throughput 2213.88
+[t294276-d79-e79] (session) download_finish
+[t307189-d79-e79] (consume) name download time 12912.77
+[t307189-d79-e79] (consume) name enhance time 12912.77
+[t307189-d79-e79] (consume) name enhance idle time 12912.773333333336
+[t307189-d79-e79] (push) name download decision 4 segment_time 4000.00
+[t307189-d80-e80] (session) download_start
+[t307189-d80-e80] (consume) name download time 0.00
+[t307189-d80-e80] (consume) name enhance time 0.00
+[t307189-d80-e80] (estimate) throughput 2255.54 latency 150.00
+[t307189-d80-e80] (autotune) gamma_p 10.0 V_multiplier 0.8
+[t307189-d80-e80] (control) download 0 enhance 4
+[t307189-d80-e80] (download) size 2124152.00 total_time 1616.10 latency 200.00 download_time 1416.10 throughput 1500.00
+[t307189-d80-e80] (session) download_finish
+[t308805-d80-e80] (consume) name download time 1616.10
+[t308805-d80-e80] (consume) name enhance time 1616.10
+[t308805-d80-e80] (consume) name enhance idle time 1616.1013333333333
+[t308805-d80-e80] (push) name download decision 0 segment_time 4000.00
+[t308805-d81-e80] (push) name enhance decision 4 segment_time 2203.45
+[t308805-d81-e81] (session) download_start
+[t308805-d81-e81] (consume) name download time 0.00
+[t308805-d81-e81] (consume) name enhance time 0.00
+[t308805-d81-e81] (estimate) throughput 2044.71 latency 200.00
+[t308805-d81-e81] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t308805-d81-e81] (control) download 0 enhance 4
+[t308805-d81-e81] (download) size 2062480.00 total_time 1574.99 latency 200.00 download_time 1374.99 throughput 1500.00
+[t308805-d81-e81] (session) download_finish
+[t310380-d81-e81] (consume) name download time 1574.99
+[t310380-d81-e81] (consume) name enhance time 1574.99
+[t310380-d81-e81] (push) name download decision 0 segment_time 4000.00
+[t310380-d82-e81] (push) name enhance decision 4 segment_time 2203.45
+[t310380-d82-e82] (session) download_start
+[t310380-d82-e82] (consume) name download time 0.00
+[t310380-d82-e82] (consume) name enhance time 0.00
+[t310380-d82-e82] (estimate) throughput 1896.45 latency 200.00
+[t310380-d82-e82] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t310380-d82-e82] (control) download 0 enhance 4
+[t310380-d82-e82] (download) size 1970688.00 total_time 1513.79 latency 200.00 download_time 1313.79 throughput 1500.00
+[t310380-d82-e82] (session) download_finish
+[t311894-d82-e82] (consume) name download time 1513.79
+[t311894-d82-e82] (consume) name enhance time 1513.79
+[t311894-d82-e82] (push) name download decision 0 segment_time 4000.00
+[t311894-d83-e82] (push) name enhance decision 4 segment_time 2203.45
+[t311894-d83-e83] (session) download_start
+[t311894-d83-e83] (consume) name download time 0.00
+[t311894-d83-e83] (consume) name enhance time 0.00
+[t311894-d83-e83] (estimate) throughput 1792.66 latency 200.00
+[t311894-d83-e83] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t311894-d83-e83] (control) download 0 enhance 4
+[t311894-d83-e83] (download) size 2175968.00 total_time 1650.65 latency 200.00 download_time 1450.65 throughput 1500.00
+[t311894-d83-e83] (session) download_finish
+[t313544-d83-e83] (consume) name download time 1650.65
+[t313544-d83-e83] (consume) name enhance time 1650.65
+[t313544-d83-e83] (push) name download decision 0 segment_time 4000.00
+[t313544-d84-e83] (push) name enhance decision 4 segment_time 2203.45
+[t313544-d84-e84] (session) download_start
+[t313544-d84-e84] (consume) name download time 0.00
+[t313544-d84-e84] (consume) name enhance time 0.00
+[t313544-d84-e84] (estimate) throughput 1709.31 latency 200.00
+[t313544-d84-e84] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t313544-d84-e84] (control) download 1 enhance 4
+[t313544-d84-e84] (download) size 2431448.00 total_time 1820.97 latency 200.00 download_time 1620.97 throughput 1500.00
+[t313544-d84-e84] (session) download_finish
+[t315365-d84-e84] (consume) name download time 1820.97
+[t315365-d84-e84] (consume) name enhance time 1820.97
+[t315365-d84-e84] (push) name download decision 1 segment_time 4000.00
+[t315365-d85-e84] (push) name enhance decision 4 segment_time 2205.88
+[t315365-d85-e85] (session) download_start
+[t315365-d85-e85] (consume) name download time 0.00
+[t315365-d85-e85] (consume) name enhance time 0.00
+[t315365-d85-e85] (estimate) throughput 1643.93 latency 200.00
+[t315365-d85-e85] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t315365-d85-e85] (control) download 1 enhance 4
+[t315365-d85-e85] (download) size 1748160.00 total_time 1365.44 latency 200.00 download_time 1165.44 throughput 1500.00
+[t315365-d85-e85] (session) download_finish
+[t316731-d85-e85] (consume) name download time 1365.44
+[t316731-d85-e85] (consume) name enhance time 1365.44
+[t316731-d85-e85] (push) name download decision 1 segment_time 4000.00
+[t316731-d86-e85] (push) name enhance decision 4 segment_time 2205.88
+[t316731-d86-e86] (session) download_start
+[t316731-d86-e86] (consume) name download time 0.00
+[t316731-d86-e86] (consume) name enhance time 0.00
+[t316731-d86-e86] (estimate) throughput 1609.95 latency 200.00
+[t316731-d86-e86] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t316731-d86-e86] (control) download 1 enhance 4
+[t316731-d86-e86] (download) size 2689192.00 total_time 1992.79 latency 200.00 download_time 1792.79 throughput 1500.00
+[t316731-d86-e86] (session) download_finish
+[t318723-d86-e86] (consume) name download time 1992.79
+[t318723-d86-e86] (consume) name enhance time 1992.79
+[t318723-d86-e86] (push) name download decision 1 segment_time 4000.00
+[t318723-d87-e86] (push) name enhance decision 4 segment_time 2205.88
+[t318723-d87-e87] (session) download_start
+[t318723-d87-e87] (consume) name download time 0.00
+[t318723-d87-e87] (consume) name enhance time 0.00
+[t318723-d87-e87] (estimate) throughput 1572.66 latency 200.00
+[t318723-d87-e87] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t318723-d87-e87] (control) download 1 enhance 4
+[t318723-d87-e87] (download) size 5809624.00 total_time 4073.08 latency 200.00 download_time 3873.08 throughput 1500.00
+[t318723-d87-e87] (session) download_finish
+[t322797-d87-e87] (consume) name download time 4073.08
+[t322797-d87-e87] (consume) name enhance time 4073.08
+[t322797-d87-e87] (push) name download decision 1 segment_time 4000.00
+[t322797-d88-e87] (push) name enhance decision 4 segment_time 2205.88
+[t322797-d88-e88] (session) download_start
+[t322797-d88-e88] (consume) name download time 0.00
+[t322797-d88-e88] (consume) name enhance time 0.00
+[t322797-d88-e88] (estimate) throughput 1529.69 latency 200.00
+[t322797-d88-e88] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t322797-d88-e88] (control) download 1 enhance 4
+[t322797-d88-e88] (download) size 4846664.00 total_time 3431.11 latency 200.00 download_time 3231.11 throughput 1500.00
+[t322797-d88-e88] (session) download_finish
+[t326228-d88-e88] (consume) name download time 3431.11
+[t326228-d88-e88] (consume) name enhance time 3431.11
+[t326228-d88-e88] (push) name download decision 1 segment_time 4000.00
+[t326228-d89-e88] (push) name enhance decision 4 segment_time 2205.88
+[t326228-d89-e89] (session) download_start
+[t326228-d89-e89] (consume) name download time 0.00
+[t326228-d89-e89] (consume) name enhance time 0.00
+[t326228-d89-e89] (estimate) throughput 1514.07 latency 200.00
+[t326228-d89-e89] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t326228-d89-e89] (control) download 1 enhance 4
+[t326228-d89-e89] (download) size 3968048.00 total_time 2845.37 latency 200.00 download_time 2645.37 throughput 1500.00
+[t326228-d89-e89] (session) download_finish
+[t329073-d89-e89] (consume) name download time 2845.37
+[t329073-d89-e89] (consume) name enhance time 2845.37
+[t329073-d89-e89] (consume) name enhance idle time 424.9612689579676
+[t329073-d89-e89] (push) name download decision 1 segment_time 4000.00
+[t329073-d90-e89] (push) name enhance decision 4 segment_time 2205.88
+[t329073-d90-e90] (session) download_start
+[t329073-d90-e90] (consume) name download time 0.00
+[t329073-d90-e90] (consume) name enhance time 0.00
+[t329073-d90-e90] (estimate) throughput 1507.64 latency 200.00
+[t329073-d90-e90] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t329073-d90-e90] (control) download 1 enhance 4
+[t329073-d90-e90] (network) period 3 time 30000 bandwidth 3000 latency 150
+[t329073-d90-e90] (download) size 5038432.00 total_time 2492.96 latency 200.00 download_time 2292.96 throughput 2197.35
+[t329073-d90-e90] (session) download_finish
+[t331566-d90-e90] (consume) name download time 2492.96
+[t331566-d90-e90] (consume) name enhance time 2492.96
+[t331566-d90-e90] (consume) name enhance idle time 287.0776470588203
+[t331566-d90-e90] (push) name download decision 1 segment_time 4000.00
+[t331566-d91-e90] (push) name enhance decision 4 segment_time 2205.88
+[t331566-d91-e91] (session) download_start
+[t331566-d91-e91] (consume) name download time 0.00
+[t331566-d91-e91] (consume) name enhance time 0.00
+[t331566-d91-e91] (estimate) throughput 1779.85 latency 200.00
+[t331566-d91-e91] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t331566-d91-e91] (control) download 1 enhance 4
+[t331566-d91-e91] (download) size 3474360.00 total_time 1308.12 latency 150.00 download_time 1158.12 throughput 3000.00
+[t331566-d91-e91] (session) download_finish
+[t332874-d91-e91] (consume) name download time 1308.12
+[t332874-d91-e91] (consume) name enhance time 1308.12
+[t332874-d91-e91] (push) name download decision 1 segment_time 4000.00
+[t332874-d92-e91] (push) name enhance decision 4 segment_time 2205.88
+[t332874-d92-e92] (session) download_start
+[t332874-d92-e92] (consume) name download time 0.00
+[t332874-d92-e92] (consume) name enhance time 0.00
+[t332874-d92-e92] (estimate) throughput 1896.34 latency 150.00
+[t332874-d92-e92] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t332874-d92-e92] (control) download 1 enhance 4
+[t332874-d92-e92] (download) size 3260624.00 total_time 1236.87 latency 150.00 download_time 1086.87 throughput 3000.00
+[t332874-d92-e92] (session) download_finish
+[t334111-d92-e92] (consume) name download time 1236.87
+[t334111-d92-e92] (consume) name enhance time 1236.87
+[t334111-d92-e92] (push) name download decision 1 segment_time 4000.00
+[t334111-d93-e92] (push) name enhance decision 4 segment_time 2205.88
+[t334111-d93-e93] (session) download_start
+[t334111-d93-e93] (consume) name download time 0.00
+[t334111-d93-e93] (consume) name enhance time 0.00
+[t334111-d93-e93] (estimate) throughput 1995.53 latency 150.00
+[t334111-d93-e93] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t334111-d93-e93] (control) download 2 enhance 4
+[t334111-d93-e93] (download) size 4316784.00 total_time 1588.93 latency 150.00 download_time 1438.93 throughput 3000.00
+[t334111-d93-e93] (session) download_finish
+[t335700-d93-e93] (consume) name download time 1588.93
+[t335700-d93-e93] (consume) name enhance time 1588.93
+[t335700-d93-e93] (push) name download decision 2 segment_time 4000.00
+[t335700-d94-e93] (push) name enhance decision 4 segment_time 2696.63
+[t335700-d94-e94] (session) download_start
+[t335700-d94-e94] (consume) name download time 0.00
+[t335700-d94-e94] (consume) name enhance time 0.00
+[t335700-d94-e94] (estimate) throughput 2113.27 latency 150.00
+[t335700-d94-e94] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t335700-d94-e94] (control) download 3 enhance 0
+[t335700-d94-e94] (download) size 5178512.00 total_time 1876.17 latency 150.00 download_time 1726.17 throughput 3000.00
+[t335700-d94-e94] (session) download_finish
+[t337576-d94-e94] (consume) name download time 1876.17
+[t337576-d94-e94] (consume) name enhance time 1876.17
+[t337576-d94-e94] (push) name download decision 3 segment_time 4000.00
+[t337576-d95-e95] (session) download_start
+[t337576-d95-e95] (consume) name download time 0.00
+[t337576-d95-e95] (consume) name enhance time 0.00
+[t337576-d95-e95] (estimate) throughput 2236.45 latency 150.00
+[t337576-d95-e95] (autotune) gamma_p 10.0 V_multiplier 0.8
+[t337576-d95-e95] (control) download 4 enhance 0
+[t337576-d95-e95] (download) size 10412000.00 total_time 3620.67 latency 150.00 download_time 3470.67 throughput 3000.00
+[t337576-d95-e95] (session) download_finish
+[t341197-d95-e95] (consume) name download time 3620.67
+[t341197-d95-e95] (consume) name enhance time 3620.67
+[t341197-d95-e95] (consume) name enhance idle time 316.48372769332354
+[t341197-d95-e95] (push) name download decision 4 segment_time 4000.00
+[t341197-d96-e96] (session) download_start
+[t341197-d96-e96] (consume) name download time 0.00
+[t341197-d96-e96] (consume) name enhance time 0.00
+[t341197-d96-e96] (estimate) throughput 2434.75 latency 150.00
+[t341197-d96-e96] (autotune) gamma_p 10.0 V_multiplier 0.8
+[t341197-d96-e96] (control) download 4 enhance 0
+[t341197-d96-e96] (download) size 9875832.00 total_time 3441.94 latency 150.00 download_time 3291.94 throughput 3000.00
+[t341197-d96-e96] (session) download_finish
+[t344639-d96-e96] (consume) name download time 3441.94
+[t344639-d96-e96] (consume) name enhance time 3441.94
+[t344639-d96-e96] (consume) name enhance idle time 3441.944
+[t344639-d96-e96] (push) name download decision 4 segment_time 4000.00
+[t344639-d97-e97] (session) download_start
+[t344639-d97-e97] (consume) name download time 0.00
+[t344639-d97-e97] (consume) name enhance time 0.00
+[t344639-d97-e97] (estimate) throughput 2575.02 latency 150.00
+[t344639-d97-e97] (autotune) gamma_p 10.0 V_multiplier 0.8
+[t344639-d97-e97] (control) download 4 enhance 0
+[t344639-d97-e97] (download) size 5025424.00 total_time 1825.14 latency 150.00 download_time 1675.14 throughput 3000.00
+[t344639-d97-e97] (session) download_finish
+[t346464-d97-e97] (consume) name download time 1825.14
+[t346464-d97-e97] (consume) name enhance time 1825.14
+[t346464-d97-e97] (consume) name enhance idle time 1825.1413333333333
+[t346464-d97-e97] (push) name download decision 4 segment_time 4000.00
+[t346464-d98-e98] (session) download_start
+[t346464-d98-e98] (consume) name download time 0.00
+[t346464-d98-e98] (consume) name enhance time 0.00
+[t346464-d98-e98] (estimate) throughput 2632.43 latency 150.00
+[t346464-d98-e98] (autotune) gamma_p 10.0 V_multiplier 0.6
+[t346464-d98-e98] (control) download 4 enhance 0
+[t346464-d98-e98] (download) size 9847208.00 total_time 3432.40 latency 150.00 download_time 3282.40 throughput 3000.00
+[t346464-d98-e98] (session) download_finish
+[t349896-d98-e98] (consume) name download time 3432.40
+[t349896-d98-e98] (consume) name enhance time 3432.40
+[t349896-d98-e98] (consume) name enhance idle time 3432.402666666667
+[t349896-d98-e98] (push) name download decision 4 segment_time 4000.00
+[t349896-d99-e99] (session) download_start
+[t349896-d99-e99] (consume) name download time 0.00
+[t349896-d99-e99] (consume) name enhance time 0.00
+[t349896-d99-e99] (estimate) throughput 2723.42 latency 150.00
+[t349896-d99-e99] (autotune) gamma_p 10.0 V_multiplier 0.6
+[t349896-d99-e99] (control) download 4 enhance 0
+[t349896-d99-e99] (download) size 10719368.00 total_time 3723.12 latency 150.00 download_time 3573.12 throughput 3000.00
+[t349896-d99-e99] (session) download_finish
+[t353619-d99-e99] (consume) name download time 3723.12
+[t353619-d99-e99] (consume) name enhance time 3723.12
+[t353619-d99-e99] (consume) name enhance idle time 3723.1226666666666
+[t353619-d99-e99] (push) name download decision 4 segment_time 4000.00
+[t353619-d100-e100] (session) download_start
+[t353619-d100-e100] (consume) name download time 0.00
+[t353619-d100-e100] (consume) name enhance time 0.00
+[t353619-d100-e100] (estimate) throughput 2797.06 latency 150.00
+[t353619-d100-e100] (autotune) gamma_p 10.0 V_multiplier 0.6
+[t353619-d100-e100] (control) download 4 enhance 0
+[t353619-d100-e100] (download) size 14770944.00 total_time 5073.65 latency 150.00 download_time 4923.65 throughput 3000.00
+[t353619-d100-e100] (session) download_finish
+[t358693-d100-e100] (consume) name download time 5073.65
+[t358693-d100-e100] (consume) name enhance time 5073.65
+[t358693-d100-e100] (consume) name enhance idle time 5073.648
+[t358693-d100-e100] (push) name download decision 4 segment_time 4000.00
+[t358693-d101-e101] (session) download_start
+[t358693-d101-e101] (consume) name download time 0.00
+[t358693-d101-e101] (consume) name enhance time 0.00
+[t358693-d101-e101] (estimate) throughput 2867.53 latency 150.00
+[t358693-d101-e101] (autotune) gamma_p 10.0 V_multiplier 0.5
+[t358693-d101-e101] (control) download 4 enhance 0
+[t358693-d101-e101] (network) period 0 time 30000 bandwidth 5000 latency 75
+[t358693-d101-e101] (download) size 10789152.00 total_time 2970.63 latency 150.00 download_time 2820.63 throughput 3825.09
+[t358693-d101-e101] (session) download_finish
+[t361664-d101-e101] (consume) name download time 2970.63
+[t361664-d101-e101] (consume) name enhance time 2970.63
+[t361664-d101-e101] (consume) name enhance idle time 2970.6250666666665
+[t361664-d101-e101] (push) name download decision 4 segment_time 4000.00
+[t361664-d102-e102] (session) download_start
+[t361664-d102-e102] (consume) name download time 0.00
+[t361664-d102-e102] (consume) name enhance time 0.00
+[t361664-d102-e102] (estimate) throughput 3075.15 latency 150.00
+[t361664-d102-e102] (autotune) gamma_p 10.0 V_multiplier 0.30000000000000004
+[t361664-d102-e102] (control) download 4 enhance 0
+[t361664-d102-e102] (download) size 15163160.00 total_time 3107.63 latency 75.00 download_time 3032.63 throughput 5000.00
+[t361664-d102-e102] (session) download_finish
+[t364771-d102-e102] (consume) name download time 3107.63
+[t364771-d102-e102] (consume) name enhance time 3107.63
+[t364771-d102-e102] (consume) name enhance idle time 3107.632
+[t364771-d102-e102] (push) name download decision 4 segment_time 4000.00
+[t364771-d103-e103] (session) download_start
+[t364771-d103-e103] (consume) name download time 0.00
+[t364771-d103-e103] (consume) name enhance time 0.00
+[t364771-d103-e103] (estimate) throughput 3519.93 latency 75.00
+[t364771-d103-e103] (autotune) gamma_p 10.0 V_multiplier 0.30000000000000004
+[t364771-d103-e103] (control) download 4 enhance 0
+[t364771-d103-e103] (download) size 21047888.00 total_time 4284.58 latency 75.00 download_time 4209.58 throughput 5000.00
+[t364771-d103-e103] (session) download_finish
+[t369056-d103-e103] (consume) name download time 4284.58
+[t369056-d103-e103] (consume) name enhance time 4284.58
+[t369056-d103-e103] (consume) name enhance idle time 4284.5776
+[t369056-d103-e103] (push) name download decision 4 segment_time 4000.00
+[t369056-d104-e104] (session) download_start
+[t369056-d104-e104] (consume) name download time 0.00
+[t369056-d104-e104] (consume) name enhance time 0.00
+[t369056-d104-e104] (estimate) throughput 3972.26 latency 75.00
+[t369056-d104-e104] (autotune) gamma_p 10.0 V_multiplier 0.2
+[t369056-d104-e104] (control) download 4 enhance 0
+[t369056-d104-e104] (download) size 20516736.00 total_time 4178.35 latency 75.00 download_time 4103.35 throughput 5000.00
+[t369056-d104-e104] (session) download_finish
+[t373234-d104-e104] (consume) name download time 4178.35
+[t373234-d104-e104] (consume) name enhance time 4178.35
+[t373234-d104-e104] (consume) name enhance idle time 4178.3472
+[t373234-d104-e104] (push) name download decision 4 segment_time 4000.00
+[t373234-d105-e105] (session) download_start
+[t373234-d105-e105] (consume) name download time 0.00
+[t373234-d105-e105] (consume) name enhance time 0.00
+[t373234-d105-e105] (estimate) throughput 4279.76 latency 75.00
+[t373234-d105-e105] (autotune) gamma_p 20.0 V_multiplier 0.2
+[t373234-d105-e105] (control) download 4 enhance 0
+[t373234-d105-e105] (download) size 16677872.00 total_time 3410.57 latency 75.00 download_time 3335.57 throughput 5000.00
+[t373234-d105-e105] (session) download_finish
+[t376645-d105-e105] (consume) name download time 3410.57
+[t376645-d105-e105] (consume) name enhance time 3410.57
+[t376645-d105-e105] (consume) name enhance idle time 3410.5744
+[t376645-d105-e105] (push) name download decision 4 segment_time 4000.00
+[t376645-d106-e106] (session) download_start
+[t376645-d106-e106] (consume) name download time 0.00
+[t376645-d106-e106] (consume) name enhance time 0.00
+[t376645-d106-e106] (estimate) throughput 4460.53 latency 75.00
+[t376645-d106-e106] (autotune) gamma_p 40.0 V_multiplier 0.1
+[t376645-d106-e106] (control) download 4 enhance 0
+[t376645-d106-e106] (download) size 45609808.00 total_time 9196.96 latency 75.00 download_time 9121.96 throughput 5000.00
+[t376645-d106-e106] (session) download_finish
+[t385842-d106-e106] (consume) name download time 9196.96
+[t385842-d106-e106] (consume) name enhance time 9196.96
+[t385842-d106-e106] (consume) name enhance idle time 9196.9616
+[t385842-d106-e106] (push) name download decision 4 segment_time 4000.00
+[t385842-d107-e107] (session) download_start
+[t385842-d107-e107] (consume) name download time 0.00
+[t385842-d107-e107] (consume) name enhance time 0.00
+[t385842-d107-e107] (estimate) throughput 4755.25 latency 75.00
+[t385842-d107-e107] (autotune) gamma_p 10.0 V_multiplier 0.1
+[t385842-d107-e107] (control) download 4 enhance 0
+[t385842-d107-e107] (network) period 1 time 30000 bandwidth 3000 latency 150
+[t385842-d107-e107] (download) size 35685232.00 total_time 8914.56 latency 75.00 download_time 8839.56 throughput 4036.99
+[t385842-d107-e107] (session) download_finish
+[t394756-d107-e107] (consume) name download time 8914.56
+[t394756-d107-e107] (consume) name enhance time 8914.56
+[t394756-d107-e107] (consume) name enhance idle time 8914.5648
+[t394756-d107-e107] (push) name download decision 4 segment_time 4000.00
+[t394756-d108-e108] (session) download_start
+[t394756-d108-e108] (consume) name download time 0.00
+[t394756-d108-e108] (consume) name enhance time 0.00
+[t394756-d108-e108] (estimate) throughput 4161.06 latency 75.00
+[t394756-d108-e108] (autotune) gamma_p 10.0 V_multiplier 0.2
+[t394756-d108-e108] (control) download 4 enhance 0
+[t394756-d108-e108] (download) size 27551472.00 total_time 9333.82 latency 150.00 download_time 9183.82 throughput 3000.00
+[t394756-d108-e108] (session) download_finish
+[t404090-d108-e108] (consume) name download time 9333.82
+[t404090-d108-e108] (consume) name enhance time 9333.82
+[t404090-d108-e108] (consume) name enhance idle time 9333.824
+[t404090-d108-e108] (push) name download decision 4 segment_time 4000.00
+[t404090-d109-e109] (session) download_start
+[t404090-d109-e109] (consume) name download time 0.00
+[t404090-d109-e109] (consume) name enhance time 0.00
+[t404090-d109-e109] (estimate) throughput 3139.10 latency 150.00
+[t404090-d109-e109] (autotune) gamma_p 10.0 V_multiplier 0.30000000000000004
+[t404090-d109-e109] (control) download 4 enhance 0
+[t404090-d109-e109] (download) size 30212392.00 total_time 10220.80 latency 150.00 download_time 10070.80 throughput 3000.00
+[t404090-d109-e109] (session) download_finish
+[t414311-d109-e109] (consume) name download time 10220.80
+[t414311-d109-e109] (consume) name enhance time 10220.80
+[t414311-d109-e109] (consume) name enhance idle time 10220.797333333334
+[t414311-d109-e109] (push) name download decision 4 segment_time 4000.00
+[t414311-d110-e110] (session) download_start
+[t414311-d110-e110] (consume) name download time 0.00
+[t414311-d110-e110] (consume) name enhance time 0.00
+[t414311-d110-e110] (estimate) throughput 3013.58 latency 150.00
+[t414311-d110-e110] (autotune) gamma_p 10.0 V_multiplier 0.30000000000000004
+[t414311-d110-e110] (control) download 4 enhance 0
+[t414311-d110-e110] (network) period 2 time 30000 bandwidth 1500 latency 200
+[t414311-d110-e110] (download) size 19947736.00 total_time 7409.41 latency 150.00 download_time 7259.41 throughput 2747.85
+[t414311-d110-e110] (session) download_finish
+[t421720-d110-e110] (consume) name download time 7409.41
+[t421720-d110-e110] (consume) name enhance time 7409.41
+[t421720-d110-e110] (consume) name enhance idle time 7409.408000000002
+[t421720-d110-e110] (push) name download decision 4 segment_time 4000.00
+[t421720-d111-e111] (session) download_start
+[t421720-d111-e111] (consume) name download time 0.00
+[t421720-d111-e111] (consume) name enhance time 0.00
+[t421720-d111-e111] (estimate) throughput 2797.51 latency 150.00
+[t421720-d111-e111] (autotune) gamma_p 10.0 V_multiplier 0.6
+[t421720-d111-e111] (control) download 2 enhance 4
+[t421720-d111-e111] (download) size 6922880.00 total_time 4815.25 latency 200.00 download_time 4615.25 throughput 1500.00
+[t421720-d111-e111] (session) download_finish
+[t426536-d111-e111] (consume) name download time 4815.25
+[t426536-d111-e111] (consume) name enhance time 4815.25
+[t426536-d111-e111] (consume) name enhance idle time 4815.253333333333
+[t426536-d111-e111] (push) name download decision 2 segment_time 4000.00
+[t426536-d112-e111] (push) name enhance decision 4 segment_time 2696.63
+[t426536-d112-e112] (session) download_start
+[t426536-d112-e112] (consume) name download time 0.00
+[t426536-d112-e112] (consume) name enhance time 0.00
+[t426536-d112-e112] (estimate) throughput 1946.68 latency 200.00
+[t426536-d112-e112] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t426536-d112-e112] (control) download 0 enhance 4
+[t426536-d112-e112] (download) size 1763096.00 total_time 1375.40 latency 200.00 download_time 1175.40 throughput 1500.00
+[t426536-d112-e112] (session) download_finish
+[t427911-d112-e112] (consume) name download time 1375.40
+[t427911-d112-e112] (consume) name enhance time 1375.40
+[t427911-d112-e112] (push) name download decision 0 segment_time 4000.00
+[t427911-d113-e112] (push) name enhance decision 4 segment_time 2203.45
+[t427911-d113-e113] (session) download_start
+[t427911-d113-e113] (consume) name download time 0.00
+[t427911-d113-e113] (consume) name enhance time 0.00
+[t427911-d113-e113] (estimate) throughput 1840.45 latency 200.00
+[t427911-d113-e113] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t427911-d113-e113] (control) download 1 enhance 4
+[t427911-d113-e113] (download) size 1494376.00 total_time 1196.25 latency 200.00 download_time 996.25 throughput 1500.00
+[t427911-d113-e113] (session) download_finish
+[t429107-d113-e113] (consume) name download time 1196.25
+[t429107-d113-e113] (consume) name enhance time 1196.25
+[t429107-d113-e113] (push) name download decision 1 segment_time 4000.00
+[t429107-d114-e113] (push) name enhance decision 4 segment_time 2205.88
+[t429107-d114-e114] (session) download_start
+[t429107-d114-e114] (consume) name download time 0.00
+[t429107-d114-e114] (consume) name enhance time 0.00
+[t429107-d114-e114] (estimate) throughput 1770.45 latency 200.00
+[t429107-d114-e114] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t429107-d114-e114] (control) download 1 enhance 4
+[t429107-d114-e114] (download) size 2283672.00 total_time 1722.45 latency 200.00 download_time 1522.45 throughput 1500.00
+[t429107-d114-e114] (session) download_finish
+[t430830-d114-e114] (consume) name download time 1722.45
+[t430830-d114-e114] (consume) name enhance time 1722.45
+[t430830-d114-e114] (push) name download decision 1 segment_time 4000.00
+[t430830-d115-e114] (push) name enhance decision 4 segment_time 2205.88
+[t430830-d115-e115] (session) download_start
+[t430830-d115-e115] (consume) name download time 0.00
+[t430830-d115-e115] (consume) name enhance time 0.00
+[t430830-d115-e115] (estimate) throughput 1690.25 latency 200.00
+[t430830-d115-e115] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t430830-d115-e115] (control) download 1 enhance 4
+[t430830-d115-e115] (download) size 2233208.00 total_time 1688.81 latency 200.00 download_time 1488.81 throughput 1500.00
+[t430830-d115-e115] (session) download_finish
+[t432518-d115-e115] (consume) name download time 1688.81
+[t432518-d115-e115] (consume) name enhance time 1688.81
+[t432518-d115-e115] (push) name download decision 1 segment_time 4000.00
+[t432518-d116-e115] (push) name enhance decision 4 segment_time 2205.88
+[t432518-d116-e116] (session) download_start
+[t432518-d116-e116] (consume) name download time 0.00
+[t432518-d116-e116] (consume) name enhance time 0.00
+[t432518-d116-e116] (estimate) throughput 1634.87 latency 200.00
+[t432518-d116-e116] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t432518-d116-e116] (control) download 1 enhance 4
+[t432518-d116-e116] (download) size 2218696.00 total_time 1679.13 latency 200.00 download_time 1479.13 throughput 1500.00
+[t432518-d116-e116] (session) download_finish
+[t434198-d116-e116] (consume) name download time 1679.13
+[t434198-d116-e116] (consume) name enhance time 1679.13
+[t434198-d116-e116] (push) name download decision 1 segment_time 4000.00
+[t434198-d117-e116] (push) name enhance decision 4 segment_time 2205.88
+[t434198-d117-e117] (session) download_start
+[t434198-d117-e117] (consume) name download time 0.00
+[t434198-d117-e117] (consume) name enhance time 0.00
+[t434198-d117-e117] (estimate) throughput 1595.83 latency 200.00
+[t434198-d117-e117] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t434198-d117-e117] (control) download 1 enhance 4
+[t434198-d117-e117] (download) size 4023288.00 total_time 2882.19 latency 200.00 download_time 2682.19 throughput 1500.00
+[t434198-d117-e117] (session) download_finish
+[t437080-d117-e117] (consume) name download time 2882.19
+[t437080-d117-e117] (consume) name enhance time 2882.19
+[t437080-d117-e117] (push) name download decision 1 segment_time 4000.00
+[t437080-d118-e117] (push) name enhance decision 4 segment_time 2205.88
+[t437080-d118-e118] (session) download_start
+[t437080-d118-e118] (consume) name download time 0.00
+[t437080-d118-e118] (consume) name enhance time 0.00
+[t437080-d118-e118] (estimate) throughput 1551.57 latency 200.00
+[t437080-d118-e118] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t437080-d118-e118] (control) download 1 enhance 4
+[t437080-d118-e118] (download) size 2915984.00 total_time 2143.99 latency 200.00 download_time 1943.99 throughput 1500.00
+[t437080-d118-e118] (session) download_finish
+[t439224-d118-e118] (consume) name download time 2143.99
+[t439224-d118-e118] (consume) name enhance time 2143.99
+[t439224-d118-e118] (push) name download decision 1 segment_time 4000.00
+[t439224-d119-e118] (push) name enhance decision 4 segment_time 2205.88
+[t439224-d119-e119] (session) download_start
+[t439224-d119-e119] (consume) name download time 0.00
+[t439224-d119-e119] (consume) name enhance time 0.00
+[t439224-d119-e119] (estimate) throughput 1532.91 latency 200.00
+[t439224-d119-e119] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t439224-d119-e119] (control) download 2 enhance 4
+[t439224-d119-e119] (download) size 2623840.00 total_time 1949.23 latency 200.00 download_time 1749.23 throughput 1500.00
+[t439224-d119-e119] (session) download_finish
+[t441173-d119-e119] (consume) name download time 1949.23
+[t441173-d119-e119] (consume) name enhance time 1949.23
+[t441173-d119-e119] (push) name download decision 2 segment_time 4000.00
+[t441173-d120-e119] (push) name enhance decision 4 segment_time 2696.63
+[t441173-d120-e120] (session) download_start
+[t441173-d120-e120] (consume) name download time 0.00
+[t441173-d120-e120] (consume) name enhance time 0.00
+[t441173-d120-e120] (estimate) throughput 1521.97 latency 200.00
+[t441173-d120-e120] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t441173-d120-e120] (control) download 3 enhance 0
+[t441173-d120-e120] (download) size 5523600.00 total_time 3882.40 latency 200.00 download_time 3682.40 throughput 1500.00
+[t441173-d120-e120] (session) download_finish
+[t445055-d120-e120] (consume) name download time 3882.40
+[t445055-d120-e120] (consume) name enhance time 3882.40
+[t445055-d120-e120] (push) name download decision 3 segment_time 4000.00
+[t445055-d121-e121] (session) download_start
+[t445055-d121-e121] (consume) name download time 0.00
+[t445055-d121-e121] (consume) name enhance time 0.00
+[t445055-d121-e121] (estimate) throughput 1509.38 latency 200.00
+[t445055-d121-e121] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t445055-d121-e121] (control) download 2 enhance 4
+[t445055-d121-e121] (download) size 1941952.00 total_time 1494.63 latency 200.00 download_time 1294.63 throughput 1500.00
+[t445055-d121-e121] (session) download_finish
+[t446550-d121-e121] (consume) name download time 1494.63
+[t446550-d121-e121] (consume) name enhance time 1494.63
+[t446550-d121-e121] (push) name download decision 2 segment_time 4000.00
+[t446550-d122-e121] (push) name enhance decision 4 segment_time 2696.63
+[t446550-d122-e122] (session) download_start
+[t446550-d122-e122] (consume) name download time 0.00
+[t446550-d122-e122] (consume) name enhance time 0.00
+[t446550-d122-e122] (estimate) throughput 1506.96 latency 200.00
+[t446550-d122-e122] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t446550-d122-e122] (control) download 3 enhance 0
+[t446550-d122-e122] (network) period 3 time 30000 bandwidth 3000 latency 150
+[t446550-d122-e122] (download) size 5662272.00 total_time 3962.40 latency 200.00 download_time 3762.40 throughput 1504.96
+[t446550-d122-e122] (session) download_finish
+[t450512-d122-e122] (consume) name download time 3962.40
+[t450512-d122-e122] (consume) name enhance time 3962.40
+[t450512-d122-e122] (consume) name enhance idle time 448.2381669861293
+[t450512-d122-e122] (push) name download decision 3 segment_time 4000.00
+[t450512-d123-e123] (session) download_start
+[t450512-d123-e123] (consume) name download time 0.00
+[t450512-d123-e123] (consume) name enhance time 0.00
+[t450512-d123-e123] (estimate) throughput 1505.80 latency 200.00
+[t450512-d123-e123] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t450512-d123-e123] (control) download 2 enhance 4
+[t450512-d123-e123] (download) size 2983304.00 total_time 1144.43 latency 150.00 download_time 994.43 throughput 3000.00
+[t450512-d123-e123] (session) download_finish
+[t451657-d123-e123] (consume) name download time 1144.43
+[t451657-d123-e123] (consume) name enhance time 1144.43
+[t451657-d123-e123] (consume) name enhance idle time 1144.4346666666668
+[t451657-d123-e123] (push) name download decision 2 segment_time 4000.00
+[t451657-d124-e123] (push) name enhance decision 4 segment_time 2696.63
+[t451657-d124-e124] (session) download_start
+[t451657-d124-e124] (consume) name download time 0.00
+[t451657-d124-e124] (consume) name enhance time 0.00
+[t451657-d124-e124] (estimate) throughput 1766.79 latency 150.00
+[t451657-d124-e124] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t451657-d124-e124] (control) download 3 enhance 0
+[t451657-d124-e124] (download) size 5487880.00 total_time 1979.29 latency 150.00 download_time 1829.29 throughput 3000.00
+[t451657-d124-e124] (session) download_finish
+[t453636-d124-e124] (consume) name download time 1979.29
+[t453636-d124-e124] (consume) name enhance time 1979.29
+[t453636-d124-e124] (push) name download decision 3 segment_time 4000.00
+[t453636-d125-e125] (session) download_start
+[t453636-d125-e125] (consume) name download time 0.00
+[t453636-d125-e125] (consume) name enhance time 0.00
+[t453636-d125-e125] (estimate) throughput 1947.55 latency 150.00
+[t453636-d125-e125] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t453636-d125-e125] (control) download 3 enhance 0
+[t453636-d125-e125] (download) size 6557448.00 total_time 2335.82 latency 150.00 download_time 2185.82 throughput 3000.00
+[t453636-d125-e125] (session) download_finish
+[t455972-d125-e125] (consume) name download time 2335.82
+[t455972-d125-e125] (consume) name enhance time 2335.82
+[t455972-d125-e125] (consume) name enhance idle time 1618.480119850187
+[t455972-d125-e125] (push) name download decision 3 segment_time 4000.00
+[t455972-d126-e126] (session) download_start
+[t455972-d126-e126] (consume) name download time 0.00
+[t455972-d126-e126] (consume) name enhance time 0.00
+[t455972-d126-e126] (estimate) throughput 2129.13 latency 150.00
+[t455972-d126-e126] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t455972-d126-e126] (control) download 4 enhance 0
+[t455972-d126-e126] (download) size 15741288.00 total_time 5397.10 latency 150.00 download_time 5247.10 throughput 3000.00
+[t455972-d126-e126] (session) download_finish
+[t461369-d126-e126] (consume) name download time 5397.10
+[t461369-d126-e126] (consume) name enhance time 5397.10
+[t461369-d126-e126] (consume) name enhance idle time 5397.096
+[t461369-d126-e126] (push) name download decision 4 segment_time 4000.00
+[t461369-d127-e127] (session) download_start
+[t461369-d127-e127] (consume) name download time 0.00
+[t461369-d127-e127] (consume) name enhance time 0.00
+[t461369-d127-e127] (estimate) throughput 2447.27 latency 150.00
+[t461369-d127-e127] (autotune) gamma_p 10.0 V_multiplier 0.6
+[t461369-d127-e127] (control) download 4 enhance 0
+[t461369-d127-e127] (download) size 18622864.00 total_time 6357.62 latency 150.00 download_time 6207.62 throughput 3000.00
+[t461369-d127-e127] (session) download_finish
+[t467727-d127-e127] (consume) name download time 6357.62
+[t467727-d127-e127] (consume) name enhance time 6357.62
+[t467727-d127-e127] (consume) name enhance idle time 6357.6213333333335
+[t467727-d127-e127] (push) name download decision 4 segment_time 4000.00
+[t467727-d128-e128] (session) download_start
+[t467727-d128-e128] (consume) name download time 0.00
+[t467727-d128-e128] (consume) name enhance time 0.00
+[t467727-d128-e128] (estimate) throughput 2677.21 latency 150.00
+[t467727-d128-e128] (autotune) gamma_p 10.0 V_multiplier 0.6
+[t467727-d128-e128] (control) download 4 enhance 0
+[t467727-d128-e128] (download) size 24138112.00 total_time 8196.04 latency 150.00 download_time 8046.04 throughput 3000.00
+[t467727-d128-e128] (session) download_finish
+[t475923-d128-e128] (consume) name download time 8196.04
+[t475923-d128-e128] (consume) name enhance time 8196.04
+[t475923-d128-e128] (consume) name enhance idle time 8196.037333333334
+[t475923-d128-e128] (push) name download decision 4 segment_time 4000.00
+[t475923-d129-e129] (session) download_start
+[t475923-d129-e129] (consume) name download time 0.00
+[t475923-d129-e129] (consume) name enhance time 0.00
+[t475923-d129-e129] (estimate) throughput 2839.25 latency 150.00
+[t475923-d129-e129] (autotune) gamma_p 10.0 V_multiplier 0.5
+[t475923-d129-e129] (control) download 4 enhance 0
+[t475923-d129-e129] (network) period 0 time 30000 bandwidth 5000 latency 75
+[t475923-d129-e129] (download) size 21075880.00 total_time 6136.08 latency 150.00 download_time 5986.08 throughput 3520.82
+[t475923-d129-e129] (session) download_finish
+[t482059-d129-e129] (consume) name download time 6136.08
+[t482059-d129-e129] (consume) name enhance time 6136.08
+[t482059-d129-e129] (consume) name enhance idle time 6136.076266666665
+[t482059-d129-e129] (push) name download decision 4 segment_time 4000.00
+[t482059-d130-e130] (session) download_start
+[t482059-d130-e130] (consume) name download time 0.00
+[t482059-d130-e130] (consume) name enhance time 0.00
+[t482059-d130-e130] (estimate) throughput 3115.06 latency 150.00
+[t482059-d130-e130] (autotune) gamma_p 10.0 V_multiplier 0.30000000000000004
+[t482059-d130-e130] (control) download 4 enhance 0
+[t482059-d130-e130] (download) size 22298392.00 total_time 4534.68 latency 75.00 download_time 4459.68 throughput 5000.00
+[t482059-d130-e130] (session) download_finish
+[t486594-d130-e130] (consume) name download time 4534.68
+[t486594-d130-e130] (consume) name enhance time 4534.68
+[t486594-d130-e130] (consume) name enhance idle time 4534.6784
+[t486594-d130-e130] (push) name download decision 4 segment_time 4000.00
+[t486594-d131-e131] (session) download_start
+[t486594-d131-e131] (consume) name download time 0.00
+[t486594-d131-e131] (consume) name enhance time 0.00
+[t486594-d131-e131] (estimate) throughput 3719.19 latency 75.00
+[t486594-d131-e131] (autotune) gamma_p 20.0 V_multiplier 0.2
+[t486594-d131-e131] (control) download 4 enhance 0
+[t486594-d131-e131] (download) size 20672416.00 total_time 4209.48 latency 75.00 download_time 4134.48 throughput 5000.00
+[t486594-d131-e131] (session) download_finish
+[t490803-d131-e131] (consume) name download time 4209.48
+[t490803-d131-e131] (consume) name enhance time 4209.48
+[t490803-d131-e131] (consume) name enhance idle time 4209.4832
+[t490803-d131-e131] (push) name download decision 4 segment_time 4000.00
+[t490803-d132-e132] (session) download_start
+[t490803-d132-e132] (consume) name download time 0.00
+[t490803-d132-e132] (consume) name enhance time 0.00
+[t490803-d132-e132] (estimate) throughput 4104.82 latency 75.00
+[t490803-d132-e132] (autotune) gamma_p 10.0 V_multiplier 0.2
+[t490803-d132-e132] (control) download 4 enhance 0
+[t490803-d132-e132] (download) size 23860072.00 total_time 4847.01 latency 75.00 download_time 4772.01 throughput 5000.00
+[t490803-d132-e132] (session) download_finish
+[t495650-d132-e132] (consume) name download time 4847.01
+[t495650-d132-e132] (consume) name enhance time 4847.01
+[t495650-d132-e132] (consume) name enhance idle time 4847.0144
+[t495650-d132-e132] (push) name download decision 4 segment_time 4000.00
+[t495650-d133-e133] (session) download_start
+[t495650-d133-e133] (consume) name download time 0.00
+[t495650-d133-e133] (consume) name enhance time 0.00
+[t495650-d133-e133] (estimate) throughput 4407.97 latency 75.00
+[t495650-d133-e133] (autotune) gamma_p 40.0 V_multiplier 0.1
+[t495650-d133-e133] (control) download 4 enhance 0
+[t495650-d133-e133] (download) size 19957312.00 total_time 4066.46 latency 75.00 download_time 3991.46 throughput 5000.00
+[t495650-d133-e133] (session) download_finish
+[t499716-d133-e133] (consume) name download time 4066.46
+[t499716-d133-e133] (consume) name enhance time 4066.46
+[t499716-d133-e133] (consume) name enhance idle time 4066.4624
+[t499716-d133-e133] (push) name download decision 4 segment_time 4000.00
+[t499716-d134-e134] (session) download_start
+[t499716-d134-e134] (consume) name download time 0.00
+[t499716-d134-e134] (consume) name enhance time 0.00
+[t499716-d134-e134] (estimate) throughput 4581.06 latency 75.00
+[t499716-d134-e134] (autotune) gamma_p 40.0 V_multiplier 0.1
+[t499716-d134-e134] (control) download 4 enhance 0
+[t499716-d134-e134] (download) size 24664920.00 total_time 5007.98 latency 75.00 download_time 4932.98 throughput 5000.00
+[t499716-d134-e134] (session) download_finish
+[t504724-d134-e134] (consume) name download time 5007.98
+[t504724-d134-e134] (consume) name enhance time 5007.98
+[t504724-d134-e134] (consume) name enhance idle time 5007.984
+[t504724-d134-e134] (push) name download decision 4 segment_time 4000.00
+[t504724-d135-e135] (session) download_start
+[t504724-d135-e135] (consume) name download time 0.00
+[t504724-d135-e135] (consume) name enhance time 0.00
+[t504724-d135-e135] (estimate) throughput 4726.77 latency 75.00
+[t504724-d135-e135] (autotune) gamma_p 10.0 V_multiplier 0.1
+[t504724-d135-e135] (control) download 4 enhance 0
+[t504724-d135-e135] (download) size 22956632.00 total_time 4666.33 latency 75.00 download_time 4591.33 throughput 5000.00
+[t504724-d135-e135] (session) download_finish
+[t509391-d135-e135] (consume) name download time 4666.33
+[t509391-d135-e135] (consume) name enhance time 4666.33
+[t509391-d135-e135] (consume) name enhance idle time 4666.3264
+[t509391-d135-e135] (push) name download decision 4 segment_time 4000.00
+[t509391-d136-e136] (session) download_start
+[t509391-d136-e136] (consume) name download time 0.00
+[t509391-d136-e136] (consume) name enhance time 0.00
+[t509391-d136-e136] (estimate) throughput 4816.45 latency 75.00
+[t509391-d136-e136] (autotune) gamma_p 10.0 V_multiplier 0.1
+[t509391-d136-e136] (control) download 4 enhance 0
+[t509391-d136-e136] (network) period 1 time 30000 bandwidth 3000 latency 150
+[t509391-d136-e136] (download) size 19270376.00 total_time 5808.97 latency 75.00 download_time 5733.97 throughput 3360.74
+[t509391-d136-e136] (session) download_finish
+[t515200-d136-e136] (consume) name download time 5808.97
+[t515200-d136-e136] (consume) name enhance time 5808.97
+[t515200-d136-e136] (consume) name enhance idle time 5808.974933333336
+[t515200-d136-e136] (push) name download decision 4 segment_time 4000.00
+[t515200-d137-e137] (session) download_start
+[t515200-d137-e137] (consume) name download time 0.00
+[t515200-d137-e137] (consume) name enhance time 0.00
+[t515200-d137-e137] (estimate) throughput 3795.67 latency 75.00
+[t515200-d137-e137] (autotune) gamma_p 20.0 V_multiplier 0.2
+[t515200-d137-e137] (control) download 4 enhance 0
+[t515200-d137-e137] (download) size 19631056.00 total_time 6693.69 latency 150.00 download_time 6543.69 throughput 3000.00
+[t515200-d137-e137] (session) download_finish
+[t521893-d137-e137] (consume) name download time 6693.69
+[t521893-d137-e137] (consume) name enhance time 6693.69
+[t521893-d137-e137] (consume) name enhance idle time 6693.685333333333
+[t521893-d137-e137] (push) name download decision 4 segment_time 4000.00
+[t521893-d138-e138] (session) download_start
+[t521893-d138-e138] (consume) name download time 0.00
+[t521893-d138-e138] (consume) name enhance time 0.00
+[t521893-d138-e138] (estimate) throughput 3175.44 latency 150.00
+[t521893-d138-e138] (autotune) gamma_p 10.0 V_multiplier 0.30000000000000004
+[t521893-d138-e138] (control) download 4 enhance 0
+[t521893-d138-e138] (download) size 21479008.00 total_time 7309.67 latency 150.00 download_time 7159.67 throughput 3000.00
+[t521893-d138-e138] (session) download_finish
+[t529203-d138-e138] (consume) name download time 7309.67
+[t529203-d138-e138] (consume) name enhance time 7309.67
+[t529203-d138-e138] (consume) name enhance idle time 7309.669333333333
+[t529203-d138-e138] (push) name download decision 4 segment_time 4000.00
+[t529203-d139-e139] (session) download_start
+[t529203-d139-e139] (consume) name download time 0.00
+[t529203-d139-e139] (consume) name enhance time 0.00
+[t529203-d139-e139] (estimate) throughput 3033.55 latency 150.00
+[t529203-d139-e139] (autotune) gamma_p 10.0 V_multiplier 0.30000000000000004
+[t529203-d139-e139] (control) download 4 enhance 0
+[t529203-d139-e139] (download) size 30450816.00 total_time 10300.27 latency 150.00 download_time 10150.27 throughput 3000.00
+[t529203-d139-e139] (session) download_finish
+[t539503-d139-e139] (consume) name download time 10300.27
+[t539503-d139-e139] (consume) name enhance time 10300.27
+[t539503-d139-e139] (consume) name enhance idle time 10300.272
+[t539503-d139-e139] (push) name download decision 4 segment_time 4000.00
+[t539503-d140-e140] (session) download_start
+[t539503-d140-e140] (consume) name download time 0.00
+[t539503-d140-e140] (consume) name enhance time 0.00
+[t539503-d140-e140] (estimate) throughput 3003.22 latency 150.00
+[t539503-d140-e140] (autotune) gamma_p 10.0 V_multiplier 0.30000000000000004
+[t539503-d140-e140] (control) download 4 enhance 0
+[t539503-d140-e140] (network) period 2 time 30000 bandwidth 1500 latency 200
+[t539503-d140-e140] (download) size 26853760.00 total_time 17205.88 latency 150.00 download_time 17055.88 throughput 1574.46
+[t539503-d140-e140] (session) download_finish
+[t556709-d140-e140] (consume) name download time 17205.88
+[t556709-d140-e140] (consume) name enhance time 17205.88
+[t556709-d140-e140] (consume) name enhance idle time 17205.882666666672
+[t556709-d140-e140] (push) name download decision 4 segment_time 4000.00
+[t556709-d141-e141] (session) download_start
+[t556709-d141-e141] (consume) name download time 0.00
+[t556709-d141-e141] (consume) name enhance time 0.00
+[t556709-d141-e141] (estimate) throughput 1602.22 latency 150.00
+[t556709-d141-e141] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t556709-d141-e141] (control) download 0 enhance 4
+[t556709-d141-e141] (download) size 1403456.00 total_time 1135.64 latency 200.00 download_time 935.64 throughput 1500.00
+[t556709-d141-e141] (session) download_finish
+[t557845-d141-e141] (consume) name download time 1135.64
+[t557845-d141-e141] (consume) name enhance time 1135.64
+[t557845-d141-e141] (consume) name enhance idle time 1135.6373333333333
+[t557845-d141-e141] (push) name download decision 0 segment_time 4000.00
+[t557845-d142-e141] (push) name enhance decision 4 segment_time 2203.45
+[t557845-d142-e142] (session) download_start
+[t557845-d142-e142] (consume) name download time 0.00
+[t557845-d142-e142] (consume) name enhance time 0.00
+[t557845-d142-e142] (estimate) throughput 1582.35 latency 200.00
+[t557845-d142-e142] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t557845-d142-e142] (control) download 0 enhance 4
+[t557845-d142-e142] (download) size 875392.00 total_time 783.59 latency 200.00 download_time 583.59 throughput 1500.00
+[t557845-d142-e142] (session) download_finish
+[t558628-d142-e142] (consume) name download time 783.59
+[t558628-d142-e142] (consume) name enhance time 783.59
+[t558628-d142-e142] (push) name download decision 0 segment_time 4000.00
+[t558628-d143-e142] (push) name enhance decision 4 segment_time 2203.45
+[t558628-d143-e143] (session) download_start
+[t558628-d143-e143] (consume) name download time 0.00
+[t558628-d143-e143] (consume) name enhance time 0.00
+[t558628-d143-e143] (estimate) throughput 1571.96 latency 200.00
+[t558628-d143-e143] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t558628-d143-e143] (control) download 0 enhance 4
+[t558628-d143-e143] (download) size 647968.00 total_time 631.98 latency 200.00 download_time 431.98 throughput 1500.00
+[t558628-d143-e143] (session) download_finish
+[t559260-d143-e143] (consume) name download time 631.98
+[t559260-d143-e143] (consume) name enhance time 631.98
+[t559260-d143-e143] (push) name download decision 0 segment_time 4000.00
+[t559260-d144-e143] (push) name enhance decision 4 segment_time 2203.45
+[t559260-d144-e144] (session) download_start
+[t559260-d144-e144] (consume) name download time 0.00
+[t559260-d144-e144] (consume) name enhance time 0.00
+[t559260-d144-e144] (estimate) throughput 1565.13 latency 200.00
+[t559260-d144-e144] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t559260-d144-e144] (control) download 1 enhance 4
+[t559260-d144-e144] (download) size 2012416.00 total_time 1541.61 latency 200.00 download_time 1341.61 throughput 1500.00
+[t559260-d144-e144] (session) download_finish
+[t560802-d144-e144] (consume) name download time 1541.61
+[t560802-d144-e144] (consume) name enhance time 1541.61
+[t560802-d144-e144] (push) name download decision 1 segment_time 4000.00
+[t560802-d145-e144] (push) name enhance decision 4 segment_time 2205.88
+[t560802-d145-e145] (session) download_start
+[t560802-d145-e145] (consume) name download time 0.00
+[t560802-d145-e145] (consume) name enhance time 0.00
+[t560802-d145-e145] (estimate) throughput 1547.77 latency 200.00
+[t560802-d145-e145] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t560802-d145-e145] (control) download 0 enhance 4
+[t560802-d145-e145] (download) size 1652320.00 total_time 1301.55 latency 200.00 download_time 1101.55 throughput 1500.00
+[t560802-d145-e145] (session) download_finish
+[t562104-d145-e145] (consume) name download time 1301.55
+[t562104-d145-e145] (consume) name enhance time 1301.55
+[t562104-d145-e145] (push) name download decision 0 segment_time 4000.00
+[t562104-d146-e145] (push) name enhance decision 4 segment_time 2203.45
+[t562104-d146-e146] (session) download_start
+[t562104-d146-e146] (consume) name download time 0.00
+[t562104-d146-e146] (consume) name enhance time 0.00
+[t562104-d146-e146] (estimate) throughput 1537.03 latency 200.00
+[t562104-d146-e146] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t562104-d146-e146] (control) download 1 enhance 4
+[t562104-d146-e146] (download) size 4057088.00 total_time 2904.73 latency 200.00 download_time 2704.73 throughput 1500.00
+[t562104-d146-e146] (session) download_finish
+[t565008-d146-e146] (consume) name download time 2904.73
+[t565008-d146-e146] (consume) name enhance time 2904.73
+[t565008-d146-e146] (push) name download decision 1 segment_time 4000.00
+[t565008-d147-e146] (push) name enhance decision 4 segment_time 2205.88
+[t565008-d147-e147] (session) download_start
+[t565008-d147-e147] (consume) name download time 0.00
+[t565008-d147-e147] (consume) name enhance time 0.00
+[t565008-d147-e147] (estimate) throughput 1519.82 latency 200.00
+[t565008-d147-e147] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t565008-d147-e147] (control) download 1 enhance 4
+[t565008-d147-e147] (download) size 4427048.00 total_time 3151.37 latency 200.00 download_time 2951.37 throughput 1500.00
+[t565008-d147-e147] (session) download_finish
+[t568160-d147-e147] (consume) name download time 3151.37
+[t568160-d147-e147] (consume) name enhance time 3151.37
+[t568160-d147-e147] (push) name download decision 1 segment_time 4000.00
+[t568160-d148-e147] (push) name enhance decision 4 segment_time 2205.88
+[t568160-d148-e148] (session) download_start
+[t568160-d148-e148] (consume) name download time 0.00
+[t568160-d148-e148] (consume) name enhance time 0.00
+[t568160-d148-e148] (estimate) throughput 1510.02 latency 200.00
+[t568160-d148-e148] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t568160-d148-e148] (control) download 1 enhance 4
+[t568160-d148-e148] (network) period 3 time 30000 bandwidth 3000 latency 150
+[t568160-d148-e148] (download) size 4711016.00 total_time 2840.48 latency 200.00 download_time 2640.48 throughput 1784.15
+[t568160-d148-e148] (session) download_finish
+[t571000-d148-e148] (consume) name download time 2840.48
+[t571000-d148-e148] (consume) name enhance time 2840.48
+[t571000-d148-e148] (push) name download decision 1 segment_time 4000.00
+[t571000-d149-e148] (push) name enhance decision 4 segment_time 2205.88
+[t571000-d149-e149] (session) download_start
+[t571000-d149-e149] (consume) name download time 0.00
+[t571000-d149-e149] (consume) name enhance time 0.00
+[t571000-d149-e149] (estimate) throughput 1635.22 latency 200.00
+[t571000-d149-e149] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t571000-d149-e149] (control) download 1 enhance 4
+[t571000-d149-e149] (download) size 4550232.00 total_time 1666.74 latency 150.00 download_time 1516.74 throughput 3000.00
+[t571000-d149-e149] (session) download_finish
+[t572667-d149-e149] (consume) name download time 1666.74
+[t572667-d149-e149] (consume) name enhance time 1666.74
+[t572667-d149-e149] (push) name download decision 1 segment_time 4000.00
+[t572667-d150-e149] (push) name enhance decision 4 segment_time 2205.88
+[t572667-d150-e150] (session) download_start
+[t572667-d150-e150] (consume) name download time 0.00
+[t572667-d150-e150] (consume) name enhance time 0.00
+[t572667-d150-e150] (estimate) throughput 1862.89 latency 150.00
+[t572667-d150-e150] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t572667-d150-e150] (control) download 1 enhance 4
+[t572667-d150-e150] (download) size 3887632.00 total_time 1445.88 latency 150.00 download_time 1295.88 throughput 3000.00
+[t572667-d150-e150] (session) download_finish
+[t574113-d150-e150] (consume) name download time 1445.88
+[t574113-d150-e150] (consume) name enhance time 1445.88
+[t574113-d150-e150] (push) name download decision 1 segment_time 4000.00
+[t574113-d151-e150] (push) name enhance decision 4 segment_time 2205.88
+[t574113-d151-e151] (session) download_start
+[t574113-d151-e151] (consume) name download time 0.00
+[t574113-d151-e151] (consume) name enhance time 0.00
+[t574113-d151-e151] (estimate) throughput 1983.66 latency 150.00
+[t574113-d151-e151] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t574113-d151-e151] (control) download 1 enhance 4
+[t574113-d151-e151] (download) size 1909704.00 total_time 786.57 latency 150.00 download_time 636.57 throughput 3000.00
+[t574113-d151-e151] (session) download_finish
+[t574899-d151-e151] (consume) name download time 786.57
+[t574899-d151-e151] (consume) name enhance time 786.57
+[t574899-d151-e151] (push) name download decision 1 segment_time 4000.00
+[t574899-d152-e151] (push) name enhance decision 4 segment_time 2205.88
+[t574899-d152-e152] (session) download_start
+[t574899-d152-e152] (consume) name download time 0.00
+[t574899-d152-e152] (consume) name enhance time 0.00
+[t574899-d152-e152] (estimate) throughput 2038.20 latency 150.00
+[t574899-d152-e152] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t574899-d152-e152] (control) download 1 enhance 4
+[t574899-d152-e152] (download) size 475632.00 total_time 308.54 latency 150.00 download_time 158.54 throughput 3000.00
+[t574899-d152-e152] (session) download_finish
+[t575208-d152-e152] (consume) name download time 308.54
+[t575208-d152-e152] (consume) name enhance time 308.54
+[t575208-d152-e152] (push) name download decision 1 segment_time 4000.00
+[t575208-d153-e152] (push) name enhance decision 4 segment_time 2205.88
+[t575208-d153-e153] (session) download_start
+[t575208-d153-e153] (consume) name download time 0.00
+[t575208-d153-e153] (consume) name enhance time 0.00
+[t575208-d153-e153] (estimate) throughput 2051.32 latency 150.00
+[t575208-d153-e153] (autotune) gamma_p 10.0 V_multiplier 1.0
+[t575208-d153-e153] (control) download 3 enhance 0
+[t575208-d153-e153] (download) size 458432.00 total_time 302.81 latency 150.00 download_time 152.81 throughput 3000.00
+[t575208-d153-e153] (session) download_finish
+[t575511-d153-e153] (consume) name download time 302.81
+[t575511-d153-e153] (consume) name enhance time 302.81
+[t575511-d153-e153] (push) name download decision 3 segment_time 4000.00
+[t575511-d154-e154] (session) download_start
+[t575511-d154-e154] (consume) name download time 0.00
+[t575511-d154-e154] (consume) name enhance time 0.00
+[t575511-d154-e154] (estimate) throughput 2063.80 latency 150.00
+[t575511-d154-e154] (autotune) gamma_p 10.0 V_multiplier 0.8
+[t575511-d154-e154] (control) download 4 enhance 0
+[t575511-d154-e154] (download) size 1996568.00 total_time 815.52 latency 150.00 download_time 665.52 throughput 3000.00
+[t575511-d154-e154] (session) download_finish
+[t576326-d154-e154] (consume) name download time 815.52
+[t576326-d154-e154] (consume) name enhance time 815.52
+[t576326-d154-e154] (push) name download decision 4 segment_time 4000.00
+[t576326-d155-e155] (session) download_start
+[t576326-d155-e155] (consume) name download time 0.00
+[t576326-d155-e155] (consume) name enhance time 0.00
+[t576326-d155-e155] (estimate) throughput 2116.25 latency 150.00
+[t576326-d155-e155] (autotune) gamma_p 10.0 V_multiplier 0.8
+[t576326-d155-e155] (control) download 4 enhance 0
+[t576326-d155-e155] (download) size 8355704.00 total_time 2935.23 latency 150.00 download_time 2785.23 throughput 3000.00
+[t576326-d155-e155] (session) download_finish
+[t579261-d155-e155] (consume) name download time 2935.23
+[t579261-d155-e155] (consume) name enhance time 2935.23
+[t579261-d155-e155] (push) name download decision 4 segment_time 4000.00
+[t579261-d156-e156] (session) download_start
+[t579261-d156-e156] (consume) name download time 0.00
+[t579261-d156-e156] (consume) name enhance time 0.00
+[t579261-d156-e156] (estimate) throughput 2305.74 latency 150.00
+[t579261-d156-e156] (autotune) gamma_p 10.0 V_multiplier 0.6
+[t579261-d156-e156] (control) download 4 enhance 0
+[t579261-d156-e156] (download) size 7132336.00 total_time 2527.45 latency 150.00 download_time 2377.45 throughput 3000.00
+[t579261-d156-e156] (session) download_finish
+[t581789-d156-e156] (consume) name download time 2527.45
+[t581789-d156-e156] (consume) name enhance time 2527.45
+[t581789-d156-e156] (push) name download decision 4 segment_time 4000.00
+[t581789-d157-e157] (session) download_start
+[t581789-d157-e157] (consume) name download time 0.00
+[t581789-d157-e157] (consume) name enhance time 0.00
+[t581789-d157-e157] (estimate) throughput 2434.98 latency 150.00
+[t581789-d157-e157] (autotune) gamma_p 10.0 V_multiplier 0.8
+[t581789-d157-e157] (control) download 4 enhance 0
+[t581789-d157-e157] (download) size 12107088.00 total_time 4185.70 latency 150.00 download_time 4035.70 throughput 3000.00
+[t581789-d157-e157] (session) download_finish
+[t585975-d157-e157] (consume) name download time 4185.70
+[t585975-d157-e157] (consume) name enhance time 4185.70
+[t585975-d157-e157] (consume) name enhance idle time 1668.8768768010987
+[t585975-d157-e157] (push) name download decision 4 segment_time 4000.00
+[t585975-d158-e158] (session) download_start
+[t585975-d158-e158] (consume) name download time 0.00
+[t585975-d158-e158] (consume) name enhance time 0.00
+[t585975-d158-e158] (estimate) throughput 2601.71 latency 150.00
+[t585975-d158-e158] (autotune) gamma_p 10.0 V_multiplier 0.6
+[t585975-d158-e158] (control) download 4 enhance 0
+[t585975-d158-e158] (download) size 7934624.00 total_time 2794.87 latency 150.00 download_time 2644.87 throughput 3000.00
+[t585975-d158-e158] (session) download_finish
+[t588770-d158-e158] (consume) name download time 2794.87
+[t588770-d158-e158] (consume) name enhance time 2794.87
+[t588770-d158-e158] (consume) name enhance idle time 2794.8746666666666
+[t588770-d158-e158] (push) name download decision 4 segment_time 4000.00
+[t588770-d159-e159] (final_stage)
+[t636229-d159-e159] (consume) name download time 47459.45
+[t636229-d159-e159] (consume) name download idle time 2.1827872842550278e-11
+[t636229-d159-e159] (consume) name enhance time 47459.45
+[t636229-d159-e159] (consume) name enhance idle time 47459.45333333336
+[t636229-d159-e159] (clear) buffer 47459.45
+Simulator Report 
+playback time: 636228.9680000002 
+average quality vmaf: 88.28259440880502 
+average oscillation vmaf: 5.195633892405063 
+average quality ssim: 0.9782999937106917 
+average oscillation ssim: 0.012355791139240508 
+freeze time: 2.1827872842550278e-11 
+freeze event: 1 
+average bandwidth: [2771.04330818] 
+qoe: 83.08696051639994 
+download history: [0 2 3 2 4 2 4 4 4 4 4 4 4 1 3 2 4 2 1 1 2 0 1 1 1 1 1 1 2 2 2 1 2 2 3 4 4
+ 4 4 4 4 4 4 4 4 4 4 4 4 4 1 1 1 1 1 1 1 1 1 1 2 2 2 2 3 4 4 4 4 4 4 4 4 4
+ 4 4 4 4 4 4 0 0 0 0 1 1 1 1 1 1 1 1 1 2 3 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4
+ 2 0 1 1 1 1 1 1 2 3 2 3 2 3 3 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 0 0 0 1 0 1 1
+ 1 1 1 1 1 3 4 4 4 4 4] 
+enhance history: [0 0 0 4 0 4 0 0 0 0 0 0 0 4 0 4 0 4 4 4 0 4 4 4 4 4 4 4 4 4 4 4 4 4 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 4 4 4 4 4 4 4 4 4 4 4 4 4 4 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 4 4 4 4 4 4 4 4 4 4 4 4 4 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 4 4 4 4 4 4 4 4 4 0 4 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 4 4 4 4 4 4
+ 4 4 4 4 4 0 0 0 0 0 0] 

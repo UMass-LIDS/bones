@@ -1,0 +1,2228 @@
+[t0-d0-e0] (warmup_stage)
+[t0-d0-e0] (control) download 0 enhance 0
+[t0-d0-e0] (network) period 0 time 1013 bandwidth 1285 latency 100
+[t0-d0-e0] (download) size 769840.00 total_time 699.10 latency 100.00 download_time 599.10 throughput 1285.00
+[t699-d0-e0] (consume) name download time 699.10
+[t699-d0-e0] (consume) name enhance time 699.10
+[t699-d0-e0] (push) name download decision 0 segment_time 4000.00
+[t699-d1-e1] (main_stage)
+[t699-d1-e1] (session) enhance_start
+[t699-d1-e1] (consume) name download time 0.00
+[t699-d1-e1] (consume) name enhance time 0.00
+[t699-d1-e1] (session) download_start
+[t699-d1-e1] (consume) name download time 0.00
+[t699-d1-e1] (consume) name enhance time 0.00
+[t699-d1-e1] (estimate) throughput 1285.00 latency 341.42
+[t699-d1-e1] (control) download 1 enhance 0
+[t699-d1-e1] (network) period 1 time 1008 bandwidth 1693 latency 100
+[t699-d1-e1] (network) period 2 time 1011 bandwidth 1812 latency 100
+[t699-d1-e1] (network) period 3 time 1008 bandwidth 1795 latency 100
+[t699-d1-e1] (network) period 4 time 1013 bandwidth 2182 latency 100
+[t699-d1-e1] (download) size 7359256.00 total_time 4136.76 latency 100.00 download_time 4036.76 throughput 1823.06
+[t699-d1-e1] (session) download_finish
+[t4836-d1-e1] (consume) name download time 4136.76
+[t4836-d1-e1] (consume) name download idle time 136.75744417537135
+[t4836-d1-e1] (consume) name enhance time 4136.76
+[t4836-d1-e1] (push) name download decision 1 segment_time 4000.00
+[t4836-d2-e1] (session) download_start
+[t4836-d2-e1] (consume) name download time 0.00
+[t4836-d2-e1] (consume) name enhance time 0.00
+[t4836-d2-e1] (estimate) throughput 1765.07 latency 200.00
+[t4836-d2-e1] (control) download 2 enhance 0
+[t4836-d2-e1] (network) period 5 time 1007 bandwidth 1895 latency 100
+[t4836-d2-e1] (network) period 6 time 1012 bandwidth 2249 latency 100
+[t4836-d2-e1] (network) period 7 time 1001 bandwidth 1775 latency 100
+[t4836-d2-e1] (download) size 6197720.00 total_time 3226.49 latency 100.00 download_time 3126.49 throughput 1982.33
+[t4836-d2-e1] (session) download_finish
+[t8062-d2-e1] (consume) name download time 3226.49
+[t8062-d2-e1] (consume) name enhance time 3226.49
+[t8062-d2-e1] (push) name download decision 2 segment_time 4000.00
+[t8062-d3-e1] (session) download_start
+[t8062-d3-e1] (consume) name download time 0.00
+[t8062-d3-e1] (consume) name enhance time 0.00
+[t8062-d3-e1] (estimate) throughput 1870.37 latency 154.69
+[t8062-d3-e1] (control) download 2 enhance 0
+[t8062-d3-e1] (network) period 8 time 1020 bandwidth 1646 latency 100
+[t8062-d3-e1] (network) period 9 time 1008 bandwidth 2128 latency 100
+[t8062-d3-e1] (network) period 10 time 1020 bandwidth 2064 latency 100
+[t8062-d3-e1] (download) size 4517192.00 total_time 2445.78 latency 100.00 download_time 2345.78 throughput 1925.67
+[t8062-d3-e1] (session) download_finish
+[t10508-d3-e1] (consume) name download time 2445.78
+[t10508-d3-e1] (consume) name enhance time 2445.78
+[t10508-d3-e1] (push) name download decision 2 segment_time 4000.00
+[t10508-d4-e1] (session) download_start
+[t10508-d4-e1] (consume) name download time 0.00
+[t10508-d4-e1] (consume) name enhance time 0.00
+[t10508-d4-e1] (estimate) throughput 1887.80 latency 133.33
+[t10508-d4-e1] (control) download 2 enhance 0
+[t10508-d4-e1] (network) period 11 time 1012 bandwidth 2000 latency 100
+[t10508-d4-e1] (network) period 12 time 1007 bandwidth 1732 latency 100
+[t10508-d4-e1] (network) period 13 time 1024 bandwidth 1853 latency 100
+[t10508-d4-e1] (network) period 14 time 1007 bandwidth 2206 latency 100
+[t10508-d4-e1] (download) size 7739008.00 total_time 4115.91 latency 100.00 download_time 4015.91 throughput 1927.09
+[t10508-d4-e1] (session) download_finish
+[t14624-d4-e1] (consume) name download time 4115.91
+[t14624-d4-e1] (consume) name enhance time 4115.91
+[t14624-d4-e1] (push) name download decision 2 segment_time 4000.00
+[t14624-d5-e1] (session) download_start
+[t14624-d5-e1] (consume) name download time 0.00
+[t14624-d5-e1] (consume) name enhance time 0.00
+[t14624-d5-e1] (estimate) throughput 1904.16 latency 121.47
+[t14624-d5-e1] (control) download 2 enhance 0
+[t14624-d5-e1] (network) period 15 time 1001 bandwidth 1731 latency 100
+[t14624-d5-e1] (download) size 2061856.00 total_time 1168.48 latency 100.00 download_time 1068.48 throughput 1929.70
+[t14624-d5-e1] (session) download_finish
+[t15793-d5-e1] (consume) name download time 1168.48
+[t15793-d5-e1] (consume) name enhance time 1168.48
+[t15793-d5-e1] (push) name download decision 2 segment_time 4000.00
+[t15793-d6-e1] (session) download_start
+[t15793-d6-e1] (consume) name download time 0.00
+[t15793-d6-e1] (consume) name enhance time 0.00
+[t15793-d6-e1] (estimate) throughput 1907.24 latency 114.29
+[t15793-d6-e1] (control) download 2 enhance 0
+[t15793-d6-e1] (network) period 16 time 1008 bandwidth 2312 latency 100
+[t15793-d6-e1] (download) size 2654640.00 total_time 1318.43 latency 100.00 download_time 1218.43 throughput 2178.73
+[t15793-d6-e1] (session) download_finish
+[t17111-d6-e1] (consume) name download time 1318.43
+[t17111-d6-e1] (consume) name enhance time 1318.43
+[t17111-d6-e1] (push) name download decision 2 segment_time 4000.00
+[t17111-d7-e1] (session) download_start
+[t17111-d7-e1] (consume) name download time 0.00
+[t17111-d7-e1] (consume) name enhance time 0.00
+[t17111-d7-e1] (estimate) throughput 1943.09 latency 109.70
+[t17111-d7-e1] (control) download 2 enhance 0
+[t17111-d7-e1] (network) period 17 time 1020 bandwidth 1731 latency 100
+[t17111-d7-e1] (network) period 18 time 1004 bandwidth 1639 latency 100
+[t17111-d7-e1] (network) period 19 time 1008 bandwidth 2323 latency 100
+[t17111-d7-e1] (download) size 5328944.00 total_time 2941.67 latency 100.00 download_time 2841.67 throughput 1875.29
+[t17111-d7-e1] (session) download_finish
+[t20053-d7-e1] (consume) name download time 2941.67
+[t20053-d7-e1] (consume) name enhance time 2941.67
+[t20053-d7-e1] (push) name download decision 2 segment_time 4000.00
+[t20053-d8-e1] (session) download_start
+[t20053-d8-e1] (consume) name download time 0.00
+[t20053-d8-e1] (consume) name enhance time 0.00
+[t20053-d8-e1] (estimate) throughput 1924.85 latency 106.67
+[t20053-d8-e1] (control) download 2 enhance 0
+[t20053-d8-e1] (network) period 20 time 1007 bandwidth 1558 latency 100
+[t20053-d8-e1] (network) period 21 time 1001 bandwidth 1836 latency 100
+[t20053-d8-e1] (network) period 22 time 1019 bandwidth 1679 latency 100
+[t20053-d8-e1] (download) size 4997832.00 total_time 3032.87 latency 100.00 download_time 2932.87 throughput 1704.08
+[t20053-d8-e1] (session) download_finish
+[t23085-d8-e1] (consume) name download time 3032.87
+[t23085-d8-e1] (consume) name enhance time 3032.87
+[t23085-d8-e1] (push) name download decision 2 segment_time 4000.00
+[t23085-d9-e1] (session) download_start
+[t23085-d9-e1] (consume) name download time 0.00
+[t23085-d9-e1] (consume) name enhance time 0.00
+[t23085-d9-e1] (estimate) throughput 1819.72 latency 104.62
+[t23085-d9-e1] (control) download 2 enhance 0
+[t23085-d9-e1] (network) period 23 time 1004 bandwidth 2125 latency 100
+[t23085-d9-e1] (network) period 24 time 1009 bandwidth 1805 latency 100
+[t23085-d9-e1] (network) period 25 time 1007 bandwidth 1743 latency 100
+[t23085-d9-e1] (download) size 5111200.00 total_time 2778.45 latency 100.00 download_time 2678.45 throughput 1908.27
+[t23085-d9-e1] (session) download_finish
+[t25864-d9-e1] (consume) name download time 2778.45
+[t25864-d9-e1] (consume) name enhance time 2778.45
+[t25864-d9-e1] (push) name download decision 2 segment_time 4000.00
+[t25864-d10-e1] (session) download_start
+[t25864-d10-e1] (consume) name download time 0.00
+[t25864-d10-e1] (consume) name enhance time 0.00
+[t25864-d10-e1] (estimate) throughput 1860.71 latency 103.23
+[t25864-d10-e1] (control) download 2 enhance 0
+[t25864-d10-e1] (network) period 26 time 1013 bandwidth 2247 latency 100
+[t25864-d10-e1] (network) period 27 time 1024 bandwidth 2024 latency 100
+[t25864-d10-e1] (download) size 3188032.00 total_time 1604.47 latency 100.00 download_time 1504.47 throughput 2119.04
+[t25864-d10-e1] (session) download_finish
+[t27468-d10-e1] (consume) name download time 1604.47
+[t27468-d10-e1] (consume) name enhance time 1604.47
+[t27468-d10-e1] (push) name download decision 2 segment_time 4000.00
+[t27468-d11-e1] (session) download_start
+[t27468-d11-e1] (consume) name download time 0.00
+[t27468-d11-e1] (consume) name enhance time 0.00
+[t27468-d11-e1] (estimate) throughput 1909.53 latency 102.26
+[t27468-d11-e1] (control) download 2 enhance 0
+[t27468-d11-e1] (network) period 28 time 1095 bandwidth 1893 latency 100
+[t27468-d11-e1] (download) size 3083160.00 total_time 1678.37 latency 100.00 download_time 1578.37 throughput 1953.39
+[t27468-d11-e1] (session) download_finish
+[t29147-d11-e1] (consume) name download time 1678.37
+[t29147-d11-e1] (consume) name enhance time 1678.37
+[t29147-d11-e1] (push) name download decision 2 segment_time 4000.00
+[t29147-d12-e1] (session) download_start
+[t29147-d12-e1] (consume) name download time 0.00
+[t29147-d12-e1] (consume) name enhance time 0.00
+[t29147-d12-e1] (estimate) throughput 1915.68 latency 101.59
+[t29147-d12-e1] (control) download 2 enhance 0
+[t29147-d12-e1] (network) period 29 time 1001 bandwidth 2153 latency 100
+[t29147-d12-e1] (network) period 30 time 1020 bandwidth 1892 latency 100
+[t29147-d12-e1] (download) size 3858840.00 total_time 2001.39 latency 100.00 download_time 1901.39 throughput 2029.48
+[t29147-d12-e1] (session) download_finish
+[t31148-d12-e1] (consume) name download time 2001.39
+[t31148-d12-e1] (consume) name enhance time 2001.39
+[t31148-d12-e1] (push) name download decision 2 segment_time 4000.00
+[t31148-d13-e1] (session) download_start
+[t31148-d13-e1] (consume) name download time 0.00
+[t31148-d13-e1] (consume) name enhance time 0.00
+[t31148-d13-e1] (estimate) throughput 1934.37 latency 101.12
+[t31148-d13-e1] (control) download 2 enhance 0
+[t31148-d13-e1] (network) period 31 time 1008 bandwidth 2236 latency 100
+[t31148-d13-e1] (network) period 32 time 1012 bandwidth 1994 latency 100
+[t31148-d13-e1] (network) period 33 time 1008 bandwidth 2110 latency 100
+[t31148-d13-e1] (download) size 5895624.00 total_time 2906.50 latency 100.00 download_time 2806.50 throughput 2100.70
+[t31148-d13-e1] (session) download_finish
+[t34055-d13-e1] (consume) name download time 2906.50
+[t34055-d13-e1] (consume) name enhance time 2906.50
+[t34055-d13-e1] (push) name download decision 2 segment_time 4000.00
+[t34055-d14-e1] (session) download_start
+[t34055-d14-e1] (consume) name download time 0.00
+[t34055-d14-e1] (consume) name enhance time 0.00
+[t34055-d14-e1] (estimate) throughput 1972.53 latency 100.79
+[t34055-d14-e1] (control) download 2 enhance 0
+[t34055-d14-e1] (network) period 34 time 1012 bandwidth 2335 latency 100
+[t34055-d14-e1] (network) period 35 time 1007 bandwidth 1536 latency 100
+[t34055-d14-e1] (network) period 36 time 1013 bandwidth 1941 latency 100
+[t34055-d14-e1] (download) size 5374296.00 total_time 2848.68 latency 100.00 download_time 2748.68 throughput 1955.23
+[t34055-d14-e1] (session) download_finish
+[t36903-d14-e1] (consume) name download time 2848.68
+[t36903-d14-e1] (consume) name enhance time 2848.68
+[t36903-d14-e1] (push) name download decision 2 segment_time 4000.00
+[t36903-d15-e1] (session) download_start
+[t36903-d15-e1] (consume) name download time 0.00
+[t36903-d15-e1] (consume) name enhance time 0.00
+[t36903-d15-e1] (estimate) throughput 1968.69 latency 100.56
+[t36903-d15-e1] (control) download 2 enhance 0
+[t36903-d15-e1] (network) period 37 time 1008 bandwidth 1929 latency 100
+[t36903-d15-e1] (download) size 2311152.00 total_time 1295.19 latency 100.00 download_time 1195.19 throughput 1933.71
+[t36903-d15-e1] (session) download_finish
+[t38199-d15-e1] (consume) name download time 1295.19
+[t38199-d15-e1] (consume) name enhance time 1295.19
+[t38199-d15-e1] (push) name download decision 2 segment_time 4000.00
+[t38199-d16-e1] (session) download_start
+[t38199-d16-e1] (consume) name download time 0.00
+[t38199-d16-e1] (consume) name enhance time 0.00
+[t38199-d16-e1] (estimate) throughput 1965.09 latency 100.39
+[t38199-d16-e1] (control) download 2 enhance 0
+[t38199-d16-e1] (network) period 38 time 1012 bandwidth 1464 latency 100
+[t38199-d16-e1] (network) period 39 time 1008 bandwidth 1824 latency 100
+[t38199-d16-e1] (download) size 2567824.00 total_time 1697.09 latency 100.00 download_time 1597.09 throughput 1607.82
+[t38199-d16-e1] (session) download_finish
+[t39896-d16-e1] (consume) name download time 1697.09
+[t39896-d16-e1] (consume) name enhance time 1697.09
+[t39896-d16-e1] (push) name download decision 2 segment_time 4000.00
+[t39896-d17-e1] (session) download_start
+[t39896-d17-e1] (consume) name download time 0.00
+[t39896-d17-e1] (consume) name enhance time 0.00
+[t39896-d17-e1] (estimate) throughput 1866.30 latency 100.28
+[t39896-d17-e1] (control) download 2 enhance 0
+[t39896-d17-e1] (network) period 40 time 1004 bandwidth 1628 latency 100
+[t39896-d17-e1] (network) period 41 time 1008 bandwidth 1780 latency 100
+[t39896-d17-e1] (network) period 42 time 1019 bandwidth 1733 latency 100
+[t39896-d17-e1] (download) size 5520016.00 total_time 3292.25 latency 100.00 download_time 3192.25 throughput 1729.20
+[t39896-d17-e1] (session) download_finish
+[t43188-d17-e1] (consume) name download time 3292.25
+[t43188-d17-e1] (consume) name enhance time 3292.25
+[t43188-d17-e1] (push) name download decision 2 segment_time 4000.00
+[t43188-d18-e1] (session) download_start
+[t43188-d18-e1] (consume) name download time 0.00
+[t43188-d18-e1] (consume) name enhance time 0.00
+[t43188-d18-e1] (estimate) throughput 1794.76 latency 100.20
+[t43188-d18-e1] (control) download 2 enhance 0
+[t43188-d18-e1] (network) period 43 time 1020 bandwidth 1952 latency 100
+[t43188-d18-e1] (network) period 44 time 1009 bandwidth 1859 latency 100
+[t43188-d18-e1] (network) period 45 time 1099 bandwidth 1876 latency 100
+[t43188-d18-e1] (download) size 4297064.00 total_time 2376.90 latency 100.00 download_time 2276.90 throughput 1887.24
+[t43188-d18-e1] (session) download_finish
+[t45565-d18-e1] (consume) name download time 2376.90
+[t45565-d18-e1] (consume) name enhance time 2376.90
+[t45565-d18-e1] (push) name download decision 2 segment_time 4000.00
+[t45565-d19-e1] (session) download_start
+[t45565-d19-e1] (consume) name download time 0.00
+[t45565-d19-e1] (consume) name enhance time 0.00
+[t45565-d19-e1] (estimate) throughput 1832.60 latency 100.14
+[t45565-d19-e1] (control) download 2 enhance 0
+[t45565-d19-e1] (network) period 46 time 1001 bandwidth 1355 latency 100
+[t45565-d19-e1] (network) period 47 time 1020 bandwidth 1523 latency 100
+[t45565-d19-e1] (network) period 48 time 1028 bandwidth 802 latency 100
+[t45565-d19-e1] (download) size 5005720.00 total_time 3402.93 latency 100.00 download_time 3302.93 throughput 1515.54
+[t45565-d19-e1] (session) download_finish
+[t48968-d19-e1] (consume) name download time 3402.93
+[t48968-d19-e1] (consume) name enhance time 3402.93
+[t48968-d19-e1] (push) name download decision 2 segment_time 4000.00
+[t48968-d20-e1] (session) download_start
+[t48968-d20-e1] (consume) name download time 0.00
+[t48968-d20-e1] (consume) name enhance time 0.00
+[t48968-d20-e1] (estimate) throughput 1663.35 latency 100.10
+[t48968-d20-e1] (control) download 2 enhance 0
+[t48968-d20-e1] (network) period 49 time 1004 bandwidth 850 latency 100
+[t48968-d20-e1] (network) period 50 time 1008 bandwidth 1411 latency 100
+[t48968-d20-e1] (network) period 51 time 1008 bandwidth 1198 latency 100
+[t48968-d20-e1] (network) period 52 time 1004 bandwidth 1733 latency 100
+[t48968-d20-e1] (network) period 53 time 1007 bandwidth 1699 latency 100
+[t48968-d20-e1] (network) period 54 time 1012 bandwidth 2000 latency 100
+[t48968-d20-e1] (network) period 55 time 1001 bandwidth 1600 latency 100
+[t48968-d20-e1] (download) size 10337112.00 total_time 7324.23 latency 100.00 download_time 7224.23 throughput 1430.89
+[t48968-d20-e1] (session) download_finish
+[t56292-d20-e1] (consume) name download time 7324.23
+[t56292-d20-e1] (consume) name enhance time 7324.23
+[t56292-d20-e1] (push) name download decision 2 segment_time 4000.00
+[t56292-d21-e1] (session) download_start
+[t56292-d21-e1] (consume) name download time 0.00
+[t56292-d21-e1] (consume) name enhance time 0.00
+[t56292-d21-e1] (estimate) throughput 1474.69 latency 100.07
+[t56292-d21-e1] (control) download 2 enhance 0
+[t56292-d21-e1] (network) period 56 time 1008 bandwidth 1910 latency 100
+[t56292-d21-e1] (network) period 57 time 1011 bandwidth 1151 latency 100
+[t56292-d21-e1] (network) period 58 time 1009 bandwidth 1572 latency 100
+[t56292-d21-e1] (download) size 4666744.00 total_time 3116.28 latency 100.00 download_time 3016.28 throughput 1547.19
+[t56292-d21-e1] (session) download_finish
+[t59408-d21-e1] (consume) name download time 3116.28
+[t59408-d21-e1] (consume) name enhance time 3116.28
+[t59408-d21-e1] (push) name download decision 2 segment_time 4000.00
+[t59408-d22-e1] (session) download_start
+[t59408-d22-e1] (consume) name download time 0.00
+[t59408-d22-e1] (consume) name enhance time 0.00
+[t59408-d22-e1] (estimate) throughput 1511.07 latency 100.05
+[t59408-d22-e1] (control) download 2 enhance 0
+[t59408-d22-e1] (network) period 59 time 1011 bandwidth 1303 latency 100
+[t59408-d22-e1] (download) size 1621472.00 total_time 1288.30 latency 100.00 download_time 1188.30 throughput 1364.53
+[t59408-d22-e1] (session) download_finish
+[t60697-d22-e1] (consume) name download time 1288.30
+[t60697-d22-e1] (consume) name enhance time 1288.30
+[t60697-d22-e1] (push) name download decision 2 segment_time 4000.00
+[t60697-d23-e1] (session) download_start
+[t60697-d23-e1] (consume) name download time 0.00
+[t60697-d23-e1] (consume) name enhance time 0.00
+[t60697-d23-e1] (estimate) throughput 1475.89 latency 100.03
+[t60697-d23-e1] (control) download 2 enhance 0
+[t60697-d23-e1] (network) period 60 time 1021 bandwidth 1061 latency 100
+[t60697-d23-e1] (network) period 61 time 1008 bandwidth 1064 latency 100
+[t60697-d23-e1] (network) period 62 time 1019 bandwidth 842 latency 100
+[t60697-d23-e1] (network) period 63 time 1001 bandwidth 1158 latency 100
+[t60697-d23-e1] (download) size 3975040.00 total_time 3977.63 latency 100.00 download_time 3877.63 throughput 1025.12
+[t60697-d23-e1] (session) download_finish
+[t64674-d23-e1] (consume) name download time 3977.63
+[t64674-d23-e1] (consume) name enhance time 3977.63
+[t64674-d23-e1] (push) name download decision 2 segment_time 4000.00
+[t64674-d24-e1] (session) download_start
+[t64674-d24-e1] (consume) name download time 0.00
+[t64674-d24-e1] (consume) name enhance time 0.00
+[t64674-d24-e1] (estimate) throughput 1209.14 latency 100.02
+[t64674-d24-e1] (control) download 1 enhance 0
+[t64674-d24-e1] (network) period 64 time 1011 bandwidth 1104 latency 100
+[t64674-d24-e1] (download) size 1142312.00 total_time 1131.48 latency 100.00 download_time 1031.48 throughput 1107.45
+[t64674-d24-e1] (session) download_finish
+[t65806-d24-e1] (consume) name download time 1131.48
+[t65806-d24-e1] (consume) name enhance time 1131.48
+[t65806-d24-e1] (push) name download decision 1 segment_time 4000.00
+[t65806-d25-e1] (session) download_start
+[t65806-d25-e1] (consume) name download time 0.00
+[t65806-d25-e1] (consume) name enhance time 0.00
+[t65806-d25-e1] (estimate) throughput 1187.57 latency 100.02
+[t65806-d25-e1] (control) download 1 enhance 0
+[t65806-d25-e1] (network) period 65 time 1001 bandwidth 879 latency 100
+[t65806-d25-e1] (network) period 66 time 1020 bandwidth 751 latency 100
+[t65806-d25-e1] (network) period 67 time 1007 bandwidth 684 latency 100
+[t65806-d25-e1] (download) size 1856544.00 total_time 2444.54 latency 100.00 download_time 2344.54 throughput 791.86
+[t65806-d25-e1] (session) download_finish
+[t68250-d25-e1] (consume) name download time 2444.54
+[t68250-d25-e1] (consume) name enhance time 2444.54
+[t68250-d25-e1] (push) name download decision 1 segment_time 4000.00
+[t68250-d26-e1] (session) download_start
+[t68250-d26-e1] (consume) name download time 0.00
+[t68250-d26-e1] (consume) name enhance time 0.00
+[t68250-d26-e1] (estimate) throughput 1022.07 latency 100.01
+[t68250-d26-e1] (control) download 1 enhance 0
+[t68250-d26-e1] (network) period 68 time 1001 bandwidth 994 latency 100
+[t68250-d26-e1] (network) period 69 time 1012 bandwidth 891 latency 100
+[t68250-d26-e1] (network) period 70 time 1007 bandwidth 1401 latency 100
+[t68250-d26-e1] (download) size 3236856.00 total_time 3340.23 latency 100.00 download_time 3240.23 throughput 998.96
+[t68250-d26-e1] (session) download_finish
+[t71590-d26-e1] (consume) name download time 3340.23
+[t71590-d26-e1] (consume) name enhance time 3340.23
+[t71590-d26-e1] (push) name download decision 1 segment_time 4000.00
+[t71590-d27-e1] (session) download_start
+[t71590-d27-e1] (consume) name download time 0.00
+[t71590-d27-e1] (consume) name enhance time 0.00
+[t71590-d27-e1] (estimate) throughput 1009.89 latency 100.01
+[t71590-d27-e1] (estimate) throughput 1009.89 latency 100.01
+[t71590-d27-e1] (control) download 2 enhance 0
+[t71590-d27-e1] (network) period 71 time 1012 bandwidth 1529 latency 100
+[t71590-d27-e1] (network) period 72 time 1001 bandwidth 1869 latency 100
+[t71590-d27-e1] (network) period 73 time 1007 bandwidth 1547 latency 100
+[t71590-d27-e1] (network) period 74 time 1001 bandwidth 2077 latency 100
+[t71590-d27-e1] (download) size 5566288.00 total_time 3472.08 latency 100.00 download_time 3372.08 throughput 1650.70
+[t71590-d27-e1] (session) download_finish
+[t75062-d27-e1] (consume) name download time 3472.08
+[t75062-d27-e1] (consume) name enhance time 3472.08
+[t75062-d27-e1] (push) name download decision 2 segment_time 4000.00
+[t75062-d28-e1] (session) download_start
+[t75062-d28-e1] (consume) name download time 0.00
+[t75062-d28-e1] (consume) name enhance time 0.00
+[t75062-d28-e1] (estimate) throughput 1323.70 latency 100.01
+[t75062-d28-e1] (control) download 2 enhance 0
+[t75062-d28-e1] (network) period 75 time 1011 bandwidth 1639 latency 100
+[t75062-d28-e1] (network) period 76 time 1001 bandwidth 1771 latency 100
+[t75062-d28-e1] (download) size 4715760.00 total_time 2707.23 latency 100.00 download_time 2607.23 throughput 1808.72
+[t75062-d28-e1] (session) download_finish
+[t77770-d28-e1] (consume) name download time 2707.23
+[t77770-d28-e1] (consume) name enhance time 2707.23
+[t77770-d28-e1] (push) name download decision 2 segment_time 4000.00
+[t77770-d29-e1] (session) download_start
+[t77770-d29-e1] (consume) name download time 0.00
+[t77770-d29-e1] (consume) name enhance time 0.00
+[t77770-d29-e1] (estimate) throughput 1421.92 latency 100.00
+[t77770-d29-e1] (control) download 2 enhance 0
+[t77770-d29-e1] (network) period 77 time 1028 bandwidth 1058 latency 100
+[t77770-d29-e1] (network) period 78 time 1004 bandwidth 1199 latency 100
+[t77770-d29-e1] (network) period 79 time 1167 bandwidth 1607 latency 100
+[t77770-d29-e1] (network) period 80 time 1001 bandwidth 1639 latency 100
+[t77770-d29-e1] (download) size 5502496.00 total_time 4108.93 latency 100.00 download_time 4008.93 throughput 1372.56
+[t77770-d29-e1] (session) download_finish
+[t81879-d29-e1] (consume) name download time 4108.93
+[t81879-d29-e1] (consume) name enhance time 4108.93
+[t81879-d29-e1] (push) name download decision 2 segment_time 4000.00
+[t81879-d30-e1] (session) download_start
+[t81879-d30-e1] (consume) name download time 0.00
+[t81879-d30-e1] (consume) name enhance time 0.00
+[t81879-d30-e1] (estimate) throughput 1407.42 latency 100.00
+[t81879-d30-e1] (control) download 2 enhance 0
+[t81879-d30-e1] (network) period 81 time 1119 bandwidth 1451 latency 100
+[t81879-d30-e1] (network) period 82 time 1001 bandwidth 1738 latency 100
+[t81879-d30-e1] (network) period 83 time 1008 bandwidth 1589 latency 100
+[t81879-d30-e1] (network) period 84 time 1008 bandwidth 1834 latency 100
+[t81879-d30-e1] (network) period 85 time 1203 bandwidth 1150 latency 100
+[t81879-d30-e1] (download) size 8276488.00 total_time 5442.70 latency 100.00 download_time 5342.70 throughput 1549.12
+[t81879-d30-e1] (session) download_finish
+[t87321-d30-e1] (consume) name download time 5442.70
+[t87321-d30-e1] (consume) name enhance time 5442.70
+[t87321-d30-e1] (push) name download decision 2 segment_time 4000.00
+[t87321-d31-e1] (session) download_start
+[t87321-d31-e1] (consume) name download time 0.00
+[t87321-d31-e1] (consume) name enhance time 0.00
+[t87321-d31-e1] (estimate) throughput 1459.96 latency 100.00
+[t87321-d31-e1] (control) download 2 enhance 0
+[t87321-d31-e1] (network) period 86 time 1001 bandwidth 1377 latency 100
+[t87321-d31-e1] (network) period 87 time 1011 bandwidth 1201 latency 100
+[t87321-d31-e1] (network) period 88 time 1009 bandwidth 807 latency 100
+[t87321-d31-e1] (network) period 89 time 1008 bandwidth 846 latency 100
+[t87321-d31-e1] (network) period 90 time 1212 bandwidth 568 latency 100
+[t87321-d31-e1] (network) period 91 time 1008 bandwidth 369 latency 100
+[t87321-d31-e1] (network) period 92 time 1352 bandwidth 250 latency 100
+[t87321-d31-e1] (network) period 93 time 1008 bandwidth 521 latency 100
+[t87321-d31-e1] (download) size 6049432.00 total_time 8392.37 latency 100.00 download_time 8292.37 throughput 729.52
+[t87321-d31-e1] (session) download_finish
+[t95714-d31-e1] (consume) name download time 8392.37
+[t95714-d31-e1] (consume) name enhance time 8392.37
+[t95714-d31-e1] (push) name download decision 2 segment_time 4000.00
+[t95714-d32-e1] (session) download_start
+[t95714-d32-e1] (consume) name download time 0.00
+[t95714-d32-e1] (consume) name enhance time 0.00
+[t95714-d32-e1] (estimate) throughput 845.80 latency 100.00
+[t95714-d32-e1] (control) download 1 enhance 0
+[t95714-d32-e1] (network) period 94 time 1031 bandwidth 418 latency 100
+[t95714-d32-e1] (network) period 95 time 1008 bandwidth 1270 latency 100
+[t95714-d32-e1] (network) period 96 time 1012 bandwidth 1449 latency 100
+[t95714-d32-e1] (download) size 2380256.00 total_time 2771.34 latency 100.00 download_time 2671.34 throughput 891.03
+[t95714-d32-e1] (session) download_finish
+[t98485-d32-e1] (consume) name download time 2771.34
+[t98485-d32-e1] (consume) name enhance time 2771.34
+[t98485-d32-e1] (push) name download decision 1 segment_time 4000.00
+[t98485-d33-e1] (session) download_start
+[t98485-d33-e1] (consume) name download time 0.00
+[t98485-d33-e1] (consume) name enhance time 0.00
+[t98485-d33-e1] (estimate) throughput 866.63 latency 100.00
+[t98485-d33-e1] (control) download 1 enhance 0
+[t98485-d33-e1] (network) period 97 time 1001 bandwidth 1261 latency 100
+[t98485-d33-e1] (network) period 98 time 1007 bandwidth 1554 latency 100
+[t98485-d33-e1] (download) size 2635960.00 total_time 2021.87 latency 100.00 download_time 1921.87 throughput 1371.56
+[t98485-d33-e1] (session) download_finish
+[t100507-d33-e1] (consume) name download time 2021.87
+[t100507-d33-e1] (consume) name enhance time 2021.87
+[t100507-d33-e1] (push) name download decision 1 segment_time 4000.00
+[t100507-d34-e1] (session) download_start
+[t100507-d34-e1] (consume) name download time 0.00
+[t100507-d34-e1] (consume) name enhance time 0.00
+[t100507-d34-e1] (estimate) throughput 1047.68 latency 100.00
+[t100507-d34-e1] (control) download 1 enhance 0
+[t100507-d34-e1] (network) period 99 time 1013 bandwidth 1311 latency 100
+[t100507-d34-e1] (network) period 100 time 1008 bandwidth 1541 latency 100
+[t100507-d34-e1] (download) size 2940968.00 total_time 2155.19 latency 100.00 download_time 2055.19 throughput 1431.00
+[t100507-d34-e1] (session) download_finish
+[t102662-d34-e1] (consume) name download time 2155.19
+[t102662-d34-e1] (consume) name enhance time 2155.19
+[t102662-d34-e1] (push) name download decision 1 segment_time 4000.00
+[t102662-d35-e1] (session) download_start
+[t102662-d35-e1] (consume) name download time 0.00
+[t102662-d35-e1] (consume) name enhance time 0.00
+[t102662-d35-e1] (estimate) throughput 1150.11 latency 100.00
+[t102662-d35-e1] (estimate) throughput 1150.11 latency 100.00
+[t102662-d35-e1] (control) download 2 enhance 0
+[t102662-d35-e1] (network) period 101 time 1012 bandwidth 1345 latency 100
+[t102662-d35-e1] (network) period 102 time 1007 bandwidth 1467 latency 100
+[t102662-d35-e1] (network) period 103 time 1013 bandwidth 1350 latency 100
+[t102662-d35-e1] (network) period 104 time 1008 bandwidth 1035 latency 100
+[t102662-d35-e1] (download) size 4958800.00 total_time 3664.85 latency 100.00 download_time 3564.85 throughput 1391.03
+[t102662-d35-e1] (session) download_finish
+[t106327-d35-e1] (consume) name download time 3664.85
+[t106327-d35-e1] (consume) name enhance time 3664.85
+[t106327-d35-e1] (push) name download decision 2 segment_time 4000.00
+[t106327-d36-e1] (session) download_start
+[t106327-d36-e1] (consume) name download time 0.00
+[t106327-d36-e1] (consume) name enhance time 0.00
+[t106327-d36-e1] (estimate) throughput 1214.14 latency 100.00
+[t106327-d36-e1] (control) download 2 enhance 0
+[t106327-d36-e1] (network) period 105 time 1011 bandwidth 1190 latency 100
+[t106327-d36-e1] (network) period 106 time 1001 bandwidth 1202 latency 100
+[t106327-d36-e1] (network) period 107 time 1008 bandwidth 1025 latency 100
+[t106327-d36-e1] (network) period 108 time 1011 bandwidth 1277 latency 100
+[t106327-d36-e1] (network) period 109 time 1001 bandwidth 1218 latency 100
+[t106327-d36-e1] (download) size 5597184.00 total_time 4958.68 latency 100.00 download_time 4858.68 throughput 1152.00
+[t106327-d36-e1] (session) download_finish
+[t111286-d36-e1] (consume) name download time 4958.68
+[t111286-d36-e1] (consume) name enhance time 4958.68
+[t111286-d36-e1] (push) name download decision 2 segment_time 4000.00
+[t111286-d37-e1] (session) download_start
+[t111286-d37-e1] (consume) name download time 0.00
+[t111286-d37-e1] (consume) name enhance time 0.00
+[t111286-d37-e1] (estimate) throughput 1192.78 latency 100.00
+[t111286-d37-e1] (control) download 2 enhance 0
+[t111286-d37-e1] (network) period 110 time 1008 bandwidth 1444 latency 100
+[t111286-d37-e1] (network) period 111 time 1011 bandwidth 1374 latency 100
+[t111286-d37-e1] (network) period 112 time 1009 bandwidth 1154 latency 100
+[t111286-d37-e1] (download) size 4000656.00 total_time 3073.79 latency 100.00 download_time 2973.79 throughput 1345.31
+[t111286-d37-e1] (session) download_finish
+[t114359-d37-e1] (consume) name download time 3073.79
+[t114359-d37-e1] (consume) name enhance time 3073.79
+[t114359-d37-e1] (push) name download decision 2 segment_time 4000.00
+[t114359-d38-e1] (session) download_start
+[t114359-d38-e1] (consume) name download time 0.00
+[t114359-d38-e1] (consume) name enhance time 0.00
+[t114359-d38-e1] (estimate) throughput 1227.43 latency 100.00
+[t114359-d38-e1] (control) download 2 enhance 0
+[t114359-d38-e1] (network) period 113 time 1012 bandwidth 1243 latency 100
+[t114359-d38-e1] (network) period 114 time 1039 bandwidth 1152 latency 100
+[t114359-d38-e1] (network) period 115 time 1001 bandwidth 1104 latency 100
+[t114359-d38-e1] (network) period 116 time 1008 bandwidth 1237 latency 100
+[t114359-d38-e1] (download) size 4702072.00 total_time 4129.02 latency 100.00 download_time 4029.02 throughput 1167.05
+[t114359-d38-e1] (session) download_finish
+[t118488-d38-e1] (consume) name download time 4129.02
+[t118488-d38-e1] (consume) name enhance time 4129.02
+[t118488-d38-e1] (push) name download decision 2 segment_time 4000.00
+[t118488-d39-e1] (session) download_start
+[t118488-d39-e1] (consume) name download time 0.00
+[t118488-d39-e1] (consume) name enhance time 0.00
+[t118488-d39-e1] (estimate) throughput 1208.79 latency 100.00
+[t118488-d39-e1] (control) download 2 enhance 0
+[t118488-d39-e1] (network) period 117 time 1004 bandwidth 1268 latency 100
+[t118488-d39-e1] (network) period 118 time 1008 bandwidth 1444 latency 100
+[t118488-d39-e1] (network) period 119 time 1008 bandwidth 1451 latency 100
+[t118488-d39-e1] (network) period 120 time 1019 bandwidth 1157 latency 100
+[t118488-d39-e1] (network) period 121 time 1001 bandwidth 1858 latency 100
+[t118488-d39-e1] (download) size 6330280.00 total_time 4900.23 latency 100.00 download_time 4800.23 throughput 1318.74
+[t118488-d39-e1] (session) download_finish
+[t123389-d39-e1] (consume) name download time 4900.23
+[t123389-d39-e1] (consume) name enhance time 4900.23
+[t123389-d39-e1] (push) name download decision 2 segment_time 4000.00
+[t123389-d40-e1] (session) download_start
+[t123389-d40-e1] (consume) name download time 0.00
+[t123389-d40-e1] (consume) name enhance time 0.00
+[t123389-d40-e1] (estimate) throughput 1246.76 latency 100.00
+[t123389-d40-e1] (control) download 2 enhance 0
+[t123389-d40-e1] (network) period 122 time 1012 bandwidth 1594 latency 100
+[t123389-d40-e1] (download) size 2758208.00 total_time 1686.06 latency 100.00 download_time 1586.06 throughput 1739.03
+[t123389-d40-e1] (session) download_finish
+[t125075-d40-e1] (consume) name download time 1686.06
+[t125075-d40-e1] (consume) name enhance time 1686.06
+[t125075-d40-e1] (push) name download decision 2 segment_time 4000.00
+[t125075-d41-e1] (session) download_start
+[t125075-d41-e1] (consume) name download time 0.00
+[t125075-d41-e1] (consume) name enhance time 0.00
+[t125075-d41-e1] (estimate) throughput 1309.97 latency 100.00
+[t125075-d41-e1] (control) download 2 enhance 0
+[t125075-d41-e1] (network) period 123 time 1007 bandwidth 1793 latency 100
+[t125075-d41-e1] (network) period 124 time 1001 bandwidth 1502 latency 100
+[t125075-d41-e1] (network) period 125 time 1160 bandwidth 1617 latency 100
+[t125075-d41-e1] (network) period 126 time 1020 bandwidth 1416 latency 100
+[t125075-d41-e1] (download) size 5839128.00 total_time 3705.32 latency 100.00 download_time 3605.32 throughput 1619.59
+[t125075-d41-e1] (session) download_finish
+[t128780-d41-e1] (consume) name download time 3705.32
+[t128780-d41-e1] (consume) name enhance time 3705.32
+[t128780-d41-e1] (push) name download decision 2 segment_time 4000.00
+[t128780-d42-e1] (session) download_start
+[t128780-d42-e1] (consume) name download time 0.00
+[t128780-d42-e1] (consume) name enhance time 0.00
+[t128780-d42-e1] (estimate) throughput 1393.04 latency 100.00
+[t128780-d42-e1] (control) download 2 enhance 0
+[t128780-d42-e1] (network) period 127 time 1019 bandwidth 1299 latency 100
+[t128780-d42-e1] (network) period 128 time 1001 bandwidth 1130 latency 100
+[t128780-d42-e1] (network) period 129 time 1004 bandwidth 1340 latency 100
+[t128780-d42-e1] (download) size 4333832.00 total_time 3483.69 latency 100.00 download_time 3383.69 throughput 1280.80
+[t128780-d42-e1] (session) download_finish
+[t132264-d42-e1] (consume) name download time 3483.69
+[t132264-d42-e1] (consume) name enhance time 3483.69
+[t132264-d42-e1] (push) name download decision 2 segment_time 4000.00
+[t132264-d43-e1] (session) download_start
+[t132264-d43-e1] (consume) name download time 0.00
+[t132264-d43-e1] (consume) name enhance time 0.00
+[t132264-d43-e1] (estimate) throughput 1364.52 latency 100.00
+[t132264-d43-e1] (estimate) throughput 1364.52 latency 100.00
+[t132264-d43-e1] (control) download 2 enhance 0
+[t132264-d43-e1] (network) period 130 time 1008 bandwidth 1216 latency 100
+[t132264-d43-e1] (network) period 131 time 1020 bandwidth 1023 latency 100
+[t132264-d43-e1] (network) period 132 time 1020 bandwidth 1190 latency 100
+[t132264-d43-e1] (network) period 133 time 1007 bandwidth 1102 latency 100
+[t132264-d43-e1] (download) size 4352432.00 total_time 3889.40 latency 100.00 download_time 3789.40 throughput 1148.58
+[t132264-d43-e1] (session) download_finish
+[t136153-d43-e1] (consume) name download time 3889.40
+[t136153-d43-e1] (consume) name enhance time 3889.40
+[t136153-d43-e1] (push) name download decision 2 segment_time 4000.00
+[t136153-d44-e1] (session) download_start
+[t136153-d44-e1] (consume) name download time 0.00
+[t136153-d44-e1] (consume) name enhance time 0.00
+[t136153-d44-e1] (estimate) throughput 1251.93 latency 100.00
+[t136153-d44-e1] (estimate) throughput 1251.93 latency 100.00
+[t136153-d44-e1] (control) download 2 enhance 0
+[t136153-d44-e1] (network) period 134 time 1001 bandwidth 1147 latency 100
+[t136153-d44-e1] (network) period 135 time 1020 bandwidth 1276 latency 100
+[t136153-d44-e1] (download) size 2832696.00 total_time 2473.80 latency 100.00 download_time 2373.80 throughput 1193.32
+[t136153-d44-e1] (session) download_finish
+[t138627-d44-e1] (consume) name download time 2473.80
+[t138627-d44-e1] (consume) name enhance time 2473.80
+[t138627-d44-e1] (push) name download decision 2 segment_time 4000.00
+[t138627-d45-e1] (session) download_start
+[t138627-d45-e1] (consume) name download time 0.00
+[t138627-d45-e1] (consume) name enhance time 0.00
+[t138627-d45-e1] (estimate) throughput 1227.18 latency 100.00
+[t138627-d45-e1] (estimate) throughput 1227.18 latency 100.00
+[t138627-d45-e1] (control) download 2 enhance 0
+[t138627-d45-e1] (network) period 136 time 1011 bandwidth 1335 latency 100
+[t138627-d45-e1] (network) period 137 time 1008 bandwidth 1389 latency 100
+[t138627-d45-e1] (network) period 138 time 1112 bandwidth 1204 latency 100
+[t138627-d45-e1] (network) period 139 time 1001 bandwidth 1388 latency 100
+[t138627-d45-e1] (network) period 140 time 1007 bandwidth 1445 latency 100
+[t138627-d45-e1] (network) period 141 time 1005 bandwidth 1126 latency 100
+[t138627-d45-e1] (download) size 7007808.00 total_time 5317.73 latency 100.00 download_time 5217.73 throughput 1343.08
+[t138627-d45-e1] (session) download_finish
+[t143945-d45-e1] (consume) name download time 5317.73
+[t143945-d45-e1] (consume) name enhance time 5317.73
+[t143945-d45-e1] (push) name download decision 2 segment_time 4000.00
+[t143945-d46-e1] (session) download_start
+[t143945-d46-e1] (consume) name download time 0.00
+[t143945-d46-e1] (consume) name enhance time 0.00
+[t143945-d46-e1] (estimate) throughput 1305.16 latency 100.00
+[t143945-d46-e1] (estimate) throughput 1305.16 latency 100.00
+[t143945-d46-e1] (control) download 2 enhance 0
+[t143945-d46-e1] (network) period 142 time 1008 bandwidth 1758 latency 100
+[t143945-d46-e1] (network) period 143 time 1008 bandwidth 1285 latency 100
+[t143945-d46-e1] (network) period 144 time 1012 bandwidth 1730 latency 100
+[t143945-d46-e1] (network) period 145 time 1008 bandwidth 1383 latency 100
+[t143945-d46-e1] (network) period 146 time 1011 bandwidth 1710 latency 100
+[t143945-d46-e1] (download) size 7571440.00 total_time 5190.23 latency 100.00 download_time 5090.23 throughput 1487.45
+[t143945-d46-e1] (session) download_finish
+[t149135-d46-e1] (consume) name download time 5190.23
+[t149135-d46-e1] (consume) name enhance time 5190.23
+[t149135-d46-e1] (push) name download decision 2 segment_time 4000.00
+[t149135-d47-e1] (session) download_start
+[t149135-d47-e1] (consume) name download time 0.00
+[t149135-d47-e1] (consume) name enhance time 0.00
+[t149135-d47-e1] (estimate) throughput 1370.17 latency 100.00
+[t149135-d47-e1] (control) download 2 enhance 0
+[t149135-d47-e1] (network) period 147 time 1001 bandwidth 1480 latency 100
+[t149135-d47-e1] (network) period 148 time 1008 bandwidth 1693 latency 100
+[t149135-d47-e1] (network) period 149 time 1011 bandwidth 1552 latency 100
+[t149135-d47-e1] (network) period 150 time 1009 bandwidth 1833 latency 100
+[t149135-d47-e1] (network) period 151 time 1012 bandwidth 1421 latency 100
+[t149135-d47-e1] (download) size 7859368.00 total_time 4885.31 latency 100.00 download_time 4785.31 throughput 1642.40
+[t149135-d47-e1] (session) download_finish
+[t154020-d47-e1] (consume) name download time 4885.31
+[t154020-d47-e1] (consume) name enhance time 4885.31
+[t154020-d47-e1] (push) name download decision 2 segment_time 4000.00
+[t154020-d48-e1] (session) download_start
+[t154020-d48-e1] (consume) name download time 0.00
+[t154020-d48-e1] (consume) name enhance time 0.00
+[t154020-d48-e1] (estimate) throughput 1462.57 latency 100.00
+[t154020-d48-e1] (control) download 2 enhance 0
+[t154020-d48-e1] (network) period 152 time 1007 bandwidth 1760 latency 100
+[t154020-d48-e1] (network) period 153 time 1001 bandwidth 1360 latency 100
+[t154020-d48-e1] (download) size 3375360.00 total_time 2251.09 latency 100.00 download_time 2151.09 throughput 1569.14
+[t154020-d48-e1] (session) download_finish
+[t156271-d48-e1] (consume) name download time 2251.09
+[t156271-d48-e1] (consume) name enhance time 2251.09
+[t156271-d48-e1] (push) name download decision 2 segment_time 4000.00
+[t156271-d49-e1] (session) download_start
+[t156271-d49-e1] (consume) name download time 0.00
+[t156271-d49-e1] (consume) name enhance time 0.00
+[t156271-d49-e1] (estimate) throughput 1480.69 latency 100.00
+[t156271-d49-e1] (estimate) throughput 1480.69 latency 100.00
+[t156271-d49-e1] (control) download 3 enhance 0
+[t156271-d49-e1] (network) period 154 time 1012 bandwidth 1838 latency 100
+[t156271-d49-e1] (network) period 155 time 1020 bandwidth 1560 latency 100
+[t156271-d49-e1] (network) period 156 time 1008 bandwidth 1824 latency 100
+[t156271-d49-e1] (network) period 157 time 1020 bandwidth 1410 latency 100
+[t156271-d49-e1] (network) period 158 time 1011 bandwidth 1602 latency 100
+[t156271-d49-e1] (network) period 159 time 1148 bandwidth 1147 latency 100
+[t156271-d49-e1] (network) period 160 time 1001 bandwidth 1290 latency 100
+[t156271-d49-e1] (network) period 161 time 1011 bandwidth 1266 latency 100
+[t156271-d49-e1] (download) size 12484288.00 total_time 8488.15 latency 100.00 download_time 8388.15 throughput 1488.33
+[t156271-d49-e1] (session) download_finish
+[t164759-d49-e1] (consume) name download time 8488.15
+[t164759-d49-e1] (consume) name enhance time 8488.15
+[t164759-d49-e1] (push) name download decision 3 segment_time 4000.00
+[t164759-d50-e1] (session) download_start
+[t164759-d50-e1] (consume) name download time 0.00
+[t164759-d50-e1] (consume) name enhance time 0.00
+[t164759-d50-e1] (estimate) throughput 1484.63 latency 100.00
+[t164759-d50-e1] (control) download 1 enhance 0
+[t164759-d50-e1] (network) period 162 time 1001 bandwidth 813 latency 100
+[t164759-d50-e1] (network) period 163 time 1008 bandwidth 1335 latency 100
+[t164759-d50-e1] (network) period 164 time 1020 bandwidth 1180 latency 100
+[t164759-d50-e1] (download) size 3092024.00 total_time 2879.49 latency 100.00 download_time 2779.49 throughput 1112.44
+[t164759-d50-e1] (session) download_finish
+[t167639-d50-e1] (consume) name download time 2879.49
+[t167639-d50-e1] (consume) name enhance time 2879.49
+[t167639-d50-e1] (push) name download decision 1 segment_time 4000.00
+[t167639-d51-e1] (session) download_start
+[t167639-d51-e1] (consume) name download time 0.00
+[t167639-d51-e1] (consume) name enhance time 0.00
+[t167639-d51-e1] (estimate) throughput 1316.50 latency 100.00
+[t167639-d51-e1] (estimate) throughput 1316.50 latency 100.00
+[t167639-d51-e1] (control) download 2 enhance 0
+[t167639-d51-e1] (network) period 165 time 1012 bandwidth 848 latency 100
+[t167639-d51-e1] (network) period 166 time 1008 bandwidth 1292 latency 100
+[t167639-d51-e1] (network) period 167 time 1012 bandwidth 1405 latency 100
+[t167639-d51-e1] (download) size 3551040.00 total_time 3177.13 latency 100.00 download_time 3077.13 throughput 1154.01
+[t167639-d51-e1] (session) download_finish
+[t170816-d51-e1] (consume) name download time 3177.13
+[t170816-d51-e1] (consume) name enhance time 3177.13
+[t170816-d51-e1] (push) name download decision 2 segment_time 4000.00
+[t170816-d52-e1] (session) download_start
+[t170816-d52-e1] (consume) name download time 0.00
+[t170816-d52-e1] (consume) name enhance time 0.00
+[t170816-d52-e1] (estimate) throughput 1233.82 latency 100.00
+[t170816-d52-e1] (control) download 2 enhance 0
+[t170816-d52-e1] (network) period 168 time 1008 bandwidth 1220 latency 100
+[t170816-d52-e1] (network) period 169 time 1020 bandwidth 1448 latency 100
+[t170816-d52-e1] (network) period 170 time 1012 bandwidth 1118 latency 100
+[t170816-d52-e1] (download) size 3932856.00 total_time 3153.88 latency 100.00 download_time 3053.88 throughput 1287.82
+[t170816-d52-e1] (session) download_finish
+[t173970-d52-e1] (consume) name download time 3153.88
+[t173970-d52-e1] (consume) name enhance time 3153.88
+[t173970-d52-e1] (push) name download decision 2 segment_time 4000.00
+[t173970-d53-e1] (session) download_start
+[t173970-d53-e1] (consume) name download time 0.00
+[t173970-d53-e1] (consume) name enhance time 0.00
+[t173970-d53-e1] (estimate) throughput 1261.15 latency 100.00
+[t173970-d53-e1] (control) download 2 enhance 0
+[t173970-d53-e1] (network) period 171 time 1020 bandwidth 1502 latency 100
+[t173970-d53-e1] (network) period 172 time 1079 bandwidth 1393 latency 100
+[t173970-d53-e1] (network) period 173 time 1012 bandwidth 962 latency 100
+[t173970-d53-e1] (network) period 174 time 1017 bandwidth 1667 latency 100
+[t173970-d53-e1] (network) period 175 time 1012 bandwidth 1291 latency 100
+[t173970-d53-e1] (network) period 176 time 1020 bandwidth 1630 latency 100
+[t173970-d53-e1] (download) size 7542688.00 total_time 5617.43 latency 100.00 download_time 5517.43 throughput 1367.07
+[t173970-d53-e1] (session) download_finish
+[t179587-d53-e1] (consume) name download time 5617.43
+[t179587-d53-e1] (consume) name enhance time 5617.43
+[t179587-d53-e1] (push) name download decision 2 segment_time 4000.00
+[t179587-d54-e1] (session) download_start
+[t179587-d54-e1] (consume) name download time 0.00
+[t179587-d54-e1] (consume) name enhance time 0.00
+[t179587-d54-e1] (estimate) throughput 1337.46 latency 100.00
+[t179587-d54-e1] (control) download 2 enhance 0
+[t179587-d54-e1] (network) period 177 time 1008 bandwidth 1372 latency 100
+[t179587-d54-e1] (network) period 178 time 1012 bandwidth 1719 latency 100
+[t179587-d54-e1] (network) period 179 time 1007 bandwidth 1167 latency 100
+[t179587-d54-e1] (network) period 180 time 1013 bandwidth 1469 latency 100
+[t179587-d54-e1] (network) period 181 time 1008 bandwidth 1476 latency 100
+[t179587-d54-e1] (download) size 7578600.00 total_time 5281.07 latency 100.00 download_time 5181.07 throughput 1462.75
+[t179587-d54-e1] (session) download_finish
+[t184868-d54-e1] (consume) name download time 5281.07
+[t184868-d54-e1] (consume) name enhance time 5281.07
+[t184868-d54-e1] (push) name download decision 2 segment_time 4000.00
+[t184868-d55-e1] (session) download_start
+[t184868-d55-e1] (consume) name download time 0.00
+[t184868-d55-e1] (consume) name enhance time 0.00
+[t184868-d55-e1] (estimate) throughput 1388.06 latency 100.00
+[t184868-d55-e1] (control) download 1 enhance 0
+[t184868-d55-e1] (network) period 182 time 1012 bandwidth 1161 latency 100
+[t184868-d55-e1] (network) period 183 time 1008 bandwidth 1346 latency 100
+[t184868-d55-e1] (download) size 2475968.00 total_time 2033.05 latency 100.00 download_time 1933.05 throughput 1280.86
+[t184868-d55-e1] (session) download_finish
+[t186901-d55-e1] (consume) name download time 2033.05
+[t186901-d55-e1] (consume) name enhance time 2033.05
+[t186901-d55-e1] (push) name download decision 1 segment_time 4000.00
+[t186901-d56-e1] (session) download_start
+[t186901-d56-e1] (consume) name download time 0.00
+[t186901-d56-e1] (consume) name enhance time 0.00
+[t186901-d56-e1] (estimate) throughput 1371.53 latency 100.00
+[t186901-d56-e1] (estimate) throughput 1371.53 latency 100.00
+[t186901-d56-e1] (control) download 2 enhance 0
+[t186901-d56-e1] (network) period 184 time 1011 bandwidth 1335 latency 100
+[t186901-d56-e1] (download) size 1914896.00 total_time 1530.60 latency 100.00 download_time 1430.60 throughput 1338.53
+[t186901-d56-e1] (session) download_finish
+[t188432-d56-e1] (consume) name download time 1530.60
+[t188432-d56-e1] (consume) name enhance time 1530.60
+[t188432-d56-e1] (push) name download decision 2 segment_time 4000.00
+[t188432-d57-e1] (session) download_start
+[t188432-d57-e1] (consume) name download time 0.00
+[t188432-d57-e1] (consume) name enhance time 0.00
+[t188432-d57-e1] (estimate) throughput 1363.31 latency 100.00
+[t188432-d57-e1] (control) download 2 enhance 0
+[t188432-d57-e1] (network) period 185 time 1008 bandwidth 1932 latency 100
+[t188432-d57-e1] (network) period 186 time 1012 bandwidth 1215 latency 100
+[t188432-d57-e1] (network) period 187 time 1001 bandwidth 951 latency 100
+[t188432-d57-e1] (network) period 188 time 1008 bandwidth 694 latency 100
+[t188432-d57-e1] (network) period 189 time 1020 bandwidth 858 latency 100
+[t188432-d57-e1] (download) size 5249136.00 total_time 4695.65 latency 100.00 download_time 4595.65 throughput 1142.20
+[t188432-d57-e1] (session) download_finish
+[t193128-d57-e1] (consume) name download time 4695.65
+[t193128-d57-e1] (consume) name enhance time 4695.65
+[t193128-d57-e1] (push) name download decision 2 segment_time 4000.00
+[t193128-d58-e1] (session) download_start
+[t193128-d58-e1] (consume) name download time 0.00
+[t193128-d58-e1] (consume) name enhance time 0.00
+[t193128-d58-e1] (estimate) throughput 1218.66 latency 100.00
+[t193128-d58-e1] (control) download 2 enhance 0
+[t193128-d58-e1] (network) period 190 time 1023 bandwidth 571 latency 100
+[t193128-d58-e1] (network) period 191 time 1017 bandwidth 1259 latency 100
+[t193128-d58-e1] (network) period 0 time 1013 bandwidth 1285 latency 100
+[t193128-d58-e1] (download) size 3259664.00 total_time 3322.83 latency 100.00 download_time 3222.83 throughput 1011.43
+[t193128-d58-e1] (session) download_finish
+[t196451-d58-e1] (consume) name download time 3322.83
+[t196451-d58-e1] (consume) name enhance time 3322.83
+[t196451-d58-e1] (push) name download decision 2 segment_time 4000.00
+[t196451-d59-e1] (session) download_start
+[t196451-d59-e1] (consume) name download time 0.00
+[t196451-d59-e1] (consume) name enhance time 0.00
+[t196451-d59-e1] (estimate) throughput 1109.85 latency 100.00
+[t196451-d59-e1] (control) download 2 enhance 0
+[t196451-d59-e1] (network) period 1 time 1008 bandwidth 1693 latency 100
+[t196451-d59-e1] (network) period 2 time 1011 bandwidth 1812 latency 100
+[t196451-d59-e1] (network) period 3 time 1008 bandwidth 1795 latency 100
+[t196451-d59-e1] (download) size 3757216.00 total_time 2247.24 latency 100.00 download_time 2147.24 throughput 1749.79
+[t196451-d59-e1] (session) download_finish
+[t198698-d59-e1] (consume) name download time 2247.24
+[t198698-d59-e1] (consume) name enhance time 2247.24
+[t198698-d59-e1] (push) name download decision 2 segment_time 4000.00
+[t198698-d60-e1] (session) download_start
+[t198698-d60-e1] (consume) name download time 0.00
+[t198698-d60-e1] (consume) name enhance time 0.00
+[t198698-d60-e1] (estimate) throughput 1313.98 latency 100.00
+[t198698-d60-e1] (estimate) throughput 1313.98 latency 100.00
+[t198698-d60-e1] (control) download 2 enhance 0
+[t198698-d60-e1] (network) period 4 time 1013 bandwidth 2182 latency 100
+[t198698-d60-e1] (download) size 1735520.00 total_time 1037.66 latency 100.00 download_time 937.66 throughput 1850.90
+[t198698-d60-e1] (session) download_finish
+[t199735-d60-e1] (consume) name download time 1037.66
+[t199735-d60-e1] (consume) name enhance time 1037.66
+[t199735-d60-e1] (push) name download decision 2 segment_time 4000.00
+[t199735-d61-e1] (session) download_start
+[t199735-d61-e1] (consume) name download time 0.00
+[t199735-d61-e1] (consume) name enhance time 0.00
+[t199735-d61-e1] (estimate) throughput 1355.87 latency 100.00
+[t199735-d61-e1] (estimate) throughput 1355.87 latency 100.00
+[t199735-d61-e1] (control) download 2 enhance 0
+[t199735-d61-e1] (network) period 5 time 1007 bandwidth 1895 latency 100
+[t199735-d61-e1] (network) period 6 time 1012 bandwidth 2249 latency 100
+[t199735-d61-e1] (network) period 7 time 1001 bandwidth 1775 latency 100
+[t199735-d61-e1] (download) size 7008832.00 total_time 3532.02 latency 100.00 download_time 3432.02 throughput 2042.19
+[t199735-d61-e1] (session) download_finish
+[t203267-d61-e1] (consume) name download time 3532.02
+[t203267-d61-e1] (consume) name enhance time 3532.02
+[t203267-d61-e1] (push) name download decision 2 segment_time 4000.00
+[t203267-d62-e1] (session) download_start
+[t203267-d62-e1] (consume) name download time 0.00
+[t203267-d62-e1] (consume) name enhance time 0.00
+[t203267-d62-e1] (estimate) throughput 1532.41 latency 100.00
+[t203267-d62-e1] (estimate) throughput 1532.41 latency 100.00
+[t203267-d62-e1] (control) download 3 enhance 0
+[t203267-d62-e1] (network) period 8 time 1020 bandwidth 1646 latency 100
+[t203267-d62-e1] (network) period 9 time 1008 bandwidth 2128 latency 100
+[t203267-d62-e1] (network) period 10 time 1020 bandwidth 2064 latency 100
+[t203267-d62-e1] (network) period 11 time 1012 bandwidth 2000 latency 100
+[t203267-d62-e1] (network) period 12 time 1007 bandwidth 1732 latency 100
+[t203267-d62-e1] (network) period 13 time 1024 bandwidth 1853 latency 100
+[t203267-d62-e1] (network) period 14 time 1007 bandwidth 2206 latency 100
+[t203267-d62-e1] (network) period 15 time 1001 bandwidth 1731 latency 100
+[t203267-d62-e1] (download) size 14660904.00 total_time 7679.20 latency 100.00 download_time 7579.20 throughput 1934.36
+[t203267-d62-e1] (session) download_finish
+[t210947-d62-e1] (consume) name download time 7679.20
+[t210947-d62-e1] (consume) name enhance time 7679.20
+[t210947-d62-e1] (push) name download decision 3 segment_time 4000.00
+[t210947-d63-e1] (session) download_start
+[t210947-d63-e1] (consume) name download time 0.00
+[t210947-d63-e1] (consume) name enhance time 0.00
+[t210947-d63-e1] (estimate) throughput 1725.92 latency 100.00
+[t210947-d63-e1] (control) download 3 enhance 0
+[t210947-d63-e1] (network) period 16 time 1008 bandwidth 2312 latency 100
+[t210947-d63-e1] (network) period 17 time 1020 bandwidth 1731 latency 100
+[t210947-d63-e1] (network) period 18 time 1004 bandwidth 1639 latency 100
+[t210947-d63-e1] (network) period 19 time 1008 bandwidth 2323 latency 100
+[t210947-d63-e1] (network) period 20 time 1007 bandwidth 1558 latency 100
+[t210947-d63-e1] (download) size 9974000.00 total_time 5277.47 latency 100.00 download_time 5177.47 throughput 1926.42
+[t210947-d63-e1] (session) download_finish
+[t216224-d63-e1] (consume) name download time 5277.47
+[t216224-d63-e1] (consume) name enhance time 5277.47
+[t216224-d63-e1] (push) name download decision 3 segment_time 4000.00
+[t216224-d64-e1] (session) download_start
+[t216224-d64-e1] (consume) name download time 0.00
+[t216224-d64-e1] (consume) name enhance time 0.00
+[t216224-d64-e1] (estimate) throughput 1798.40 latency 100.00
+[t216224-d64-e1] (control) download 3 enhance 0
+[t216224-d64-e1] (network) period 21 time 1001 bandwidth 1836 latency 100
+[t216224-d64-e1] (network) period 22 time 1019 bandwidth 1679 latency 100
+[t216224-d64-e1] (network) period 23 time 1004 bandwidth 2125 latency 100
+[t216224-d64-e1] (network) period 24 time 1009 bandwidth 1805 latency 100
+[t216224-d64-e1] (network) period 25 time 1007 bandwidth 1743 latency 100
+[t216224-d64-e1] (network) period 26 time 1013 bandwidth 2247 latency 100
+[t216224-d64-e1] (download) size 10483320.00 total_time 5824.48 latency 100.00 download_time 5724.48 throughput 1831.31
+[t216224-d64-e1] (session) download_finish
+[t222049-d64-e1] (consume) name download time 5824.48
+[t222049-d64-e1] (consume) name enhance time 5824.48
+[t222049-d64-e1] (push) name download decision 3 segment_time 4000.00
+[t222049-d65-e1] (session) download_start
+[t222049-d65-e1] (consume) name download time 0.00
+[t222049-d65-e1] (consume) name enhance time 0.00
+[t222049-d65-e1] (estimate) throughput 1811.27 latency 100.00
+[t222049-d65-e1] (control) download 2 enhance 0
+[t222049-d65-e1] (network) period 27 time 1024 bandwidth 2024 latency 100
+[t222049-d65-e1] (network) period 28 time 1095 bandwidth 1893 latency 100
+[t222049-d65-e1] (download) size 4573328.00 total_time 2317.26 latency 100.00 download_time 2217.26 throughput 2062.61
+[t222049-d65-e1] (session) download_finish
+[t224366-d65-e1] (consume) name download time 2317.26
+[t224366-d65-e1] (consume) name enhance time 2317.26
+[t224366-d65-e1] (push) name download decision 2 segment_time 4000.00
+[t224366-d66-e1] (session) download_start
+[t224366-d66-e1] (consume) name download time 0.00
+[t224366-d66-e1] (consume) name enhance time 0.00
+[t224366-d66-e1] (estimate) throughput 1855.20 latency 100.00
+[t224366-d66-e1] (control) download 2 enhance 0
+[t224366-d66-e1] (network) period 29 time 1001 bandwidth 2153 latency 100
+[t224366-d66-e1] (network) period 30 time 1020 bandwidth 1892 latency 100
+[t224366-d66-e1] (download) size 4718856.00 total_time 2455.77 latency 100.00 download_time 2355.77 throughput 2003.11
+[t224366-d66-e1] (session) download_finish
+[t226822-d66-e1] (consume) name download time 2455.77
+[t226822-d66-e1] (consume) name enhance time 2455.77
+[t226822-d66-e1] (push) name download decision 2 segment_time 4000.00
+[t226822-d67-e1] (session) download_start
+[t226822-d67-e1] (consume) name download time 0.00
+[t226822-d67-e1] (consume) name enhance time 0.00
+[t226822-d67-e1] (estimate) throughput 1882.51 latency 100.00
+[t226822-d67-e1] (estimate) throughput 1882.51 latency 100.00
+[t226822-d67-e1] (control) download 3 enhance 0
+[t226822-d67-e1] (network) period 31 time 1008 bandwidth 2236 latency 100
+[t226822-d67-e1] (network) period 32 time 1012 bandwidth 1994 latency 100
+[t226822-d67-e1] (network) period 33 time 1008 bandwidth 2110 latency 100
+[t226822-d67-e1] (network) period 34 time 1012 bandwidth 2335 latency 100
+[t226822-d67-e1] (download) size 7706216.00 total_time 3697.52 latency 100.00 download_time 3597.52 throughput 2142.09
+[t226822-d67-e1] (session) download_finish
+[t230519-d67-e1] (consume) name download time 3697.52
+[t230519-d67-e1] (consume) name enhance time 3697.52
+[t230519-d67-e1] (push) name download decision 3 segment_time 4000.00
+[t230519-d68-e1] (session) download_start
+[t230519-d68-e1] (consume) name download time 0.00
+[t230519-d68-e1] (consume) name enhance time 0.00
+[t230519-d68-e1] (estimate) throughput 1952.02 latency 100.00
+[t230519-d68-e1] (control) download 3 enhance 0
+[t230519-d68-e1] (network) period 35 time 1007 bandwidth 1536 latency 100
+[t230519-d68-e1] (network) period 36 time 1013 bandwidth 1941 latency 100
+[t230519-d68-e1] (network) period 37 time 1008 bandwidth 1929 latency 100
+[t230519-d68-e1] (network) period 38 time 1012 bandwidth 1464 latency 100
+[t230519-d68-e1] (network) period 39 time 1008 bandwidth 1824 latency 100
+[t230519-d68-e1] (network) period 40 time 1004 bandwidth 1628 latency 100
+[t230519-d68-e1] (network) period 41 time 1008 bandwidth 1780 latency 100
+[t230519-d68-e1] (download) size 11689888.00 total_time 6747.38 latency 100.00 download_time 6647.38 throughput 1758.57
+[t230519-d68-e1] (session) download_finish
+[t237267-d68-e1] (consume) name download time 6747.38
+[t237267-d68-e1] (consume) name enhance time 6747.38
+[t237267-d68-e1] (push) name download decision 3 segment_time 4000.00
+[t237267-d69-e1] (session) download_start
+[t237267-d69-e1] (consume) name download time 0.00
+[t237267-d69-e1] (consume) name enhance time 0.00
+[t237267-d69-e1] (estimate) throughput 1824.57 latency 100.00
+[t237267-d69-e1] (control) download 2 enhance 0
+[t237267-d69-e1] (network) period 42 time 1019 bandwidth 1733 latency 100
+[t237267-d69-e1] (network) period 43 time 1020 bandwidth 1952 latency 100
+[t237267-d69-e1] (network) period 44 time 1009 bandwidth 1859 latency 100
+[t237267-d69-e1] (network) period 45 time 1099 bandwidth 1876 latency 100
+[t237267-d69-e1] (download) size 7150424.00 total_time 3993.12 latency 100.00 download_time 3893.12 throughput 1836.68
+[t237267-d69-e1] (session) download_finish
+[t241260-d69-e1] (consume) name download time 3993.12
+[t241260-d69-e1] (consume) name enhance time 3993.12
+[t241260-d69-e1] (push) name download decision 2 segment_time 4000.00
+[t241260-d70-e1] (session) download_start
+[t241260-d70-e1] (consume) name download time 0.00
+[t241260-d70-e1] (consume) name enhance time 0.00
+[t241260-d70-e1] (estimate) throughput 1831.76 latency 100.00
+[t241260-d70-e1] (control) download 2 enhance 0
+[t241260-d70-e1] (network) period 46 time 1001 bandwidth 1355 latency 100
+[t241260-d70-e1] (network) period 47 time 1020 bandwidth 1523 latency 100
+[t241260-d70-e1] (network) period 48 time 1028 bandwidth 802 latency 100
+[t241260-d70-e1] (network) period 49 time 1004 bandwidth 850 latency 100
+[t241260-d70-e1] (download) size 5869008.00 total_time 4623.19 latency 100.00 download_time 4523.19 throughput 1297.54
+[t241260-d70-e1] (session) download_finish
+[t245883-d70-e1] (consume) name download time 4623.19
+[t245883-d70-e1] (consume) name enhance time 4623.19
+[t245883-d70-e1] (push) name download decision 2 segment_time 4000.00
+[t245883-d71-e1] (session) download_start
+[t245883-d71-e1] (consume) name download time 0.00
+[t245883-d71-e1] (consume) name enhance time 0.00
+[t245883-d71-e1] (estimate) throughput 1485.40 latency 100.00
+[t245883-d71-e1] (control) download 2 enhance 0
+[t245883-d71-e1] (network) period 50 time 1008 bandwidth 1411 latency 100
+[t245883-d71-e1] (network) period 51 time 1008 bandwidth 1198 latency 100
+[t245883-d71-e1] (network) period 52 time 1004 bandwidth 1733 latency 100
+[t245883-d71-e1] (network) period 53 time 1007 bandwidth 1699 latency 100
+[t245883-d71-e1] (download) size 4889896.00 total_time 3570.60 latency 100.00 download_time 3470.60 throughput 1408.95
+[t245883-d71-e1] (session) download_finish
+[t249453-d71-e1] (consume) name download time 3570.60
+[t249453-d71-e1] (consume) name enhance time 3570.60
+[t249453-d71-e1] (push) name download decision 2 segment_time 4000.00
+[t249453-d72-e1] (session) download_start
+[t249453-d72-e1] (consume) name download time 0.00
+[t249453-d72-e1] (consume) name enhance time 0.00
+[t249453-d72-e1] (estimate) throughput 1443.24 latency 100.00
+[t249453-d72-e1] (control) download 2 enhance 0
+[t249453-d72-e1] (network) period 54 time 1012 bandwidth 2000 latency 100
+[t249453-d72-e1] (download) size 2419720.00 total_time 1422.06 latency 100.00 download_time 1322.06 throughput 1830.26
+[t249453-d72-e1] (session) download_finish
+[t250876-d72-e1] (consume) name download time 1422.06
+[t250876-d72-e1] (consume) name enhance time 1422.06
+[t250876-d72-e1] (push) name download decision 2 segment_time 4000.00
+[t250876-d73-e1] (session) download_start
+[t250876-d73-e1] (consume) name download time 0.00
+[t250876-d73-e1] (consume) name enhance time 0.00
+[t250876-d73-e1] (estimate) throughput 1545.11 latency 100.00
+[t250876-d73-e1] (estimate) throughput 1545.11 latency 100.00
+[t250876-d73-e1] (control) download 3 enhance 0
+[t250876-d73-e1] (network) period 55 time 1001 bandwidth 1600 latency 100
+[t250876-d73-e1] (network) period 56 time 1008 bandwidth 1910 latency 100
+[t250876-d73-e1] (network) period 57 time 1011 bandwidth 1151 latency 100
+[t250876-d73-e1] (download) size 4330680.00 total_time 2559.90 latency 100.00 download_time 2459.90 throughput 1760.51
+[t250876-d73-e1] (session) download_finish
+[t253435-d73-e1] (consume) name download time 2559.90
+[t253435-d73-e1] (consume) name enhance time 2559.90
+[t253435-d73-e1] (push) name download decision 3 segment_time 4000.00
+[t253435-d74-e1] (session) download_start
+[t253435-d74-e1] (consume) name download time 0.00
+[t253435-d74-e1] (consume) name enhance time 0.00
+[t253435-d74-e1] (estimate) throughput 1638.50 latency 100.00
+[t253435-d74-e1] (control) download 3 enhance 0
+[t253435-d74-e1] (network) period 58 time 1009 bandwidth 1572 latency 100
+[t253435-d74-e1] (network) period 59 time 1011 bandwidth 1303 latency 100
+[t253435-d74-e1] (network) period 60 time 1021 bandwidth 1061 latency 100
+[t253435-d74-e1] (network) period 61 time 1008 bandwidth 1064 latency 100
+[t253435-d74-e1] (network) period 62 time 1019 bandwidth 842 latency 100
+[t253435-d74-e1] (network) period 63 time 1001 bandwidth 1158 latency 100
+[t253435-d74-e1] (network) period 64 time 1011 bandwidth 1104 latency 100
+[t253435-d74-e1] (network) period 65 time 1001 bandwidth 879 latency 100
+[t253435-d74-e1] (network) period 66 time 1020 bandwidth 751 latency 100
+[t253435-d74-e1] (network) period 67 time 1007 bandwidth 684 latency 100
+[t253435-d74-e1] (network) period 68 time 1001 bandwidth 994 latency 100
+[t253435-d74-e1] (download) size 11678720.00 total_time 11240.75 latency 100.00 download_time 11140.75 throughput 1048.29
+[t253435-d74-e1] (session) download_finish
+[t264676-d74-e1] (consume) name download time 11240.75
+[t264676-d74-e1] (consume) name enhance time 11240.75
+[t264676-d74-e1] (push) name download decision 3 segment_time 4000.00
+[t264676-d75-e1] (session) download_start
+[t264676-d75-e1] (consume) name download time 0.00
+[t264676-d75-e1] (consume) name enhance time 0.00
+[t264676-d75-e1] (estimate) throughput 1093.28 latency 100.00
+[t264676-d75-e1] (control) download 1 enhance 0
+[t264676-d75-e1] (network) period 69 time 1012 bandwidth 891 latency 100
+[t264676-d75-e1] (network) period 70 time 1007 bandwidth 1401 latency 100
+[t264676-d75-e1] (download) size 2587960.00 total_time 2508.46 latency 100.00 download_time 2408.46 throughput 1074.53
+[t264676-d75-e1] (session) download_finish
+[t267185-d75-e1] (consume) name download time 2508.46
+[t267185-d75-e1] (consume) name enhance time 2508.46
+[t267185-d75-e1] (push) name download decision 1 segment_time 4000.00
+[t267185-d76-e1] (session) download_start
+[t267185-d76-e1] (consume) name download time 0.00
+[t267185-d76-e1] (consume) name enhance time 0.00
+[t267185-d76-e1] (estimate) throughput 1085.28 latency 100.00
+[t267185-d76-e1] (estimate) throughput 1085.28 latency 100.00
+[t267185-d76-e1] (control) download 2 enhance 0
+[t267185-d76-e1] (network) period 71 time 1012 bandwidth 1529 latency 100
+[t267185-d76-e1] (network) period 72 time 1001 bandwidth 1869 latency 100
+[t267185-d76-e1] (network) period 73 time 1007 bandwidth 1547 latency 100
+[t267185-d76-e1] (network) period 74 time 1001 bandwidth 2077 latency 100
+[t267185-d76-e1] (download) size 6519416.00 total_time 3919.83 latency 100.00 download_time 3819.83 throughput 1706.73
+[t267185-d76-e1] (session) download_finish
+[t271104-d76-e1] (consume) name download time 3919.83
+[t271104-d76-e1] (consume) name enhance time 3919.83
+[t271104-d76-e1] (push) name download decision 2 segment_time 4000.00
+[t271104-d77-e1] (session) download_start
+[t271104-d77-e1] (consume) name download time 0.00
+[t271104-d77-e1] (consume) name enhance time 0.00
+[t271104-d77-e1] (estimate) throughput 1372.32 latency 100.00
+[t271104-d77-e1] (control) download 2 enhance 0
+[t271104-d77-e1] (network) period 75 time 1011 bandwidth 1639 latency 100
+[t271104-d77-e1] (network) period 76 time 1001 bandwidth 1771 latency 100
+[t271104-d77-e1] (network) period 77 time 1028 bandwidth 1058 latency 100
+[t271104-d77-e1] (network) period 78 time 1004 bandwidth 1199 latency 100
+[t271104-d77-e1] (download) size 6094720.00 total_time 4253.74 latency 100.00 download_time 4153.74 throughput 1467.28
+[t271104-d77-e1] (session) download_finish
+[t275358-d77-e1] (consume) name download time 4253.74
+[t275358-d77-e1] (consume) name enhance time 4253.74
+[t275358-d77-e1] (push) name download decision 2 segment_time 4000.00
+[t275358-d78-e1] (session) download_start
+[t275358-d78-e1] (consume) name download time 0.00
+[t275358-d78-e1] (consume) name enhance time 0.00
+[t275358-d78-e1] (estimate) throughput 1401.02 latency 100.00
+[t275358-d78-e1] (control) download 2 enhance 0
+[t275358-d78-e1] (network) period 79 time 1167 bandwidth 1607 latency 100
+[t275358-d78-e1] (network) period 80 time 1001 bandwidth 1639 latency 100
+[t275358-d78-e1] (network) period 81 time 1119 bandwidth 1451 latency 100
+[t275358-d78-e1] (network) period 82 time 1001 bandwidth 1738 latency 100
+[t275358-d78-e1] (download) size 5312448.00 total_time 3506.81 latency 100.00 download_time 3406.81 throughput 1559.36
+[t275358-d78-e1] (session) download_finish
+[t278865-d78-e1] (consume) name download time 3506.81
+[t278865-d78-e1] (consume) name enhance time 3506.81
+[t278865-d78-e1] (push) name download decision 2 segment_time 4000.00
+[t278865-d79-e1] (session) download_start
+[t278865-d79-e1] (consume) name download time 0.00
+[t278865-d79-e1] (consume) name enhance time 0.00
+[t278865-d79-e1] (estimate) throughput 1441.49 latency 100.00
+[t278865-d79-e1] (control) download 2 enhance 0
+[t278865-d79-e1] (network) period 83 time 1008 bandwidth 1589 latency 100
+[t278865-d79-e1] (network) period 84 time 1008 bandwidth 1834 latency 100
+[t278865-d79-e1] (network) period 85 time 1203 bandwidth 1150 latency 100
+[t278865-d79-e1] (network) period 86 time 1001 bandwidth 1377 latency 100
+[t278865-d79-e1] (download) size 7332728.00 total_time 4911.69 latency 100.00 download_time 4811.69 throughput 1523.94
+[t278865-d79-e1] (session) download_finish
+[t283777-d79-e1] (consume) name download time 4911.69
+[t283777-d79-e1] (consume) name enhance time 4911.69
+[t283777-d79-e1] (push) name download decision 2 segment_time 4000.00
+[t283777-d80-e1] (session) download_start
+[t283777-d80-e1] (consume) name download time 0.00
+[t283777-d80-e1] (consume) name enhance time 0.00
+[t283777-d80-e1] (estimate) throughput 1469.60 latency 100.00
+[t283777-d80-e1] (control) download 2 enhance 0
+[t283777-d80-e1] (network) period 87 time 1011 bandwidth 1201 latency 100
+[t283777-d80-e1] (network) period 88 time 1009 bandwidth 807 latency 100
+[t283777-d80-e1] (network) period 89 time 1008 bandwidth 846 latency 100
+[t283777-d80-e1] (network) period 90 time 1212 bandwidth 568 latency 100
+[t283777-d80-e1] (network) period 91 time 1008 bandwidth 369 latency 100
+[t283777-d80-e1] (network) period 92 time 1352 bandwidth 250 latency 100
+[t283777-d80-e1] (network) period 93 time 1008 bandwidth 521 latency 100
+[t283777-d80-e1] (network) period 94 time 1031 bandwidth 418 latency 100
+[t283777-d80-e1] (network) period 95 time 1008 bandwidth 1270 latency 100
+[t283777-d80-e1] (download) size 5811592.00 total_time 9179.35 latency 100.00 download_time 9079.35 throughput 640.09
+[t283777-d80-e1] (session) download_finish
+[t292956-d80-e1] (consume) name download time 9179.35
+[t292956-d80-e1] (consume) name enhance time 9179.35
+[t292956-d80-e1] (push) name download decision 2 segment_time 4000.00
+[t292956-d81-e1] (session) download_start
+[t292956-d81-e1] (consume) name download time 0.00
+[t292956-d81-e1] (consume) name enhance time 0.00
+[t292956-d81-e1] (estimate) throughput 748.18 latency 100.00
+[t292956-d81-e1] (control) download 0 enhance 0
+[t292956-d81-e1] (network) period 96 time 1012 bandwidth 1449 latency 100
+[t292956-d81-e1] (download) size 2062480.00 total_time 1600.34 latency 100.00 download_time 1500.34 throughput 1374.68
+[t292956-d81-e1] (session) download_finish
+[t294556-d81-e1] (consume) name download time 1600.34
+[t294556-d81-e1] (consume) name enhance time 1600.34
+[t294556-d81-e1] (push) name download decision 0 segment_time 4000.00
+[t294556-d82-e1] (session) download_start
+[t294556-d82-e1] (consume) name download time 0.00
+[t294556-d82-e1] (consume) name enhance time 0.00
+[t294556-d82-e1] (estimate) throughput 931.71 latency 100.00
+[t294556-d82-e1] (estimate) throughput 931.71 latency 100.00
+[t294556-d82-e1] (control) download 1 enhance 0
+[t294556-d82-e1] (network) period 97 time 1001 bandwidth 1261 latency 100
+[t294556-d82-e1] (network) period 98 time 1007 bandwidth 1554 latency 100
+[t294556-d82-e1] (network) period 99 time 1013 bandwidth 1311 latency 100
+[t294556-d82-e1] (download) size 3717256.00 total_time 2783.32 latency 100.00 download_time 2683.32 throughput 1385.32
+[t294556-d82-e1] (session) download_finish
+[t297340-d82-e1] (consume) name download time 2783.32
+[t297340-d82-e1] (consume) name enhance time 2783.32
+[t297340-d82-e1] (push) name download decision 1 segment_time 4000.00
+[t297340-d83-e1] (session) download_start
+[t297340-d83-e1] (consume) name download time 0.00
+[t297340-d83-e1] (consume) name enhance time 0.00
+[t297340-d83-e1] (estimate) throughput 1128.53 latency 100.00
+[t297340-d83-e1] (control) download 1 enhance 0
+[t297340-d83-e1] (network) period 100 time 1008 bandwidth 1541 latency 100
+[t297340-d83-e1] (network) period 101 time 1012 bandwidth 1345 latency 100
+[t297340-d83-e1] (network) period 102 time 1007 bandwidth 1467 latency 100
+[t297340-d83-e1] (download) size 4347816.00 total_time 3126.02 latency 100.00 download_time 3026.02 throughput 1436.81
+[t297340-d83-e1] (session) download_finish
+[t300466-d83-e1] (consume) name download time 3126.02
+[t300466-d83-e1] (consume) name enhance time 3126.02
+[t300466-d83-e1] (push) name download decision 1 segment_time 4000.00
+[t300466-d84-e1] (session) download_start
+[t300466-d84-e1] (consume) name download time 0.00
+[t300466-d84-e1] (consume) name enhance time 0.00
+[t300466-d84-e1] (estimate) throughput 1199.63 latency 100.00
+[t300466-d84-e1] (control) download 1 enhance 0
+[t300466-d84-e1] (network) period 103 time 1013 bandwidth 1350 latency 100
+[t300466-d84-e1] (network) period 104 time 1008 bandwidth 1035 latency 100
+[t300466-d84-e1] (download) size 2431448.00 total_time 2068.60 latency 100.00 download_time 1968.60 throughput 1235.12
+[t300466-d84-e1] (session) download_finish
+[t302534-d84-e1] (consume) name download time 2068.60
+[t302534-d84-e1] (consume) name enhance time 2068.60
+[t302534-d84-e1] (push) name download decision 1 segment_time 4000.00
+[t302534-d85-e1] (session) download_start
+[t302534-d85-e1] (consume) name download time 0.00
+[t302534-d85-e1] (consume) name enhance time 0.00
+[t302534-d85-e1] (estimate) throughput 1205.19 latency 100.00
+[t302534-d85-e1] (estimate) throughput 1205.19 latency 100.00
+[t302534-d85-e1] (control) download 2 enhance 0
+[t302534-d85-e1] (network) period 105 time 1011 bandwidth 1190 latency 100
+[t302534-d85-e1] (network) period 106 time 1001 bandwidth 1202 latency 100
+[t302534-d85-e1] (network) period 107 time 1008 bandwidth 1025 latency 100
+[t302534-d85-e1] (download) size 2631184.00 total_time 2330.18 latency 100.00 download_time 2230.18 throughput 1179.81
+[t302534-d85-e1] (session) download_finish
+[t304864-d85-e1] (consume) name download time 2330.18
+[t304864-d85-e1] (consume) name enhance time 2330.18
+[t304864-d85-e1] (push) name download decision 2 segment_time 4000.00
+[t304864-d86-e1] (session) download_start
+[t304864-d86-e1] (consume) name download time 0.00
+[t304864-d86-e1] (consume) name enhance time 0.00
+[t304864-d86-e1] (estimate) throughput 1200.73 latency 100.00
+[t304864-d86-e1] (control) download 2 enhance 0
+[t304864-d86-e1] (network) period 108 time 1011 bandwidth 1277 latency 100
+[t304864-d86-e1] (network) period 109 time 1001 bandwidth 1218 latency 100
+[t304864-d86-e1] (network) period 110 time 1008 bandwidth 1444 latency 100
+[t304864-d86-e1] (download) size 4140040.00 total_time 3477.28 latency 100.00 download_time 3377.28 throughput 1225.85
+[t304864-d86-e1] (session) download_finish
+[t308342-d86-e1] (consume) name download time 3477.28
+[t308342-d86-e1] (consume) name enhance time 3477.28
+[t308342-d86-e1] (push) name download decision 2 segment_time 4000.00
+[t308342-d87-e1] (session) download_start
+[t308342-d87-e1] (consume) name download time 0.00
+[t308342-d87-e1] (consume) name enhance time 0.00
+[t308342-d87-e1] (estimate) throughput 1207.11 latency 100.00
+[t308342-d87-e1] (control) download 2 enhance 0
+[t308342-d87-e1] (network) period 111 time 1011 bandwidth 1374 latency 100
+[t308342-d87-e1] (network) period 112 time 1009 bandwidth 1154 latency 100
+[t308342-d87-e1] (network) period 113 time 1012 bandwidth 1243 latency 100
+[t308342-d87-e1] (network) period 114 time 1039 bandwidth 1152 latency 100
+[t308342-d87-e1] (network) period 115 time 1001 bandwidth 1104 latency 100
+[t308342-d87-e1] (network) period 116 time 1008 bandwidth 1237 latency 100
+[t308342-d87-e1] (network) period 117 time 1004 bandwidth 1268 latency 100
+[t308342-d87-e1] (download) size 8802696.00 total_time 7267.78 latency 100.00 download_time 7167.78 throughput 1228.09
+[t308342-d87-e1] (session) download_finish
+[t315610-d87-e1] (consume) name download time 7267.78
+[t315610-d87-e1] (consume) name enhance time 7267.78
+[t315610-d87-e1] (push) name download decision 2 segment_time 4000.00
+[t315610-d88-e1] (session) download_start
+[t315610-d88-e1] (consume) name download time 0.00
+[t315610-d88-e1] (consume) name enhance time 0.00
+[t315610-d88-e1] (estimate) throughput 1216.81 latency 100.00
+[t315610-d88-e1] (control) download 2 enhance 0
+[t315610-d88-e1] (network) period 118 time 1008 bandwidth 1444 latency 100
+[t315610-d88-e1] (network) period 119 time 1008 bandwidth 1451 latency 100
+[t315610-d88-e1] (network) period 120 time 1019 bandwidth 1157 latency 100
+[t315610-d88-e1] (network) period 121 time 1001 bandwidth 1858 latency 100
+[t315610-d88-e1] (network) period 122 time 1012 bandwidth 1594 latency 100
+[t315610-d88-e1] (download) size 7393136.00 total_time 5072.64 latency 100.00 download_time 4972.64 throughput 1486.76
+[t315610-d88-e1] (session) download_finish
+[t320682-d88-e1] (consume) name download time 5072.64
+[t320682-d88-e1] (consume) name enhance time 5072.64
+[t320682-d88-e1] (push) name download decision 2 segment_time 4000.00
+[t320682-d89-e1] (session) download_start
+[t320682-d89-e1] (consume) name download time 0.00
+[t320682-d89-e1] (consume) name enhance time 0.00
+[t320682-d89-e1] (estimate) throughput 1311.31 latency 100.00
+[t320682-d89-e1] (control) download 1 enhance 0
+[t320682-d89-e1] (network) period 123 time 1007 bandwidth 1793 latency 100
+[t320682-d89-e1] (network) period 124 time 1001 bandwidth 1502 latency 100
+[t320682-d89-e1] (network) period 125 time 1160 bandwidth 1617 latency 100
+[t320682-d89-e1] (download) size 3968048.00 total_time 2517.67 latency 100.00 download_time 2417.67 throughput 1641.27
+[t320682-d89-e1] (session) download_finish
+[t323200-d89-e1] (consume) name download time 2517.67
+[t323200-d89-e1] (consume) name enhance time 2517.67
+[t323200-d89-e1] (push) name download decision 1 segment_time 4000.00
+[t323200-d90-e1] (session) download_start
+[t323200-d90-e1] (consume) name download time 0.00
+[t323200-d90-e1] (consume) name enhance time 0.00
+[t323200-d90-e1] (estimate) throughput 1373.67 latency 100.00
+[t323200-d90-e1] (estimate) throughput 1373.67 latency 100.00
+[t323200-d90-e1] (control) download 2 enhance 0
+[t323200-d90-e1] (network) period 126 time 1020 bandwidth 1416 latency 100
+[t323200-d90-e1] (network) period 127 time 1019 bandwidth 1299 latency 100
+[t323200-d90-e1] (network) period 128 time 1001 bandwidth 1130 latency 100
+[t323200-d90-e1] (network) period 129 time 1004 bandwidth 1340 latency 100
+[t323200-d90-e1] (network) period 130 time 1008 bandwidth 1216 latency 100
+[t323200-d90-e1] (network) period 131 time 1020 bandwidth 1023 latency 100
+[t323200-d90-e1] (download) size 7788744.00 total_time 5976.29 latency 100.00 download_time 5876.29 throughput 1325.45
+[t323200-d90-e1] (session) download_finish
+[t329176-d90-e1] (consume) name download time 5976.29
+[t329176-d90-e1] (consume) name enhance time 5976.29
+[t329176-d90-e1] (push) name download decision 2 segment_time 4000.00
+[t329176-d91-e1] (session) download_start
+[t329176-d91-e1] (consume) name download time 0.00
+[t329176-d91-e1] (consume) name enhance time 0.00
+[t329176-d91-e1] (estimate) throughput 1354.43 latency 100.00
+[t329176-d91-e1] (control) download 1 enhance 0
+[t329176-d91-e1] (network) period 132 time 1020 bandwidth 1190 latency 100
+[t329176-d91-e1] (network) period 133 time 1007 bandwidth 1102 latency 100
+[t329176-d91-e1] (network) period 134 time 1001 bandwidth 1147 latency 100
+[t329176-d91-e1] (download) size 3474360.00 total_time 3227.20 latency 100.00 download_time 3127.20 throughput 1111.01
+[t329176-d91-e1] (session) download_finish
+[t332403-d91-e1] (consume) name download time 3227.20
+[t332403-d91-e1] (consume) name enhance time 3227.20
+[t332403-d91-e1] (push) name download decision 1 segment_time 4000.00
+[t332403-d92-e1] (session) download_start
+[t332403-d92-e1] (consume) name download time 0.00
+[t332403-d92-e1] (consume) name enhance time 0.00
+[t332403-d92-e1] (estimate) throughput 1237.68 latency 100.00
+[t332403-d92-e1] (control) download 1 enhance 0
+[t332403-d92-e1] (network) period 135 time 1020 bandwidth 1276 latency 100
+[t332403-d92-e1] (network) period 136 time 1011 bandwidth 1335 latency 100
+[t332403-d92-e1] (download) size 3260624.00 total_time 2685.60 latency 100.00 download_time 2585.60 throughput 1261.07
+[t332403-d92-e1] (session) download_finish
+[t335089-d92-e1] (consume) name download time 2685.60
+[t335089-d92-e1] (consume) name enhance time 2685.60
+[t335089-d92-e1] (push) name download decision 1 segment_time 4000.00
+[t335089-d93-e1] (session) download_start
+[t335089-d93-e1] (consume) name download time 0.00
+[t335089-d93-e1] (consume) name enhance time 0.00
+[t335089-d93-e1] (estimate) throughput 1248.20 latency 100.00
+[t335089-d93-e1] (estimate) throughput 1248.20 latency 100.00
+[t335089-d93-e1] (control) download 2 enhance 0
+[t335089-d93-e1] (network) period 137 time 1008 bandwidth 1389 latency 100
+[t335089-d93-e1] (network) period 138 time 1112 bandwidth 1204 latency 100
+[t335089-d93-e1] (network) period 139 time 1001 bandwidth 1388 latency 100
+[t335089-d93-e1] (network) period 140 time 1007 bandwidth 1445 latency 100
+[t335089-d93-e1] (download) size 4316784.00 total_time 3354.61 latency 100.00 download_time 3254.61 throughput 1326.36
+[t335089-d93-e1] (session) download_finish
+[t338444-d93-e1] (consume) name download time 3354.61
+[t338444-d93-e1] (consume) name enhance time 3354.61
+[t338444-d93-e1] (push) name download decision 2 segment_time 4000.00
+[t338444-d94-e1] (session) download_start
+[t338444-d94-e1] (consume) name download time 0.00
+[t338444-d94-e1] (consume) name enhance time 0.00
+[t338444-d94-e1] (estimate) throughput 1289.51 latency 100.00
+[t338444-d94-e1] (control) download 2 enhance 0
+[t338444-d94-e1] (network) period 141 time 1005 bandwidth 1126 latency 100
+[t338444-d94-e1] (network) period 142 time 1008 bandwidth 1758 latency 100
+[t338444-d94-e1] (download) size 2475040.00 total_time 2014.35 latency 100.00 download_time 1914.35 throughput 1292.89
+[t338444-d94-e1] (session) download_finish
+[t340458-d94-e1] (consume) name download time 2014.35
+[t340458-d94-e1] (consume) name enhance time 2014.35
+[t340458-d94-e1] (push) name download decision 2 segment_time 4000.00
+[t340458-d95-e1] (session) download_start
+[t340458-d95-e1] (consume) name download time 0.00
+[t340458-d95-e1] (consume) name enhance time 0.00
+[t340458-d95-e1] (estimate) throughput 1290.72 latency 100.00
+[t340458-d95-e1] (control) download 2 enhance 0
+[t340458-d95-e1] (network) period 143 time 1008 bandwidth 1285 latency 100
+[t340458-d95-e1] (download) size 2421704.00 total_time 1684.94 latency 100.00 download_time 1584.94 throughput 1527.95
+[t340458-d95-e1] (session) download_finish
+[t342143-d95-e1] (consume) name download time 1684.94
+[t342143-d95-e1] (consume) name enhance time 1684.94
+[t342143-d95-e1] (push) name download decision 2 segment_time 4000.00
+[t342143-d96-e1] (session) download_start
+[t342143-d96-e1] (consume) name download time 0.00
+[t342143-d96-e1] (consume) name enhance time 0.00
+[t342143-d96-e1] (estimate) throughput 1327.24 latency 100.00
+[t342143-d96-e1] (estimate) throughput 1327.24 latency 100.00
+[t342143-d96-e1] (control) download 2 enhance 0
+[t342143-d96-e1] (network) period 144 time 1012 bandwidth 1730 latency 100
+[t342143-d96-e1] (network) period 145 time 1008 bandwidth 1383 latency 100
+[t342143-d96-e1] (download) size 2505216.00 total_time 1667.24 latency 100.00 download_time 1567.24 throughput 1598.49
+[t342143-d96-e1] (session) download_finish
+[t343810-d96-e1] (consume) name download time 1667.24
+[t343810-d96-e1] (consume) name enhance time 1667.24
+[t343810-d96-e1] (push) name download decision 2 segment_time 4000.00
+[t343810-d97-e1] (session) download_start
+[t343810-d97-e1] (consume) name download time 0.00
+[t343810-d97-e1] (consume) name enhance time 0.00
+[t343810-d97-e1] (estimate) throughput 1361.69 latency 100.00
+[t343810-d97-e1] (estimate) throughput 1361.69 latency 100.00
+[t343810-d97-e1] (control) download 2 enhance 0
+[t343810-d97-e1] (network) period 146 time 1011 bandwidth 1710 latency 100
+[t343810-d97-e1] (download) size 1181792.00 total_time 884.79 latency 100.00 download_time 784.79 throughput 1505.87
+[t343810-d97-e1] (session) download_finish
+[t344695-d97-e1] (consume) name download time 884.79
+[t344695-d97-e1] (consume) name enhance time 884.79
+[t344695-d97-e1] (push) name download decision 2 segment_time 4000.00
+[t344695-d98-e1] (session) download_start
+[t344695-d98-e1] (consume) name download time 0.00
+[t344695-d98-e1] (consume) name enhance time 0.00
+[t344695-d98-e1] (estimate) throughput 1371.16 latency 100.00
+[t344695-d98-e1] (estimate) throughput 1371.16 latency 100.00
+[t344695-d98-e1] (control) download 3 enhance 0
+[t344695-d98-e1] (network) period 147 time 1001 bandwidth 1480 latency 100
+[t344695-d98-e1] (network) period 148 time 1008 bandwidth 1693 latency 100
+[t344695-d98-e1] (network) period 149 time 1011 bandwidth 1552 latency 100
+[t344695-d98-e1] (download) size 5045544.00 total_time 3243.13 latency 100.00 download_time 3143.13 throughput 1605.26
+[t344695-d98-e1] (session) download_finish
+[t347938-d98-e1] (consume) name download time 3243.13
+[t347938-d98-e1] (consume) name enhance time 3243.13
+[t347938-d98-e1] (push) name download decision 3 segment_time 4000.00
+[t347938-d99-e1] (session) download_start
+[t347938-d99-e1] (consume) name download time 0.00
+[t347938-d99-e1] (consume) name enhance time 0.00
+[t347938-d99-e1] (estimate) throughput 1426.97 latency 100.00
+[t347938-d99-e1] (estimate) throughput 1426.97 latency 100.00
+[t347938-d99-e1] (control) download 3 enhance 0
+[t347938-d99-e1] (network) period 150 time 1009 bandwidth 1833 latency 100
+[t347938-d99-e1] (network) period 151 time 1012 bandwidth 1421 latency 100
+[t347938-d99-e1] (network) period 152 time 1007 bandwidth 1760 latency 100
+[t347938-d99-e1] (download) size 5214640.00 total_time 3262.38 latency 100.00 download_time 3162.38 throughput 1648.96
+[t347938-d99-e1] (session) download_finish
+[t351200-d99-e1] (consume) name download time 3262.38
+[t351200-d99-e1] (consume) name enhance time 3262.38
+[t351200-d99-e1] (push) name download decision 3 segment_time 4000.00
+[t351200-d100-e1] (session) download_start
+[t351200-d100-e1] (consume) name download time 0.00
+[t351200-d100-e1] (consume) name enhance time 0.00
+[t351200-d100-e1] (estimate) throughput 1480.17 latency 100.00
+[t351200-d100-e1] (estimate) throughput 1480.17 latency 100.00
+[t351200-d100-e1] (control) download 3 enhance 0
+[t351200-d100-e1] (network) period 153 time 1001 bandwidth 1360 latency 100
+[t351200-d100-e1] (network) period 154 time 1012 bandwidth 1838 latency 100
+[t351200-d100-e1] (network) period 155 time 1020 bandwidth 1560 latency 100
+[t351200-d100-e1] (network) period 156 time 1008 bandwidth 1824 latency 100
+[t351200-d100-e1] (network) period 157 time 1020 bandwidth 1410 latency 100
+[t351200-d100-e1] (download) size 7347728.00 total_time 4595.62 latency 100.00 download_time 4495.62 throughput 1634.42
+[t351200-d100-e1] (session) download_finish
+[t355796-d100-e1] (consume) name download time 4595.62
+[t355796-d100-e1] (consume) name enhance time 4595.62
+[t355796-d100-e1] (push) name download decision 3 segment_time 4000.00
+[t355796-d101-e1] (session) download_start
+[t355796-d101-e1] (consume) name download time 0.00
+[t355796-d101-e1] (consume) name enhance time 0.00
+[t355796-d101-e1] (estimate) throughput 1529.94 latency 100.00
+[t355796-d101-e1] (estimate) throughput 1529.94 latency 100.00
+[t355796-d101-e1] (control) download 3 enhance 0
+[t355796-d101-e1] (network) period 158 time 1011 bandwidth 1602 latency 100
+[t355796-d101-e1] (network) period 159 time 1148 bandwidth 1147 latency 100
+[t355796-d101-e1] (network) period 160 time 1001 bandwidth 1290 latency 100
+[t355796-d101-e1] (network) period 161 time 1011 bandwidth 1266 latency 100
+[t355796-d101-e1] (download) size 5179688.00 total_time 3941.02 latency 100.00 download_time 3841.02 throughput 1348.52
+[t355796-d101-e1] (session) download_finish
+[t359737-d101-e1] (consume) name download time 3941.02
+[t359737-d101-e1] (consume) name enhance time 3941.02
+[t359737-d101-e1] (push) name download decision 3 segment_time 4000.00
+[t359737-d102-e1] (session) download_start
+[t359737-d102-e1] (consume) name download time 0.00
+[t359737-d102-e1] (consume) name enhance time 0.00
+[t359737-d102-e1] (estimate) throughput 1459.89 latency 100.00
+[t359737-d102-e1] (estimate) throughput 1459.89 latency 100.00
+[t359737-d102-e1] (control) download 3 enhance 0
+[t359737-d102-e1] (network) period 162 time 1001 bandwidth 813 latency 100
+[t359737-d102-e1] (network) period 163 time 1008 bandwidth 1335 latency 100
+[t359737-d102-e1] (network) period 164 time 1020 bandwidth 1180 latency 100
+[t359737-d102-e1] (network) period 165 time 1012 bandwidth 848 latency 100
+[t359737-d102-e1] (network) period 166 time 1008 bandwidth 1292 latency 100
+[t359737-d102-e1] (network) period 167 time 1012 bandwidth 1405 latency 100
+[t359737-d102-e1] (download) size 7314456.00 total_time 6508.11 latency 100.00 download_time 6408.11 throughput 1141.44
+[t359737-d102-e1] (session) download_finish
+[t366245-d102-e1] (consume) name download time 6508.11
+[t366245-d102-e1] (consume) name enhance time 6508.11
+[t366245-d102-e1] (push) name download decision 3 segment_time 4000.00
+[t366245-d103-e1] (session) download_start
+[t366245-d103-e1] (consume) name download time 0.00
+[t366245-d103-e1] (consume) name enhance time 0.00
+[t366245-d103-e1] (estimate) throughput 1213.89 latency 100.00
+[t366245-d103-e1] (estimate) throughput 1213.89 latency 100.00
+[t366245-d103-e1] (control) download 3 enhance 0
+[t366245-d103-e1] (network) period 168 time 1008 bandwidth 1220 latency 100
+[t366245-d103-e1] (network) period 169 time 1020 bandwidth 1448 latency 100
+[t366245-d103-e1] (network) period 170 time 1012 bandwidth 1118 latency 100
+[t366245-d103-e1] (network) period 171 time 1020 bandwidth 1502 latency 100
+[t366245-d103-e1] (network) period 172 time 1079 bandwidth 1393 latency 100
+[t366245-d103-e1] (network) period 173 time 1012 bandwidth 962 latency 100
+[t366245-d103-e1] (network) period 174 time 1017 bandwidth 1667 latency 100
+[t366245-d103-e1] (network) period 175 time 1012 bandwidth 1291 latency 100
+[t366245-d103-e1] (download) size 10523680.00 total_time 7992.39 latency 100.00 download_time 7892.39 throughput 1333.40
+[t366245-d103-e1] (session) download_finish
+[t374238-d103-e1] (consume) name download time 7992.39
+[t374238-d103-e1] (consume) name enhance time 7992.39
+[t374238-d103-e1] (push) name download decision 3 segment_time 4000.00
+[t374238-d104-e1] (session) download_start
+[t374238-d104-e1] (consume) name download time 0.00
+[t374238-d104-e1] (consume) name enhance time 0.00
+[t374238-d104-e1] (estimate) throughput 1314.10 latency 100.00
+[t374238-d104-e1] (control) download 3 enhance 0
+[t374238-d104-e1] (network) period 176 time 1020 bandwidth 1630 latency 100
+[t374238-d104-e1] (network) period 177 time 1008 bandwidth 1372 latency 100
+[t374238-d104-e1] (network) period 178 time 1012 bandwidth 1719 latency 100
+[t374238-d104-e1] (network) period 179 time 1007 bandwidth 1167 latency 100
+[t374238-d104-e1] (network) period 180 time 1013 bandwidth 1469 latency 100
+[t374238-d104-e1] (network) period 181 time 1008 bandwidth 1476 latency 100
+[t374238-d104-e1] (network) period 182 time 1012 bandwidth 1161 latency 100
+[t374238-d104-e1] (network) period 183 time 1008 bandwidth 1346 latency 100
+[t374238-d104-e1] (download) size 11080944.00 total_time 7924.75 latency 100.00 download_time 7824.75 throughput 1416.14
+[t374238-d104-e1] (session) download_finish
+[t382162-d104-e1] (consume) name download time 7924.75
+[t382162-d104-e1] (consume) name enhance time 7924.75
+[t382162-d104-e1] (push) name download decision 3 segment_time 4000.00
+[t382162-d105-e1] (session) download_start
+[t382162-d105-e1] (consume) name download time 0.00
+[t382162-d105-e1] (consume) name enhance time 0.00
+[t382162-d105-e1] (estimate) throughput 1374.53 latency 100.00
+[t382162-d105-e1] (control) download 2 enhance 0
+[t382162-d105-e1] (network) period 184 time 1011 bandwidth 1335 latency 100
+[t382162-d105-e1] (network) period 185 time 1008 bandwidth 1932 latency 100
+[t382162-d105-e1] (network) period 186 time 1012 bandwidth 1215 latency 100
+[t382162-d105-e1] (download) size 4572112.00 total_time 3086.66 latency 100.00 download_time 2986.66 throughput 1530.84
+[t382162-d105-e1] (session) download_finish
+[t385249-d105-e1] (consume) name download time 3086.66
+[t385249-d105-e1] (consume) name enhance time 3086.66
+[t385249-d105-e1] (push) name download decision 2 segment_time 4000.00
+[t385249-d106-e1] (session) download_start
+[t385249-d106-e1] (consume) name download time 0.00
+[t385249-d106-e1] (consume) name enhance time 0.00
+[t385249-d106-e1] (estimate) throughput 1410.17 latency 100.00
+[t385249-d106-e1] (control) download 2 enhance 0
+[t385249-d106-e1] (network) period 187 time 1001 bandwidth 951 latency 100
+[t385249-d106-e1] (network) period 188 time 1008 bandwidth 694 latency 100
+[t385249-d106-e1] (network) period 189 time 1020 bandwidth 858 latency 100
+[t385249-d106-e1] (network) period 190 time 1023 bandwidth 571 latency 100
+[t385249-d106-e1] (network) period 191 time 1017 bandwidth 1259 latency 100
+[t385249-d106-e1] (network) period 0 time 1013 bandwidth 1285 latency 100
+[t385249-d106-e1] (network) period 1 time 1008 bandwidth 1693 latency 100
+[t385249-d106-e1] (network) period 2 time 1011 bandwidth 1812 latency 100
+[t385249-d106-e1] (network) period 3 time 1008 bandwidth 1795 latency 100
+[t385249-d106-e1] (download) size 11680088.00 total_time 9792.03 latency 100.00 download_time 9692.03 throughput 1205.12
+[t385249-d106-e1] (session) download_finish
+[t395041-d106-e1] (consume) name download time 9792.03
+[t395041-d106-e1] (consume) name enhance time 9792.03
+[t395041-d106-e1] (push) name download decision 2 segment_time 4000.00
+[t395041-d107-e1] (session) download_start
+[t395041-d107-e1] (consume) name download time 0.00
+[t395041-d107-e1] (consume) name enhance time 0.00
+[t395041-d107-e1] (estimate) throughput 1232.80 latency 100.00
+[t395041-d107-e1] (control) download 1 enhance 0
+[t395041-d107-e1] (network) period 4 time 1013 bandwidth 2182 latency 100
+[t395041-d107-e1] (network) period 5 time 1007 bandwidth 1895 latency 100
+[t395041-d107-e1] (network) period 6 time 1012 bandwidth 2249 latency 100
+[t395041-d107-e1] (download) size 5413376.00 total_time 2699.54 latency 100.00 download_time 2599.54 throughput 2082.44
+[t395041-d107-e1] (session) download_finish
+[t397741-d107-e1] (consume) name download time 2699.54
+[t397741-d107-e1] (consume) name enhance time 2699.54
+[t397741-d107-e1] (push) name download decision 1 segment_time 4000.00
+[t397741-d108-e1] (session) download_start
+[t397741-d108-e1] (consume) name download time 0.00
+[t397741-d108-e1] (consume) name enhance time 0.00
+[t397741-d108-e1] (estimate) throughput 1452.74 latency 100.00
+[t397741-d108-e1] (control) download 1 enhance 0
+[t397741-d108-e1] (network) period 7 time 1001 bandwidth 1775 latency 100
+[t397741-d108-e1] (network) period 8 time 1020 bandwidth 1646 latency 100
+[t397741-d108-e1] (network) period 9 time 1008 bandwidth 2128 latency 100
+[t397741-d108-e1] (download) size 4833624.00 total_time 2748.54 latency 100.00 download_time 2648.54 throughput 1825.02
+[t397741-d108-e1] (session) download_finish
+[t400489-d108-e1] (consume) name download time 2748.54
+[t400489-d108-e1] (consume) name enhance time 2748.54
+[t400489-d108-e1] (push) name download decision 1 segment_time 4000.00
+[t400489-d109-e1] (session) download_start
+[t400489-d109-e1] (consume) name download time 0.00
+[t400489-d109-e1] (consume) name enhance time 0.00
+[t400489-d109-e1] (estimate) throughput 1529.07 latency 100.00
+[t400489-d109-e1] (control) download 1 enhance 0
+[t400489-d109-e1] (network) period 10 time 1020 bandwidth 2064 latency 100
+[t400489-d109-e1] (network) period 11 time 1012 bandwidth 2000 latency 100
+[t400489-d109-e1] (download) size 4730944.00 total_time 2392.39 latency 100.00 download_time 2292.39 throughput 2063.76
+[t400489-d109-e1] (session) download_finish
+[t402881-d109-e1] (consume) name download time 2392.39
+[t402881-d109-e1] (consume) name enhance time 2392.39
+[t402881-d109-e1] (push) name download decision 1 segment_time 4000.00
+[t402881-d110-e1] (session) download_start
+[t402881-d110-e1] (consume) name download time 0.00
+[t402881-d110-e1] (consume) name enhance time 0.00
+[t402881-d110-e1] (estimate) throughput 1625.39 latency 100.00
+[t402881-d110-e1] (estimate) throughput 1625.39 latency 100.00
+[t402881-d110-e1] (control) download 2 enhance 0
+[t402881-d110-e1] (network) period 12 time 1007 bandwidth 1732 latency 100
+[t402881-d110-e1] (network) period 13 time 1024 bandwidth 1853 latency 100
+[t402881-d110-e1] (network) period 14 time 1007 bandwidth 2206 latency 100
+[t402881-d110-e1] (download) size 5670464.00 total_time 3076.06 latency 100.00 download_time 2976.06 throughput 1905.36
+[t402881-d110-e1] (session) download_finish
+[t405958-d110-e1] (consume) name download time 3076.06
+[t405958-d110-e1] (consume) name enhance time 3076.06
+[t405958-d110-e1] (push) name download decision 2 segment_time 4000.00
+[t405958-d111-e1] (session) download_start
+[t405958-d111-e1] (consume) name download time 0.00
+[t405958-d111-e1] (consume) name enhance time 0.00
+[t405958-d111-e1] (estimate) throughput 1689.03 latency 100.00
+[t405958-d111-e1] (control) download 2 enhance 0
+[t405958-d111-e1] (network) period 15 time 1001 bandwidth 1731 latency 100
+[t405958-d111-e1] (network) period 16 time 1008 bandwidth 2312 latency 100
+[t405958-d111-e1] (network) period 17 time 1020 bandwidth 1731 latency 100
+[t405958-d111-e1] (network) period 18 time 1004 bandwidth 1639 latency 100
+[t405958-d111-e1] (download) size 6922880.00 total_time 3715.72 latency 100.00 download_time 3615.72 throughput 1914.66
+[t405958-d111-e1] (session) download_finish
+[t409673-d111-e1] (consume) name download time 3715.72
+[t409673-d111-e1] (consume) name enhance time 3715.72
+[t409673-d111-e1] (push) name download decision 2 segment_time 4000.00
+[t409673-d112-e1] (session) download_start
+[t409673-d112-e1] (consume) name download time 0.00
+[t409673-d112-e1] (consume) name enhance time 0.00
+[t409673-d112-e1] (estimate) throughput 1749.71 latency 100.00
+[t409673-d112-e1] (control) download 2 enhance 0
+[t409673-d112-e1] (network) period 19 time 1008 bandwidth 2323 latency 100
+[t409673-d112-e1] (network) period 20 time 1007 bandwidth 1558 latency 100
+[t409673-d112-e1] (network) period 21 time 1001 bandwidth 1836 latency 100
+[t409673-d112-e1] (download) size 5089304.00 total_time 2816.15 latency 100.00 download_time 2716.15 throughput 1873.72
+[t409673-d112-e1] (session) download_finish
+[t412489-d112-e1] (consume) name download time 2816.15
+[t412489-d112-e1] (consume) name enhance time 2816.15
+[t412489-d112-e1] (push) name download decision 2 segment_time 4000.00
+[t412489-d113-e1] (session) download_start
+[t412489-d113-e1] (consume) name download time 0.00
+[t412489-d113-e1] (consume) name enhance time 0.00
+[t412489-d113-e1] (estimate) throughput 1775.71 latency 100.00
+[t412489-d113-e1] (control) download 2 enhance 0
+[t412489-d113-e1] (network) period 22 time 1019 bandwidth 1679 latency 100
+[t412489-d113-e1] (download) size 2056832.00 total_time 1254.84 latency 100.00 download_time 1154.84 throughput 1781.05
+[t412489-d113-e1] (session) download_finish
+[t413744-d113-e1] (consume) name download time 1254.84
+[t413744-d113-e1] (consume) name enhance time 1254.84
+[t413744-d113-e1] (push) name download decision 2 segment_time 4000.00
+[t413744-d114-e1] (session) download_start
+[t413744-d114-e1] (consume) name download time 0.00
+[t413744-d114-e1] (consume) name enhance time 0.00
+[t413744-d114-e1] (estimate) throughput 1776.22 latency 100.00
+[t413744-d114-e1] (estimate) throughput 1776.22 latency 100.00
+[t413744-d114-e1] (control) download 3 enhance 0
+[t413744-d114-e1] (network) period 23 time 1004 bandwidth 2125 latency 100
+[t413744-d114-e1] (network) period 24 time 1009 bandwidth 1805 latency 100
+[t413744-d114-e1] (network) period 25 time 1007 bandwidth 1743 latency 100
+[t413744-d114-e1] (download) size 5779912.00 total_time 3179.04 latency 100.00 download_time 3079.04 throughput 1877.18
+[t413744-d114-e1] (session) download_finish
+[t416923-d114-e1] (consume) name download time 3179.04
+[t416923-d114-e1] (consume) name enhance time 3179.04
+[t416923-d114-e1] (push) name download decision 3 segment_time 4000.00
+[t416923-d115-e1] (session) download_start
+[t416923-d115-e1] (consume) name download time 0.00
+[t416923-d115-e1] (consume) name enhance time 0.00
+[t416923-d115-e1] (estimate) throughput 1799.86 latency 100.00
+[t416923-d115-e1] (control) download 3 enhance 0
+[t416923-d115-e1] (network) period 26 time 1013 bandwidth 2247 latency 100
+[t416923-d115-e1] (network) period 27 time 1024 bandwidth 2024 latency 100
+[t416923-d115-e1] (network) period 28 time 1095 bandwidth 1893 latency 100
+[t416923-d115-e1] (download) size 6654944.00 total_time 3383.44 latency 100.00 download_time 3283.44 throughput 2026.82
+[t416923-d115-e1] (session) download_finish
+[t420307-d115-e1] (consume) name download time 3383.44
+[t420307-d115-e1] (consume) name enhance time 3383.44
+[t420307-d115-e1] (push) name download decision 3 segment_time 4000.00
+[t420307-d116-e1] (session) download_start
+[t420307-d116-e1] (consume) name download time 0.00
+[t420307-d116-e1] (consume) name enhance time 0.00
+[t420307-d116-e1] (estimate) throughput 1856.06 latency 100.00
+[t420307-d116-e1] (control) download 3 enhance 0
+[t420307-d116-e1] (network) period 29 time 1001 bandwidth 2153 latency 100
+[t420307-d116-e1] (network) period 30 time 1020 bandwidth 1892 latency 100
+[t420307-d116-e1] (network) period 31 time 1008 bandwidth 2236 latency 100
+[t420307-d116-e1] (network) period 32 time 1012 bandwidth 1994 latency 100
+[t420307-d116-e1] (network) period 33 time 1008 bandwidth 2110 latency 100
+[t420307-d116-e1] (download) size 9324560.00 total_time 4610.38 latency 100.00 download_time 4510.38 throughput 2067.36
+[t420307-d116-e1] (session) download_finish
+[t424917-d116-e1] (consume) name download time 4610.38
+[t424917-d116-e1] (consume) name enhance time 4610.38
+[t424917-d116-e1] (push) name download decision 3 segment_time 4000.00
+[t424917-d117-e1] (session) download_start
+[t424917-d117-e1] (consume) name download time 0.00
+[t424917-d117-e1] (consume) name enhance time 0.00
+[t424917-d117-e1] (estimate) throughput 1924.41 latency 100.00
+[t424917-d117-e1] (control) download 3 enhance 0
+[t424917-d117-e1] (network) period 34 time 1012 bandwidth 2335 latency 100
+[t424917-d117-e1] (network) period 35 time 1007 bandwidth 1536 latency 100
+[t424917-d117-e1] (network) period 36 time 1013 bandwidth 1941 latency 100
+[t424917-d117-e1] (network) period 37 time 1008 bandwidth 1929 latency 100
+[t424917-d117-e1] (network) period 38 time 1012 bandwidth 1464 latency 100
+[t424917-d117-e1] (network) period 39 time 1008 bandwidth 1824 latency 100
+[t424917-d117-e1] (network) period 40 time 1004 bandwidth 1628 latency 100
+[t424917-d117-e1] (network) period 41 time 1008 bandwidth 1780 latency 100
+[t424917-d117-e1] (network) period 42 time 1019 bandwidth 1733 latency 100
+[t424917-d117-e1] (download) size 16447952.00 total_time 9137.91 latency 100.00 download_time 9037.91 throughput 1819.88
+[t424917-d117-e1] (session) download_finish
+[t434055-d117-e1] (consume) name download time 9137.91
+[t434055-d117-e1] (consume) name enhance time 9137.91
+[t434055-d117-e1] (push) name download decision 3 segment_time 4000.00
+[t434055-d118-e1] (session) download_start
+[t434055-d118-e1] (consume) name download time 0.00
+[t434055-d118-e1] (consume) name enhance time 0.00
+[t434055-d118-e1] (estimate) throughput 1845.57 latency 100.00
+[t434055-d118-e1] (control) download 2 enhance 0
+[t434055-d118-e1] (network) period 43 time 1020 bandwidth 1952 latency 100
+[t434055-d118-e1] (network) period 44 time 1009 bandwidth 1859 latency 100
+[t434055-d118-e1] (network) period 45 time 1099 bandwidth 1876 latency 100
+[t434055-d118-e1] (download) size 4844960.00 total_time 2688.23 latency 100.00 download_time 2588.23 throughput 1871.92
+[t434055-d118-e1] (session) download_finish
+[t436743-d118-e1] (consume) name download time 2688.23
+[t436743-d118-e1] (consume) name enhance time 2688.23
+[t436743-d118-e1] (push) name download decision 2 segment_time 4000.00
+[t436743-d119-e1] (session) download_start
+[t436743-d119-e1] (consume) name download time 0.00
+[t436743-d119-e1] (consume) name enhance time 0.00
+[t436743-d119-e1] (estimate) throughput 1857.43 latency 100.00
+[t436743-d119-e1] (control) download 2 enhance 0
+[t436743-d119-e1] (network) period 46 time 1001 bandwidth 1355 latency 100
+[t436743-d119-e1] (download) size 2623840.00 total_time 1676.61 latency 100.00 download_time 1576.61 throughput 1664.23
+[t436743-d119-e1] (session) download_finish
+[t438420-d119-e1] (consume) name download time 1676.61
+[t438420-d119-e1] (consume) name enhance time 1676.61
+[t438420-d119-e1] (push) name download decision 2 segment_time 4000.00
+[t438420-d120-e1] (session) download_start
+[t438420-d120-e1] (consume) name download time 0.00
+[t438420-d120-e1] (consume) name enhance time 0.00
+[t438420-d120-e1] (estimate) throughput 1798.45 latency 100.00
+[t438420-d120-e1] (estimate) throughput 1798.45 latency 100.00
+[t438420-d120-e1] (control) download 3 enhance 0
+[t438420-d120-e1] (network) period 47 time 1020 bandwidth 1523 latency 100
+[t438420-d120-e1] (network) period 48 time 1028 bandwidth 802 latency 100
+[t438420-d120-e1] (network) period 49 time 1004 bandwidth 850 latency 100
+[t438420-d120-e1] (network) period 50 time 1008 bandwidth 1411 latency 100
+[t438420-d120-e1] (network) period 51 time 1008 bandwidth 1198 latency 100
+[t438420-d120-e1] (download) size 5523600.00 total_time 4852.11 latency 100.00 download_time 4752.11 throughput 1162.35
+[t438420-d120-e1] (session) download_finish
+[t443272-d120-e1] (consume) name download time 4852.11
+[t443272-d120-e1] (consume) name enhance time 4852.11
+[t443272-d120-e1] (push) name download decision 3 segment_time 4000.00
+[t443272-d121-e1] (session) download_start
+[t443272-d121-e1] (consume) name download time 0.00
+[t443272-d121-e1] (consume) name enhance time 0.00
+[t443272-d121-e1] (estimate) throughput 1374.52 latency 100.00
+[t443272-d121-e1] (control) download 3 enhance 0
+[t443272-d121-e1] (network) period 52 time 1004 bandwidth 1733 latency 100
+[t443272-d121-e1] (network) period 53 time 1007 bandwidth 1699 latency 100
+[t443272-d121-e1] (download) size 3828584.00 total_time 2473.72 latency 100.00 download_time 2373.72 throughput 1612.90
+[t443272-d121-e1] (session) download_finish
+[t445746-d121-e1] (consume) name download time 2473.72
+[t445746-d121-e1] (consume) name enhance time 2473.72
+[t445746-d121-e1] (push) name download decision 3 segment_time 4000.00
+[t445746-d122-e1] (session) download_start
+[t445746-d122-e1] (consume) name download time 0.00
+[t445746-d122-e1] (consume) name enhance time 0.00
+[t445746-d122-e1] (estimate) throughput 1475.15 latency 100.00
+[t445746-d122-e1] (control) download 3 enhance 0
+[t445746-d122-e1] (network) period 54 time 1012 bandwidth 2000 latency 100
+[t445746-d122-e1] (network) period 55 time 1001 bandwidth 1600 latency 100
+[t445746-d122-e1] (network) period 56 time 1008 bandwidth 1910 latency 100
+[t445746-d122-e1] (network) period 57 time 1011 bandwidth 1151 latency 100
+[t445746-d122-e1] (download) size 5662272.00 total_time 3211.43 latency 100.00 download_time 3111.43 throughput 1819.83
+[t445746-d122-e1] (session) download_finish
+[t448957-d122-e1] (consume) name download time 3211.43
+[t448957-d122-e1] (consume) name enhance time 3211.43
+[t448957-d122-e1] (push) name download decision 3 segment_time 4000.00
+[t448957-d123-e1] (session) download_start
+[t448957-d123-e1] (consume) name download time 0.00
+[t448957-d123-e1] (consume) name enhance time 0.00
+[t448957-d123-e1] (estimate) throughput 1651.87 latency 100.00
+[t448957-d123-e1] (control) download 3 enhance 0
+[t448957-d123-e1] (network) period 58 time 1009 bandwidth 1572 latency 100
+[t448957-d123-e1] (network) period 59 time 1011 bandwidth 1303 latency 100
+[t448957-d123-e1] (network) period 60 time 1021 bandwidth 1061 latency 100
+[t448957-d123-e1] (network) period 61 time 1008 bandwidth 1064 latency 100
+[t448957-d123-e1] (network) period 62 time 1019 bandwidth 842 latency 100
+[t448957-d123-e1] (download) size 6142480.00 total_time 5129.44 latency 100.00 download_time 5029.44 throughput 1221.31
+[t448957-d123-e1] (session) download_finish
+[t454087-d123-e1] (consume) name download time 5129.44
+[t454087-d123-e1] (consume) name enhance time 5129.44
+[t454087-d123-e1] (push) name download decision 3 segment_time 4000.00
+[t454087-d124-e1] (session) download_start
+[t454087-d124-e1] (consume) name download time 0.00
+[t454087-d124-e1] (consume) name enhance time 0.00
+[t454087-d124-e1] (estimate) throughput 1356.01 latency 100.00
+[t454087-d124-e1] (control) download 3 enhance 0
+[t454087-d124-e1] (network) period 63 time 1001 bandwidth 1158 latency 100
+[t454087-d124-e1] (network) period 64 time 1011 bandwidth 1104 latency 100
+[t454087-d124-e1] (network) period 65 time 1001 bandwidth 879 latency 100
+[t454087-d124-e1] (network) period 66 time 1020 bandwidth 751 latency 100
+[t454087-d124-e1] (network) period 67 time 1007 bandwidth 684 latency 100
+[t454087-d124-e1] (network) period 68 time 1001 bandwidth 994 latency 100
+[t454087-d124-e1] (download) size 5487880.00 total_time 6141.31 latency 100.00 download_time 6041.31 throughput 908.39
+[t454087-d124-e1] (session) download_finish
+[t460228-d124-e1] (consume) name download time 6141.31
+[t460228-d124-e1] (consume) name enhance time 6141.31
+[t460228-d124-e1] (push) name download decision 3 segment_time 4000.00
+[t460228-d125-e1] (session) download_start
+[t460228-d125-e1] (consume) name download time 0.00
+[t460228-d125-e1] (consume) name enhance time 0.00
+[t460228-d125-e1] (estimate) throughput 1019.23 latency 100.00
+[t460228-d125-e1] (control) download 3 enhance 0
+[t460228-d125-e1] (network) period 69 time 1012 bandwidth 891 latency 100
+[t460228-d125-e1] (network) period 70 time 1007 bandwidth 1401 latency 100
+[t460228-d125-e1] (network) period 71 time 1012 bandwidth 1529 latency 100
+[t460228-d125-e1] (network) period 72 time 1001 bandwidth 1869 latency 100
+[t460228-d125-e1] (network) period 73 time 1007 bandwidth 1547 latency 100
+[t460228-d125-e1] (download) size 6557448.00 total_time 4906.68 latency 100.00 download_time 4806.68 throughput 1364.24
+[t460228-d125-e1] (session) download_finish
+[t465135-d125-e1] (consume) name download time 4906.68
+[t465135-d125-e1] (consume) name enhance time 4906.68
+[t465135-d125-e1] (push) name download decision 3 segment_time 4000.00
+[t465135-d126-e1] (session) download_start
+[t465135-d126-e1] (consume) name download time 0.00
+[t465135-d126-e1] (consume) name enhance time 0.00
+[t465135-d126-e1] (estimate) throughput 1250.60 latency 100.00
+[t465135-d126-e1] (control) download 2 enhance 0
+[t465135-d126-e1] (network) period 74 time 1001 bandwidth 2077 latency 100
+[t465135-d126-e1] (network) period 75 time 1011 bandwidth 1639 latency 100
+[t465135-d126-e1] (download) size 3958136.00 total_time 2292.62 latency 100.00 download_time 2192.62 throughput 1805.21
+[t465135-d126-e1] (session) download_finish
+[t467427-d126-e1] (consume) name download time 2292.62
+[t467427-d126-e1] (consume) name enhance time 2292.62
+[t467427-d126-e1] (push) name download decision 2 segment_time 4000.00
+[t467427-d127-e1] (session) download_start
+[t467427-d127-e1] (consume) name download time 0.00
+[t467427-d127-e1] (consume) name enhance time 0.00
+[t467427-d127-e1] (estimate) throughput 1385.10 latency 100.00
+[t467427-d127-e1] (estimate) throughput 1385.10 latency 100.00
+[t467427-d127-e1] (control) download 3 enhance 0
+[t467427-d127-e1] (network) period 76 time 1001 bandwidth 1771 latency 100
+[t467427-d127-e1] (network) period 77 time 1028 bandwidth 1058 latency 100
+[t467427-d127-e1] (network) period 78 time 1004 bandwidth 1199 latency 100
+[t467427-d127-e1] (network) period 79 time 1167 bandwidth 1607 latency 100
+[t467427-d127-e1] (network) period 80 time 1001 bandwidth 1639 latency 100
+[t467427-d127-e1] (network) period 81 time 1119 bandwidth 1451 latency 100
+[t467427-d127-e1] (download) size 8933992.00 total_time 6166.13 latency 100.00 download_time 6066.13 throughput 1472.77
+[t467427-d127-e1] (session) download_finish
+[t473593-d127-e1] (consume) name download time 6166.13
+[t473593-d127-e1] (consume) name enhance time 6166.13
+[t473593-d127-e1] (push) name download decision 3 segment_time 4000.00
+[t473593-d128-e1] (session) download_start
+[t473593-d128-e1] (consume) name download time 0.00
+[t473593-d128-e1] (consume) name enhance time 0.00
+[t473593-d128-e1] (estimate) throughput 1420.94 latency 100.00
+[t473593-d128-e1] (control) download 2 enhance 0
+[t473593-d128-e1] (network) period 82 time 1001 bandwidth 1738 latency 100
+[t473593-d128-e1] (network) period 83 time 1008 bandwidth 1589 latency 100
+[t473593-d128-e1] (network) period 84 time 1008 bandwidth 1834 latency 100
+[t473593-d128-e1] (download) size 6163944.00 total_time 3789.51 latency 100.00 download_time 3689.51 throughput 1670.67
+[t473593-d128-e1] (session) download_finish
+[t477383-d128-e1] (consume) name download time 3789.51
+[t477383-d128-e1] (consume) name enhance time 3789.51
+[t477383-d128-e1] (push) name download decision 2 segment_time 4000.00
+[t477383-d129-e1] (session) download_start
+[t477383-d129-e1] (consume) name download time 0.00
+[t477383-d129-e1] (consume) name enhance time 0.00
+[t477383-d129-e1] (estimate) throughput 1489.27 latency 100.00
+[t477383-d129-e1] (control) download 2 enhance 0
+[t477383-d129-e1] (network) period 85 time 1203 bandwidth 1150 latency 100
+[t477383-d129-e1] (network) period 86 time 1001 bandwidth 1377 latency 100
+[t477383-d129-e1] (network) period 87 time 1011 bandwidth 1201 latency 100
+[t477383-d129-e1] (network) period 88 time 1009 bandwidth 807 latency 100
+[t477383-d129-e1] (network) period 89 time 1008 bandwidth 846 latency 100
+[t477383-d129-e1] (download) size 5511464.00 total_time 5210.50 latency 100.00 download_time 5110.50 throughput 1078.46
+[t477383-d129-e1] (session) download_finish
+[t482593-d129-e1] (consume) name download time 5210.50
+[t482593-d129-e1] (consume) name enhance time 5210.50
+[t482593-d129-e1] (push) name download decision 2 segment_time 4000.00
+[t482593-d130-e1] (session) download_start
+[t482593-d130-e1] (consume) name download time 0.00
+[t482593-d130-e1] (consume) name enhance time 0.00
+[t482593-d130-e1] (estimate) throughput 1234.33 latency 100.00
+[t482593-d130-e1] (control) download 2 enhance 0
+[t482593-d130-e1] (network) period 90 time 1212 bandwidth 568 latency 100
+[t482593-d130-e1] (network) period 91 time 1008 bandwidth 369 latency 100
+[t482593-d130-e1] (network) period 92 time 1352 bandwidth 250 latency 100
+[t482593-d130-e1] (network) period 93 time 1008 bandwidth 521 latency 100
+[t482593-d130-e1] (network) period 94 time 1031 bandwidth 418 latency 100
+[t482593-d130-e1] (network) period 95 time 1008 bandwidth 1270 latency 100
+[t482593-d130-e1] (network) period 96 time 1012 bandwidth 1449 latency 100
+[t482593-d130-e1] (network) period 97 time 1001 bandwidth 1261 latency 100
+[t482593-d130-e1] (download) size 5665360.00 total_time 8138.23 latency 100.00 download_time 8038.23 throughput 704.80
+[t482593-d130-e1] (session) download_finish
+[t490732-d130-e1] (consume) name download time 8138.23
+[t490732-d130-e1] (consume) name enhance time 8138.23
+[t490732-d130-e1] (push) name download decision 2 segment_time 4000.00
+[t490732-d131-e1] (session) download_start
+[t490732-d131-e1] (consume) name download time 0.00
+[t490732-d131-e1] (consume) name enhance time 0.00
+[t490732-d131-e1] (estimate) throughput 787.46 latency 100.00
+[t490732-d131-e1] (control) download 1 enhance 0
+[t490732-d131-e1] (network) period 98 time 1007 bandwidth 1554 latency 100
+[t490732-d131-e1] (network) period 99 time 1013 bandwidth 1311 latency 100
+[t490732-d131-e1] (download) size 3400448.00 total_time 2523.17 latency 100.00 download_time 2423.17 throughput 1403.31
+[t490732-d131-e1] (session) download_finish
+[t493255-d131-e1] (consume) name download time 2523.17
+[t493255-d131-e1] (consume) name enhance time 2523.17
+[t493255-d131-e1] (push) name download decision 1 segment_time 4000.00
+[t493255-d132-e1] (session) download_start
+[t493255-d132-e1] (consume) name download time 0.00
+[t493255-d132-e1] (consume) name enhance time 0.00
+[t493255-d132-e1] (estimate) throughput 1051.49 latency 100.00
+[t493255-d132-e1] (control) download 1 enhance 0
+[t493255-d132-e1] (network) period 100 time 1008 bandwidth 1541 latency 100
+[t493255-d132-e1] (network) period 101 time 1012 bandwidth 1345 latency 100
+[t493255-d132-e1] (network) period 102 time 1007 bandwidth 1467 latency 100
+[t493255-d132-e1] (download) size 3428552.00 total_time 2474.60 latency 100.00 download_time 2374.60 throughput 1443.84
+[t493255-d132-e1] (session) download_finish
+[t495729-d132-e1] (consume) name download time 2474.60
+[t495729-d132-e1] (consume) name enhance time 2474.60
+[t495729-d132-e1] (push) name download decision 1 segment_time 4000.00
+[t495729-d133-e1] (session) download_start
+[t495729-d133-e1] (consume) name download time 0.00
+[t495729-d133-e1] (consume) name enhance time 0.00
+[t495729-d133-e1] (estimate) throughput 1159.55 latency 100.00
+[t495729-d133-e1] (estimate) throughput 1159.55 latency 100.00
+[t495729-d133-e1] (control) download 2 enhance 0
+[t495729-d133-e1] (network) period 103 time 1013 bandwidth 1350 latency 100
+[t495729-d133-e1] (network) period 104 time 1008 bandwidth 1035 latency 100
+[t495729-d133-e1] (network) period 105 time 1011 bandwidth 1190 latency 100
+[t495729-d133-e1] (network) period 106 time 1001 bandwidth 1202 latency 100
+[t495729-d133-e1] (download) size 4656840.00 total_time 3896.10 latency 100.00 download_time 3796.10 throughput 1226.74
+[t495729-d133-e1] (session) download_finish
+[t499625-d133-e1] (consume) name download time 3896.10
+[t499625-d133-e1] (consume) name enhance time 3896.10
+[t499625-d133-e1] (push) name download decision 2 segment_time 4000.00
+[t499625-d134-e1] (session) download_start
+[t499625-d134-e1] (consume) name download time 0.00
+[t499625-d134-e1] (consume) name enhance time 0.00
+[t499625-d134-e1] (estimate) throughput 1178.39 latency 100.00
+[t499625-d134-e1] (control) download 2 enhance 0
+[t499625-d134-e1] (network) period 107 time 1008 bandwidth 1025 latency 100
+[t499625-d134-e1] (network) period 108 time 1011 bandwidth 1277 latency 100
+[t499625-d134-e1] (network) period 109 time 1001 bandwidth 1218 latency 100
+[t499625-d134-e1] (network) period 110 time 1008 bandwidth 1444 latency 100
+[t499625-d134-e1] (network) period 111 time 1011 bandwidth 1374 latency 100
+[t499625-d134-e1] (download) size 6568944.00 total_time 5346.53 latency 100.00 download_time 5246.53 throughput 1252.05
+[t499625-d134-e1] (session) download_finish
+[t504972-d134-e1] (consume) name download time 5346.53
+[t504972-d134-e1] (consume) name enhance time 5346.53
+[t504972-d134-e1] (push) name download decision 2 segment_time 4000.00
+[t504972-d135-e1] (session) download_start
+[t504972-d135-e1] (consume) name download time 0.00
+[t504972-d135-e1] (consume) name enhance time 0.00
+[t504972-d135-e1] (estimate) throughput 1205.30 latency 100.00
+[t504972-d135-e1] (control) download 1 enhance 0
+[t504972-d135-e1] (network) period 112 time 1009 bandwidth 1154 latency 100
+[t504972-d135-e1] (network) period 113 time 1012 bandwidth 1243 latency 100
+[t504972-d135-e1] (network) period 114 time 1039 bandwidth 1152 latency 100
+[t504972-d135-e1] (network) period 115 time 1001 bandwidth 1104 latency 100
+[t504972-d135-e1] (network) period 116 time 1008 bandwidth 1237 latency 100
+[t504972-d135-e1] (network) period 117 time 1004 bandwidth 1268 latency 100
+[t504972-d135-e1] (download) size 6471120.00 total_time 5538.23 latency 100.00 download_time 5438.23 throughput 1189.93
+[t504972-d135-e1] (session) download_finish
+[t510510-d135-e1] (consume) name download time 5538.23
+[t510510-d135-e1] (consume) name enhance time 5538.23
+[t510510-d135-e1] (push) name download decision 1 segment_time 4000.00
+[t510510-d136-e1] (session) download_start
+[t510510-d136-e1] (consume) name download time 0.00
+[t510510-d136-e1] (consume) name enhance time 0.00
+[t510510-d136-e1] (estimate) throughput 1199.52 latency 100.00
+[t510510-d136-e1] (control) download 1 enhance 0
+[t510510-d136-e1] (network) period 118 time 1008 bandwidth 1444 latency 100
+[t510510-d136-e1] (network) period 119 time 1008 bandwidth 1451 latency 100
+[t510510-d136-e1] (network) period 120 time 1019 bandwidth 1157 latency 100
+[t510510-d136-e1] (network) period 121 time 1001 bandwidth 1858 latency 100
+[t510510-d136-e1] (download) size 6355832.00 total_time 4615.43 latency 100.00 download_time 4515.43 throughput 1407.58
+[t510510-d136-e1] (session) download_finish
+[t515126-d136-e1] (consume) name download time 4615.43
+[t515126-d136-e1] (consume) name enhance time 4615.43
+[t515126-d136-e1] (push) name download decision 1 segment_time 4000.00
+[t515126-d137-e1] (session) download_start
+[t515126-d137-e1] (consume) name download time 0.00
+[t515126-d137-e1] (consume) name enhance time 0.00
+[t515126-d137-e1] (estimate) throughput 1266.89 latency 100.00
+[t515126-d137-e1] (control) download 1 enhance 0
+[t515126-d137-e1] (network) period 122 time 1012 bandwidth 1594 latency 100
+[t515126-d137-e1] (network) period 123 time 1007 bandwidth 1793 latency 100
+[t515126-d137-e1] (network) period 124 time 1001 bandwidth 1502 latency 100
+[t515126-d137-e1] (network) period 125 time 1160 bandwidth 1617 latency 100
+[t515126-d137-e1] (download) size 5850240.00 total_time 3656.02 latency 100.00 download_time 3556.02 throughput 1645.16
+[t515126-d137-e1] (session) download_finish
+[t518782-d137-e1] (consume) name download time 3656.02
+[t518782-d137-e1] (consume) name enhance time 3656.02
+[t518782-d137-e1] (push) name download decision 1 segment_time 4000.00
+[t518782-d138-e1] (session) download_start
+[t518782-d138-e1] (consume) name download time 0.00
+[t518782-d138-e1] (consume) name enhance time 0.00
+[t518782-d138-e1] (estimate) throughput 1367.19 latency 100.00
+[t518782-d138-e1] (control) download 1 enhance 0
+[t518782-d138-e1] (network) period 126 time 1020 bandwidth 1416 latency 100
+[t518782-d138-e1] (network) period 127 time 1019 bandwidth 1299 latency 100
+[t518782-d138-e1] (network) period 128 time 1001 bandwidth 1130 latency 100
+[t518782-d138-e1] (network) period 129 time 1004 bandwidth 1340 latency 100
+[t518782-d138-e1] (download) size 5486016.00 total_time 4163.34 latency 100.00 download_time 4063.34 throughput 1350.12
+[t518782-d138-e1] (session) download_finish
+[t522945-d138-e1] (consume) name download time 4163.34
+[t522945-d138-e1] (consume) name enhance time 4163.34
+[t522945-d138-e1] (push) name download decision 1 segment_time 4000.00
+[t522945-d139-e1] (session) download_start
+[t522945-d139-e1] (consume) name download time 0.00
+[t522945-d139-e1] (consume) name enhance time 0.00
+[t522945-d139-e1] (estimate) throughput 1362.13 latency 100.00
+[t522945-d139-e1] (control) download 1 enhance 0
+[t522945-d139-e1] (network) period 130 time 1008 bandwidth 1216 latency 100
+[t522945-d139-e1] (network) period 131 time 1020 bandwidth 1023 latency 100
+[t522945-d139-e1] (network) period 132 time 1020 bandwidth 1190 latency 100
+[t522945-d139-e1] (network) period 133 time 1007 bandwidth 1102 latency 100
+[t522945-d139-e1] (network) period 134 time 1001 bandwidth 1147 latency 100
+[t522945-d139-e1] (download) size 6499008.00 total_time 5706.10 latency 100.00 download_time 5606.10 throughput 1159.27
+[t522945-d139-e1] (session) download_finish
+[t528651-d139-e1] (consume) name download time 5706.10
+[t528651-d139-e1] (consume) name enhance time 5706.10
+[t528651-d139-e1] (push) name download decision 1 segment_time 4000.00
+[t528651-d140-e1] (session) download_start
+[t528651-d140-e1] (consume) name download time 0.00
+[t528651-d140-e1] (consume) name enhance time 0.00
+[t528651-d140-e1] (estimate) throughput 1228.58 latency 100.00
+[t528651-d140-e1] (control) download 0 enhance 0
+[t528651-d140-e1] (network) period 135 time 1020 bandwidth 1276 latency 100
+[t528651-d140-e1] (network) period 136 time 1011 bandwidth 1335 latency 100
+[t528651-d140-e1] (download) size 2505856.00 total_time 2023.38 latency 100.00 download_time 1923.38 throughput 1302.84
+[t528651-d140-e1] (session) download_finish
+[t530674-d140-e1] (consume) name download time 2023.38
+[t530674-d140-e1] (consume) name enhance time 2023.38
+[t530674-d140-e1] (push) name download decision 0 segment_time 4000.00
+[t530674-d141-e1] (session) download_start
+[t530674-d141-e1] (consume) name download time 0.00
+[t530674-d141-e1] (consume) name enhance time 0.00
+[t530674-d141-e1] (estimate) throughput 1255.22 latency 100.00
+[t530674-d141-e1] (estimate) throughput 1255.22 latency 100.00
+[t530674-d141-e1] (control) download 1 enhance 0
+[t530674-d141-e1] (network) period 137 time 1008 bandwidth 1389 latency 100
+[t530674-d141-e1] (network) period 138 time 1112 bandwidth 1204 latency 100
+[t530674-d141-e1] (network) period 139 time 1001 bandwidth 1388 latency 100
+[t530674-d141-e1] (download) size 2826488.00 total_time 2283.69 latency 100.00 download_time 2183.69 throughput 1294.36
+[t530674-d141-e1] (session) download_finish
+[t532958-d141-e1] (consume) name download time 2283.69
+[t532958-d141-e1] (consume) name enhance time 2283.69
+[t532958-d141-e1] (push) name download decision 1 segment_time 4000.00
+[t532958-d142-e1] (session) download_start
+[t532958-d142-e1] (consume) name download time 0.00
+[t532958-d142-e1] (consume) name enhance time 0.00
+[t532958-d142-e1] (estimate) throughput 1270.73 latency 100.00
+[t532958-d142-e1] (control) download 1 enhance 0
+[t532958-d142-e1] (network) period 140 time 1007 bandwidth 1445 latency 100
+[t532958-d142-e1] (download) size 1740552.00 total_time 1338.22 latency 100.00 download_time 1238.22 throughput 1405.69
+[t532958-d142-e1] (session) download_finish
+[t534296-d142-e1] (consume) name download time 1338.22
+[t534296-d142-e1] (consume) name enhance time 1338.22
+[t534296-d142-e1] (push) name download decision 1 segment_time 4000.00
+[t534296-d143-e1] (session) download_start
+[t534296-d143-e1] (consume) name download time 0.00
+[t534296-d143-e1] (consume) name enhance time 0.00
+[t534296-d143-e1] (estimate) throughput 1300.18 latency 100.00
+[t534296-d143-e1] (estimate) throughput 1300.18 latency 100.00
+[t534296-d143-e1] (control) download 2 enhance 0
+[t534296-d143-e1] (network) period 141 time 1005 bandwidth 1126 latency 100
+[t534296-d143-e1] (download) size 1744760.00 total_time 1501.46 latency 100.00 download_time 1401.46 throughput 1244.96
+[t534296-d143-e1] (session) download_finish
+[t535798-d143-e1] (consume) name download time 1501.46
+[t535798-d143-e1] (consume) name enhance time 1501.46
+[t535798-d143-e1] (push) name download decision 2 segment_time 4000.00
+[t535798-d144-e1] (session) download_start
+[t535798-d144-e1] (consume) name download time 0.00
+[t535798-d144-e1] (consume) name enhance time 0.00
+[t535798-d144-e1] (estimate) throughput 1287.89 latency 100.00
+[t535798-d144-e1] (estimate) throughput 1287.89 latency 100.00
+[t535798-d144-e1] (control) download 2 enhance 0
+[t535798-d144-e1] (network) period 142 time 1008 bandwidth 1758 latency 100
+[t535798-d144-e1] (network) period 143 time 1008 bandwidth 1285 latency 100
+[t535798-d144-e1] (download) size 2822064.00 total_time 1928.36 latency 100.00 download_time 1828.36 throughput 1543.49
+[t535798-d144-e1] (session) download_finish
+[t537726-d144-e1] (consume) name download time 1928.36
+[t537726-d144-e1] (consume) name enhance time 1928.36
+[t537726-d144-e1] (push) name download decision 2 segment_time 4000.00
+[t537726-d145-e1] (session) download_start
+[t537726-d145-e1] (consume) name download time 0.00
+[t537726-d145-e1] (consume) name enhance time 0.00
+[t537726-d145-e1] (estimate) throughput 1330.44 latency 100.00
+[t537726-d145-e1] (estimate) throughput 1330.44 latency 100.00
+[t537726-d145-e1] (control) download 2 enhance 0
+[t537726-d145-e1] (network) period 144 time 1012 bandwidth 1730 latency 100
+[t537726-d145-e1] (network) period 145 time 1008 bandwidth 1383 latency 100
+[t537726-d145-e1] (network) period 146 time 1011 bandwidth 1710 latency 100
+[t537726-d145-e1] (download) size 4589000.00 total_time 2992.84 latency 100.00 download_time 2892.84 throughput 1586.33
+[t537726-d145-e1] (session) download_finish
+[t540719-d145-e1] (consume) name download time 2992.84
+[t540719-d145-e1] (consume) name enhance time 2992.84
+[t540719-d145-e1] (push) name download decision 2 segment_time 4000.00
+[t540719-d146-e1] (session) download_start
+[t540719-d146-e1] (consume) name download time 0.00
+[t540719-d146-e1] (consume) name enhance time 0.00
+[t540719-d146-e1] (estimate) throughput 1387.17 latency 100.00
+[t540719-d146-e1] (estimate) throughput 1387.17 latency 100.00
+[t540719-d146-e1] (control) download 3 enhance 0
+[t540719-d146-e1] (network) period 147 time 1001 bandwidth 1480 latency 100
+[t540719-d146-e1] (network) period 148 time 1008 bandwidth 1693 latency 100
+[t540719-d146-e1] (network) period 149 time 1011 bandwidth 1552 latency 100
+[t540719-d146-e1] (network) period 150 time 1009 bandwidth 1833 latency 100
+[t540719-d146-e1] (network) period 151 time 1012 bandwidth 1421 latency 100
+[t540719-d146-e1] (network) period 152 time 1007 bandwidth 1760 latency 100
+[t540719-d146-e1] (network) period 153 time 1001 bandwidth 1360 latency 100
+[t540719-d146-e1] (network) period 154 time 1012 bandwidth 1838 latency 100
+[t540719-d146-e1] (network) period 155 time 1020 bandwidth 1560 latency 100
+[t540719-d146-e1] (download) size 14702280.00 total_time 9212.99 latency 100.00 download_time 9112.99 throughput 1613.33
+[t540719-d146-e1] (session) download_finish
+[t549932-d146-e1] (consume) name download time 9212.99
+[t549932-d146-e1] (consume) name enhance time 9212.99
+[t549932-d146-e1] (push) name download decision 3 segment_time 4000.00
+[t549932-d147-e1] (session) download_start
+[t549932-d147-e1] (consume) name download time 0.00
+[t549932-d147-e1] (consume) name enhance time 0.00
+[t549932-d147-e1] (estimate) throughput 1510.65 latency 100.00
+[t549932-d147-e1] (control) download 2 enhance 0
+[t549932-d147-e1] (network) period 156 time 1008 bandwidth 1824 latency 100
+[t549932-d147-e1] (network) period 157 time 1020 bandwidth 1410 latency 100
+[t549932-d147-e1] (network) period 158 time 1011 bandwidth 1602 latency 100
+[t549932-d147-e1] (network) period 159 time 1148 bandwidth 1147 latency 100
+[t549932-d147-e1] (network) period 160 time 1001 bandwidth 1290 latency 100
+[t549932-d147-e1] (download) size 6918608.00 total_time 4829.67 latency 100.00 download_time 4729.67 throughput 1462.81
+[t549932-d147-e1] (session) download_finish
+[t554762-d147-e1] (consume) name download time 4829.67
+[t554762-d147-e1] (consume) name enhance time 4829.67
+[t554762-d147-e1] (push) name download decision 2 segment_time 4000.00
+[t554762-d148-e1] (session) download_start
+[t554762-d148-e1] (consume) name download time 0.00
+[t554762-d148-e1] (consume) name enhance time 0.00
+[t554762-d148-e1] (estimate) throughput 1494.56 latency 100.00
+[t554762-d148-e1] (control) download 2 enhance 0
+[t554762-d148-e1] (network) period 161 time 1011 bandwidth 1266 latency 100
+[t554762-d148-e1] (network) period 162 time 1001 bandwidth 813 latency 100
+[t554762-d148-e1] (network) period 163 time 1008 bandwidth 1335 latency 100
+[t554762-d148-e1] (network) period 164 time 1020 bandwidth 1180 latency 100
+[t554762-d148-e1] (network) period 165 time 1012 bandwidth 848 latency 100
+[t554762-d148-e1] (network) period 166 time 1008 bandwidth 1292 latency 100
+[t554762-d148-e1] (download) size 6929128.00 total_time 6257.80 latency 100.00 download_time 6157.80 throughput 1125.26
+[t554762-d148-e1] (session) download_finish
+[t561019-d148-e1] (consume) name download time 6257.80
+[t561019-d148-e1] (consume) name enhance time 6257.80
+[t561019-d148-e1] (push) name download decision 2 segment_time 4000.00
+[t561019-d149-e1] (session) download_start
+[t561019-d149-e1] (consume) name download time 0.00
+[t561019-d149-e1] (consume) name enhance time 0.00
+[t561019-d149-e1] (estimate) throughput 1217.47 latency 100.00
+[t561019-d149-e1] (control) download 1 enhance 0
+[t561019-d149-e1] (network) period 167 time 1012 bandwidth 1405 latency 100
+[t561019-d149-e1] (network) period 168 time 1008 bandwidth 1220 latency 100
+[t561019-d149-e1] (network) period 169 time 1020 bandwidth 1448 latency 100
+[t561019-d149-e1] (network) period 170 time 1012 bandwidth 1118 latency 100
+[t561019-d149-e1] (download) size 4550232.00 total_time 3489.05 latency 100.00 download_time 3389.05 throughput 1342.63
+[t561019-d149-e1] (session) download_finish
+[t564509-d149-e1] (consume) name download time 3489.05
+[t564509-d149-e1] (consume) name enhance time 3489.05
+[t564509-d149-e1] (push) name download decision 1 segment_time 4000.00
+[t564509-d150-e1] (session) download_start
+[t564509-d150-e1] (consume) name download time 0.00
+[t564509-d150-e1] (consume) name enhance time 0.00
+[t564509-d150-e1] (estimate) throughput 1285.43 latency 100.00
+[t564509-d150-e1] (control) download 1 enhance 0
+[t564509-d150-e1] (network) period 171 time 1020 bandwidth 1502 latency 100
+[t564509-d150-e1] (network) period 172 time 1079 bandwidth 1393 latency 100
+[t564509-d150-e1] (network) period 173 time 1012 bandwidth 962 latency 100
+[t564509-d150-e1] (download) size 3887632.00 total_time 2964.66 latency 100.00 download_time 2864.66 throughput 1357.10
+[t564509-d150-e1] (session) download_finish
+[t567473-d150-e1] (consume) name download time 2964.66
+[t567473-d150-e1] (consume) name enhance time 2964.66
+[t567473-d150-e1] (push) name download decision 1 segment_time 4000.00
+[t567473-d151-e1] (session) download_start
+[t567473-d151-e1] (consume) name download time 0.00
+[t567473-d151-e1] (consume) name enhance time 0.00
+[t567473-d151-e1] (estimate) throughput 1320.13 latency 100.00
+[t567473-d151-e1] (estimate) throughput 1320.13 latency 100.00
+[t567473-d151-e1] (control) download 2 enhance 0
+[t567473-d151-e1] (network) period 174 time 1017 bandwidth 1667 latency 100
+[t567473-d151-e1] (network) period 175 time 1012 bandwidth 1291 latency 100
+[t567473-d151-e1] (download) size 3135904.00 total_time 2459.62 latency 100.00 download_time 2359.62 throughput 1328.99
+[t567473-d151-e1] (session) download_finish
+[t569933-d151-e1] (consume) name download time 2459.62
+[t569933-d151-e1] (consume) name enhance time 2459.62
+[t569933-d151-e1] (push) name download decision 2 segment_time 4000.00
+[t569933-d152-e1] (session) download_start
+[t569933-d152-e1] (consume) name download time 0.00
+[t569933-d152-e1] (consume) name enhance time 0.00
+[t569933-d152-e1] (estimate) throughput 1323.85 latency 100.00
+[t569933-d152-e1] (control) download 2 enhance 0
+[t569933-d152-e1] (network) period 176 time 1020 bandwidth 1630 latency 100
+[t569933-d152-e1] (download) size 745968.00 total_time 653.15 latency 100.00 download_time 553.15 throughput 1348.57
+[t569933-d152-e1] (session) download_finish
+[t570586-d152-e1] (consume) name download time 653.15
+[t570586-d152-e1] (consume) name enhance time 653.15
+[t570586-d152-e1] (push) name download decision 2 segment_time 4000.00
+[t570586-d153-e1] (session) download_start
+[t570586-d153-e1] (consume) name download time 0.00
+[t570586-d153-e1] (consume) name enhance time 0.00
+[t570586-d153-e1] (estimate) throughput 1326.82 latency 100.00
+[t570586-d153-e1] (estimate) throughput 1326.82 latency 100.00
+[t570586-d153-e1] (control) download 2 enhance 0
+[t570586-d153-e1] (download) size 295048.00 total_time 281.01 latency 100.00 download_time 181.01 throughput 1630.00
+[t570586-d153-e1] (session) download_finish
+[t570867-d153-e1] (consume) name download time 281.01
+[t570867-d153-e1] (consume) name enhance time 281.01
+[t570867-d153-e1] (push) name download decision 2 segment_time 4000.00
+[t570867-d154-e1] (session) download_start
+[t570867-d154-e1] (consume) name download time 0.00
+[t570867-d154-e1] (consume) name enhance time 0.00
+[t570867-d154-e1] (estimate) throughput 1339.23 latency 100.00
+[t570867-d154-e1] (estimate) throughput 1339.23 latency 100.00
+[t570867-d154-e1] (control) download 2 enhance 0
+[t570867-d154-e1] (download) size 460568.00 total_time 382.56 latency 100.00 download_time 282.56 throughput 1630.00
+[t570867-d154-e1] (session) download_finish
+[t571250-d154-e1] (consume) name download time 382.56
+[t571250-d154-e1] (consume) name enhance time 382.56
+[t571250-d154-e1] (push) name download decision 2 segment_time 4000.00
+[t571250-d155-e1] (session) download_start
+[t571250-d155-e1] (consume) name download time 0.00
+[t571250-d155-e1] (consume) name enhance time 0.00
+[t571250-d155-e1] (estimate) throughput 1353.94 latency 100.00
+[t571250-d155-e1] (estimate) throughput 1353.94 latency 100.00
+[t571250-d155-e1] (control) download 2 enhance 0
+[t571250-d155-e1] (network) period 177 time 1008 bandwidth 1372 latency 100
+[t571250-d155-e1] (download) size 1577848.00 total_time 1219.48 latency 100.00 download_time 1119.48 throughput 1409.45
+[t571250-d155-e1] (session) download_finish
+[t572469-d155-e1] (consume) name download time 1219.48
+[t572469-d155-e1] (consume) name enhance time 1219.48
+[t572469-d155-e1] (push) name download decision 2 segment_time 4000.00
+[t572469-d156-e1] (session) download_start
+[t572469-d156-e1] (consume) name download time 0.00
+[t572469-d156-e1] (consume) name enhance time 0.00
+[t572469-d156-e1] (estimate) throughput 1359.07 latency 100.00
+[t572469-d156-e1] (estimate) throughput 1359.07 latency 100.00
+[t572469-d156-e1] (control) download 2 enhance 0
+[t572469-d156-e1] (network) period 178 time 1012 bandwidth 1719 latency 100
+[t572469-d156-e1] (download) size 1310840.00 total_time 862.56 latency 100.00 download_time 762.56 throughput 1719.00
+[t572469-d156-e1] (session) download_finish
+[t573332-d156-e1] (consume) name download time 862.56
+[t573332-d156-e1] (consume) name enhance time 862.56
+[t573332-d156-e1] (push) name download decision 2 segment_time 4000.00
+[t573332-d157-e1] (session) download_start
+[t573332-d157-e1] (consume) name download time 0.00
+[t573332-d157-e1] (consume) name enhance time 0.00
+[t573332-d157-e1] (estimate) throughput 1382.09 latency 100.00
+[t573332-d157-e1] (estimate) throughput 1382.09 latency 100.00
+[t573332-d157-e1] (control) download 3 enhance 0
+[t573332-d157-e1] (network) period 179 time 1007 bandwidth 1167 latency 100
+[t573332-d157-e1] (network) period 180 time 1013 bandwidth 1469 latency 100
+[t573332-d157-e1] (network) period 181 time 1008 bandwidth 1476 latency 100
+[t573332-d157-e1] (network) period 182 time 1012 bandwidth 1161 latency 100
+[t573332-d157-e1] (download) size 4559368.00 total_time 3431.40 latency 100.00 download_time 3331.40 throughput 1368.61
+[t573332-d157-e1] (session) download_finish
+[t576763-d157-e1] (consume) name download time 3431.40
+[t576763-d157-e1] (consume) name enhance time 3431.40
+[t576763-d157-e1] (push) name download decision 3 segment_time 4000.00
+[t576763-d158-e1] (session) download_start
+[t576836-d158-e1] (consume) name download time 72.91
+[t576836-d158-e1] (consume) name enhance time 72.91
+[t576836-d158-e1] (estimate) throughput 1378.71 latency 100.00
+[t576836-d158-e1] (estimate) throughput 1378.71 latency 100.00
+[t576836-d158-e1] (control) download 3 enhance 0
+[t576836-d158-e1] (network) period 183 time 1008 bandwidth 1346 latency 100
+[t576836-d158-e1] (network) period 184 time 1011 bandwidth 1335 latency 100
+[t576836-d158-e1] (download) size 3187448.00 total_time 2562.21 latency 100.00 download_time 2462.21 throughput 1294.55
+[t576836-d158-e1] (session) download_finish
+[t579398-d158-e1] (consume) name download time 2562.21
+[t579398-d158-e1] (consume) name enhance time 2562.21
+[t579398-d158-e1] (push) name download decision 3 segment_time 4000.00
+[t579398-d159-e1] (final_stage)
+[t636836-d159-e1] (consume) name download time 57437.79
+[t636836-d159-e1] (consume) name enhance time 57437.79
+[t636836-d159-e1] (clear) buffer 57437.79
+Simulator Report 
+playback time: 636835.8547204396 
+average quality vmaf: 75.15215264779874 
+average oscillation vmaf: 6.634696715189875 
+average quality ssim: 0.9553687358490566 
+average oscillation ssim: 0.018285348101265808 
+freeze time: 136.75744417537135 
+freeze event: 1 
+average bandwidth: [1285.4738239] 
+qoe: 68.43144496142939 
+download history: [0 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 1 1 1 2 2 2 2 2 1 1 1 2 2
+ 2 2 2 2 2 2 2 2 2 2 2 2 3 1 2 2 2 2 1 2 2 2 2 2 2 3 3 3 2 2 3 3 2 2 2 2 3
+ 3 1 2 2 2 2 2 0 1 1 1 2 2 2 2 1 2 1 1 2 2 2 2 2 3 3 3 3 3 3 3 2 2 1 1 1 2
+ 2 2 2 3 3 3 3 2 2 3 3 3 3 3 3 2 3 2 2 2 1 1 2 2 1 1 1 1 1 0 1 1 2 2 2 3 2
+ 2 1 1 2 2 2 2 2 2 3 3] 
+enhance history: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0] 

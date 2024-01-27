@@ -1,0 +1,30 @@
+{
+    "aware": {
+        "scale2_level1": "imdn_weight/IMDN_low_bbb_x2.pth",
+        "scale2_level2": "imdn_weight/IMDN_medium_bbb_x2.pth",
+        "scale2_level3": "imdn_weight/IMDN_high_bbb_x2.pth",
+        "scale2_level4": "imdn_weight/IMDN_ultra_bbb_x2.pth",
+        "scale3_level1": "imdn_weight/IMDN_low_bbb_x3.pth",
+        "scale3_level2": "imdn_weight/IMDN_medium_bbb_x3.pth",
+        "scale3_level3": "imdn_weight/IMDN_high_bbb_x3.pth",
+        "scale3_level4": "imdn_weight/IMDN_ultra_bbb_x3.pth",
+        "scale4_level1": "imdn_weight/IMDN_low_bbb_x4.pth",
+        "scale4_level2": "imdn_weight/IMDN_medium_bbb_x4.pth",
+        "scale4_level3": "imdn_weight/IMDN_high_bbb_x4.pth",
+        "scale4_level4": "imdn_weight/IMDN_ultra_bbb_x4.pth"
+    },
+    "agnostic": {
+        "scale2_level1": "imdn_weight/IMDN_low_DIV2K_x2.pth",
+        "scale2_level2": "imdn_weight/IMDN_medium_DIV2K_x2.pth",
+        "scale2_level3": "imdn_weight/IMDN_high_DIV2K_x2.pth",
+        "scale2_level4": "imdn_weight/IMDN_ultra_DIV2K_x2.pth",
+        "scale3_level1": "imdn_weight/IMDN_low_DIV2K_x3.pth",
+        "scale3_level2": "imdn_weight/IMDN_medium_DIV2K_x3.pth",
+        "scale3_level3": "imdn_weight/IMDN_high_DIV2K_x3.pth",
+        "scale3_level4": "imdn_weight/IMDN_ultra_DIV2K_x3.pth",
+        "scale4_level1": "imdn_weight/IMDN_low_DIV2K_x4.pth",
+        "scale4_level2": "imdn_weight/IMDN_medium_DIV2K_x4.pth",
+        "scale4_level3": "imdn_weight/IMDN_high_DIV2K_x4.pth",
+        "scale4_level4": "imdn_weight/IMDN_ultra_DIV2K_x4.pth"
+    }
+}
