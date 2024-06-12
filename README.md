@@ -3,7 +3,7 @@
 This is the official code repository for the paper: 
 [BONES: Near-Optimal Neural-Enhanced Video Streaming](https://arxiv.org/abs/2310.09920) .
 Authors: Lingdong Wang, Simran Singh, Jacob Chakareski, Mohammad Hajiesmaili, Ramesh K. Sitaraman.
-
+Pulication: ACM SIGTMETICS 2024.
 
 ## Simulation Environment
 
@@ -88,4 +88,20 @@ Our implementation of the prototype system is based on [iStream](https://github.
 If you find our work helpful, please consider citing:
 
 ```
+@inproceedings{10.1145/3652963.3655047,
+author = {Wang, Lingdong and Singh, Simran and Chakareski, Jacob and Hajiesmaili, Mohammad and Sitaraman, Ramesh K.},
+title = {BONES: Near-Optimal Neural-Enhanced Video Streaming},
+year = {2024},
+isbn = {9798400706240},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3652963.3655047},
+doi = {10.1145/3652963.3655047},
+booktitle = {Abstracts of the 2024 ACM SIGMETRICS/IFIP PERFORMANCE Joint International Conference on Measurement and Modeling of Computer Systems},
+pages = {61–62},
+numpages = {2},
+keywords = {adaptive bitrate streaming, lyapunov optimization, neural enhancement, super-resolution},
+location = {, Venice, Italy, },
+series = {SIGMETRICS/PERFORMANCE '24}
+}
 ```
